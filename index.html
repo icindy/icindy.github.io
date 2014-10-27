@@ -21,12 +21,12 @@ layout: default
   <h1 class="page-heading">tests</h1>
 
   <ul class="post-list">
-    {% for post in site.tests %}
+    {% for test in site.tests %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ test.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ test.url | prepend: site.baseurl }}">{{ test.title }}</a>
         </h2>
       </li>
     {% endfor %}
