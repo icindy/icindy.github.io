@@ -18,20 +18,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h1 class="page-heading">tests</h1>
-
-  <ul class="post-list">
-    {% for test in site.tests %}
-      <li>
-        <span class="post-meta">{{ test.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ test.url | prepend: site.baseurl }}">{{ test.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
