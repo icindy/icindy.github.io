@@ -1,14 +1,21 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "markdown的语法研究"
 date:   2014-10-27 23:33:36
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+标题语法
+---
+#1号标题         |    ``` #1号标题  ```
+##2号标题
+###3号标题
+####4号标题
+#####5号标题
+######6号标题
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+
+
 
 {% highlight ruby %}
 def print_hi(name)
