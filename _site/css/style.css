@@ -968,6 +968,12 @@ line-height: 30px;
 }
 
 
+/*评论样式*/
+#disqus_thread{
+  background-color: #fff;
+  padding: 0 10px;
+}
+
 /*底部样式*/
 
 #footer{
