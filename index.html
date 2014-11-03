@@ -2,7 +2,12 @@
 layout: default
 ---
 <h1>h1样式 font-size:30px;</h1>
+<hr>
 <h2>h2样式</h2>
+<h3>h3样式</h3>
+<h4>h4样式</h4>
+<h5>h5样式</h5>
+<h6>h6样式</h6>
 <div id="gtoc">
               <p>
                 <a href="index.html" name="toc">Index</a> |
@@ -27,7 +32,7 @@ end
 	alert(test);
 {% endhighlight %}
         
-<ul style="padding-left:40px;">
+<ul class="normal-list">
       <li><a href="http://nodejs.org/dist/v0.10.33/SHASUMS.txt.asc">这里是列表</a></li>
       <li><a href="https://raw.github.com/joyent/node/v0.10.33/ChangeLog">Change Log</a></li>
 
@@ -39,6 +44,19 @@ end
       </li><li><a href="http://nodejs.org/dist/v0.10.33">Other release files</a></li>
       <li><a href="http://nodejs.org/dist/">Other releases</a></li>
   </ul>
+
+  <h2>文章列表</h2>
+<ul class="normal-list">
+{% for post in site.posts %}
+  <li class="post-{{ post.category }} clearfix">
+  {% if post.external_url == nil %}
+  	<span class="glyphicon glyphicon-fire pull-left"></span> <a href="{{ post.url }}" class="pull-left">{{ post.title }}</a><abbr class="pull-right">{{ post.date | date_to_string }}</abbr>
+  {% else %}
+    <a href="{{ post.external_url }}" class="pull-left">{{ post.title }}</a><abbr class="pull-right">{{ post.date | date_to_string }}</abbr>
+  {% endif %}
+  </li>
+{% endfor %}
+</ul>
 
 
       
