@@ -1,23 +1,44 @@
 ---
 layout: default
 ---
+<h1>h1样式 font-size:30px;</h1>
+<h2>h2样式</h2>
+<div id="gtoc">
+              <p>
+                <a href="index.html" name="toc">Index</a> |
+                <a href="all.html">View on single page</a> |
+                <a href="index.json">View as JSON</a>
+              </p>
+            </div>
+<p>Node.js® is a platform built on <a href="http://code.google.com/p/v8/">Chrome's JavaScript runtime</a>
+        for easily building fast, scalable network applications.  Node.js
+        uses an event-driven, non-blocking I/O model that makes it
+        lightweight and efficient, perfect for data-intensive real-time
+        applications that run across distributed devices.</p>      
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 
-<div class="home">
+<br>
+{% highlight javascript linenos %}
+	var test= "hello world";
+	alert(test);
+{% endhighlight %}
+        
+<ul style="padding-left:40px;">
+      <li><a href="http://nodejs.org/dist/v0.10.33/SHASUMS.txt.asc">这里是列表</a></li>
+      <li><a href="https://raw.github.com/joyent/node/v0.10.33/ChangeLog">Change Log</a></li>
 
-  <h1 class="page-heading">Posts</h1>
+      <li><a href="http://nodejs.org/docs/v0.10.33/api/">Documentation</a></li>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li><a href="https://github.com/joyent/node">Git Repository</a></li>
+      <li><a href="https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager">Installing from package managers</a>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+      </li><li><a href="http://nodejs.org/dist/v0.10.33">Other release files</a></li>
+      <li><a href="http://nodejs.org/dist/">Other releases</a></li>
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+      
