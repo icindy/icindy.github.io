@@ -8,25 +8,10 @@
     padding-left:0;
     padding-right: 0;
  }
-
-#header{
-	background: #303030;
-	padding-top: 22px;
-	text-align: center;
-}
-#wrapper{
-
-	box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
-	-webkit-box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
-	-moz-box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
-}
-.content{
-	padding: 10px;
-}
 .highlight pre{
 	border-radius: 0px;
 }
-
+/*直接使用了node的css*/
 
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -64,17 +49,18 @@ color: #80bd01;
 }
 
 body {
-  /*background: #1d1d1d;*/
+  background: #f3f3f3;
   color: #333333;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   line-height: 200%;
   /*font-family: "source-sans-pro", sans-serif;*/
-  font-family: 'Open Sans','Helvetica Neue',Arial,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+  font-family: Georgia,"Times New Roman",Times,"Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
   margin: 0;
+  margin-bottom: 40px;
 }
 
 body a {
@@ -105,7 +91,7 @@ h1 {
   text-transform: none;
   color: #000000;
   font-weight: normal;
-  margin: 15px 0 11px;
+  margin: 10px 0 10px;
 }
 
 h2 {
@@ -579,7 +565,7 @@ div.block:nth-of-type(4n) {
   padding-left: 0;
 }
 
-#footer {
+/*#footer {
   width: 970px;
   margin: 0 auto;
   padding: 30px 0 50px 0;
@@ -690,7 +676,7 @@ div.block:nth-of-type(4n) {
 
 #footer ul li a {
   font-weight: normal;
-}
+}*/
 
 pre, tt, code {
   color: #d2d8ba;
@@ -927,7 +913,39 @@ table.logos img {
   max-width: 212px;
 }
 
-/*布局*/
+
+/*自定义区间*/
+/*全局布局*/
+#header{
+  background: #303030;
+  padding-top: 22px;
+  text-align: center;
+}
+#wrapper{
+
+  box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(171,171,171,0.3);
+}
+.content{
+  padding: 10px;
+  background: #fff;
+}
+
+/*字体*/
+.normal-font{
+  font-size: 14px;
+}
+.big-font{
+  font-size: 16px;
+}
+.small-font{
+  font-size: 12px;
+}
+
+
+
+/*列表布局*/
 .normal-list{
   padding-left: 0px;
 }
@@ -947,6 +965,15 @@ line-height: 30px;
  font-size: 12px;
  padding-right: 5px;
  color: #80bd01;
+}
+
+
+/*底部样式*/
+
+#footer{
+  margin-top: 10px;
+  text-align: center;
+  /*border-top: 1px solid #eee;*/
 }
 
 
