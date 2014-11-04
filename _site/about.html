@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://icindy.github.io/">
+    <link rel="canonical" href="http://icindy.github.io/about.html">
 </head> -->
   <head>
     <meta charset="utf-8">
@@ -87,49 +87,91 @@
       </div>
 </header>
 
-          <h1>1.字体样式</h1>
-<hr>
-<h1>h1样式</h1>
-<h2>h2样式</h2>
-<h3>h3样式</h3>
-<h4>h4样式</h4>
-<h5>h5样式</h5>
-<h6>h6样式</h6>
-<div class="normal-font">普通字体</div>
-<div class="big-font">大号字体</div>
-<div class="small-font">小号字体</div>
- 
-<h1>2.代码高亮</h1>
-<hr>   
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">foo</span>
-<span class="lineno">2</span>   <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
-<span class="lineno">3</span> <span class="k">end</span></code></pre></div>
+          <script src="three/timesheet/timesheet.js" type="text/javascript"></script>
+<script src="three/timesheet/timesheet-extra.js" type="text/javascript"></script>
+<div id="intro" class="aboutPage">
+	<div class="row myInfo">
+		<div class="col-md-8 text-right">
+			<p>我是<a href="http://cindyfn.com/">cindy/ismoker</a>.<p>
+			<p>同时我是一名创业者,前端工程师和IOS工程师,学习后端中.</p>
+		</div>
+		<div class="col-md-4 text-left"><img src="images/face.jpg" alt="cindy的头像" class="img-circle face"></div>
+	</div>
+	<div class="row mySocial text-center">
+		<div class="col-md-12">
+			<p class="version">你可以关注我点击下面的按钮</p>
+			<div class="buttons">
+		        <a href="https://github.com/icindy" target="_blank" class="button downloadbutton" id="downloadbutton">GITHUB</a>
+		        <a href="http://weibo.com/u/2210641970" target="_blank" class="button" id="all-dl-options">weibo</a><a href="https://twitter.com/UestcZhangdi" target="_blank" class="button" id="docsbutton">twitter</a>
+	        </div>
+		</div>
+	</div>
 
-<br>
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno">1</span> <span class="kd">var</span> <span class="nx">test</span><span class="o">=</span> <span class="s2">&quot;hello world&quot;</span><span class="p">;</span>
-<span class="lineno">2</span> 	<span class="nx">alert</span><span class="p">(</span><span class="nx">test</span><span class="p">);</span></code></pre></div>
+	<div class="row myRoad">
+		<div class="col-md-10 col-md-offset-1">
+			<p class="version text-center">下面是我的生存进度</p>
+			<div id="timesheet" style="width:100%"></div>
+		</div>
+
+	</div>
+
+	<div class="row mySkill text-center">
+		<div class="col-md-8 col-md-offset-2">
+			<p class="version">技能进度</p>
+			<div class="progress" style="background:none;border: 1px solid #303030;">
+			  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60% Font-end (go...)
+			  </div>
+			</div>
+			<div class="progress" style="background:none;border: 1px solid #303030;">
+			  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+			  	50% IOS programe (moving...)
+			  </div>
+			</div>
+			<div class="progress" style="background:none;border: 1px solid #303030;">
+			  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%">10% node/python/ruby (working...)
+			  </div>
+			</div>
+			<div class="progress" style="background:none;border: 1px solid #303030;">
+			  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40% photoshop (using...)
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row myConnect text-center">
+		<div class="col-md-8 col-md-offset-2">
+			<p class="version">联系我</p>
+			<ul class="list-group">
+			  <li class="list-group-item" style="background-color: transparent;border: 1px solid #303030;"><a href="mailto://usetc.zhangdi@gmail.com" target="_blank">usetc.zhangdi@gmail.com</a></li>
+			  <li class="list-group-item" style="background-color: transparent;border: 1px solid #303030;"><a href="http://weibo.com/u/2210641970"  target="_blank">微博@ismoker</a></li>
+			  <li class="list-group-item" style="background-color: transparent;border: 1px solid #303030;"><a href="https://twitter.com/UestcZhangdi"  target="_blank">twitter@UestcZhang</a></li>
+			  <li class="list-group-item" style="background-color: transparent;border: 1px solid #303030;"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=602388541&site=qq&menu=yes">点击联系QQ</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="myLife">
+		
+	</div>
 
 
-<h1>3.文章列表</h1>
-<hr>   
-<ul class="normal-list">
+	<script>
+		new Timesheet('timesheet', 2008, 2014, [
+		  ['2008', '06/2010', '努力中的高中生活', 'lorem'],
+		  ['2008', '06/2010', '同时家庭出现变故', 'default'],
+		  ['08/2010', '07/2011', '基本上把以前的电影看完了', 'default'],
+		  ['10/2011', '08/2012', '技术成长,努力学习前端', 'dolor'],
+		  ['09/2012', '05/2013', '加入创萌工作室', 'ipsum'],
+		  ['02/2013', '2014', '有女朋友了', 'ipsum'],
+		  ['06/2013', '03/2014', '艾联科技技术部', 'default'],
+		  ['03/2014','2014', '成都加减法科技', 'default'],
+		  ['08/2010', '07/2014', '电子科技大学毕业', 'ipsum'],
+		  ['07/2014','2014', '老妈来了', 'default'],
+		  ['2008','2014', '生活一直继续', 'default']
+		]);
 
-  <li class="post- clearfix">
-  
-  	<span class="glyphicon glyphicon-fire pull-left"></span> <a href="/jekyll/update/2014/10/28/welcome-to-jekyll.html" class="pull-left">markdown的语法研究</a><abbr class="pull-right">28 Oct 2014</abbr>
-  
-  </li>
-
-</ul>
-
-<div id="gtoc">
-  <p>
-    <a href="index.html" name="toc">Index</a> |
-    <a href="all.html">View on single page</a> |
-    <a href="index.json">View as JSON</a>
-  </p>
+	</script>
 </div>
-      
     </div>
     
 <footer class="site-footer">

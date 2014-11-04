@@ -21,9 +21,11 @@
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
-    <link href="http://icindy.github.io/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://icindy.github.io/css/style.css" rel="stylesheet">
-    <link href="http://icindy.github.io/css/syntax.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/syntax.css" rel="stylesheet">
+    
+    <link href="three/timesheet/timesheet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,6 +56,8 @@
       <div class="trigger">
         
           
+        
+          
           <a class="page-link" href="/about/">About</a>
           
         
@@ -77,14 +81,12 @@
           <li><a href="#">女友</a></li>
           <li><a href="#">作品</a></li>
           <li><a href="#">开源</a></li>
-          <li><a href="#">关于我</a></li>
+          <li id="aboutLi"><a href="about.html">关于我</a></li>
           <li><a href="#">音乐墙</a></li>
         </ul>
       </div>
 </header>
 
-
-        <div class="content">
           <div class="post">
 
   <header class="post-header">
@@ -92,53 +94,18 @@
   </header>
 
   <article class="post-content">
-    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+  	<div class="content">
+    	<p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
 
 <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
 
 <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
 
+	</div>
   </article>
 
 </div>
 
-        </div>
-        
-        <div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
-<script type="text/javascript">
-	var disqus_shortname = 'cindyfn';
-	(function() {
-	var dsq = document.createElement('script');
-	dsq.type = 'text/javascript';
-	dsq.async = true;
-	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-</script>
-
-<ul class="ds-recent-visitors" data-num-items="30"></ul> 
-<!-- 多说评论框 start -->
-	<div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
-<!-- 多说评论框 end -->
-<!-- 多说热评文章 start -->
-	<div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
-<!-- 多说热评文章 end -->
-
-<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-var duoshuoQuery = {short_name:"itxiaodi"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-<!-- 多说公共JS代码 end -->
-        
-    
     </div>
     
 <footer class="site-footer">
@@ -204,7 +171,18 @@ var duoshuoQuery = {short_name:"itxiaodi"};
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="http://icindy.github.io/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    if ($("body *").hasClass('aboutPage')) {
+      $("#nav ul li").removeClass('active');
+      $("#aboutLi").addClass('active');
+    };
+      
+    </script>
+
+
+
+
 
 </footer>
 
