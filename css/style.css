@@ -1,7 +1,13 @@
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 775px;
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 .container {
@@ -149,11 +155,14 @@ h3 a {
 #nav {
   background: #303030;
   padding-top: 22px;
+  padding-bottom: 0;
   text-align: center;
+  margin-right: 0px; 
+  margin-left: 0px; 
 }
 
 #nav ul {
-  width: 580px;
+  width: 320px;
   margin: 0 auto;
 }
 
@@ -258,7 +267,7 @@ h3 a {
   height: auto;
   overflow: hidden;
   _zoom: 1;
-  width: 300px;
+  /*width: 300px;*/
   margin: 0 auto;
 }
 

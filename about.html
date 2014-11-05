@@ -6,11 +6,11 @@ layout: default
 <script src="three/timesheet/timesheet-extra.js" type="text/javascript"></script>
 <div id="intro" class="aboutPage">
 	<div class="row myInfo">
-		<div class="col-md-8 text-right">
+		<div class="col-md-8 col-sm-8 col-xs-8 text-right">
 			<p>我是<a href="http://cindyfn.com/">cindy/ismoker</a>.<p>
 			<p>同时我是一名创业者,前端工程师和IOS工程师,学习后端中.</p>
 		</div>
-		<div class="col-md-4 text-left"><img src="images/face.jpg" alt="cindy的头像" class="img-circle face"></div>
+		<div class="col-md-4 col-sm-4 col-xs-4 text-left"><img src="images/face.jpg" alt="cindy的头像" class="img-circle face"></div>
 	</div>
 	<div class="row mySocial text-center">
 		<div class="col-md-12">
@@ -25,7 +25,9 @@ layout: default
 	<div class="row myRoad">
 		<div class="col-md-10 col-md-offset-1">
 			<p class="version text-center">下面是我的生存进度</p>
-			<div id="timesheet" style="width:100%"></div>
+			<div style="width:100%;overflow: scroll;">
+				<div id="timesheet"></div>
+			</div>
 		</div>
 
 	</div>
