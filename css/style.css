@@ -3,6 +3,7 @@
   .container {
     max-width: 720px;
   }
+
 }
 @media (max-width: 768px) {
   .row {
@@ -979,9 +980,7 @@ table.logos img {
 
 
 /*列表布局*/
-.normal-list{
-  padding-left: 0px;
-}
+
 .normal-list li abbr{
 color: rgba(153,153,153,.9);
 font-size: 14px;
@@ -996,7 +995,7 @@ line-height: 30px;
 .normal-list li .glyphicon{
  line-height: 30px;
  font-size: 12px;
- padding-right: 5px;
+ /*padding-right: 5px;*/
  color: #80bd01;
 }
 
@@ -1009,6 +1008,19 @@ line-height: 30px;
   #code{
     padding: 10px;
     background-color: #fff;
+  }
+ /* .normal-list{
+    padding-left: 60px;
+  }
+  .normal-list li abbr{
+    padding-right: 60px;
+  }*/
+  .normal-list li .glyphicon{
+    padding-right: 10px;
+  }
+  .zhaiDiv{
+    padding-right: 60px;
+    padding-left: 60px;
   }
 }
 @media (max-width: 768px) {
