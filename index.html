@@ -1,52 +1,13 @@
 ---
 layout: default
 ---
-<h1>1.字体样式</h1>
-<hr>
-<h1>h1样式</h1>
-<h2>h2样式</h2>
-<h3>h3样式</h3>
-<h4>h4样式</h4>
-<h5>h5样式</h5>
-<h6>h6样式</h6>
-<div class="normal-font">普通字体</div>
-<div class="big-font">大号字体</div>
-<div class="small-font">小号字体</div>
- 
-<h1>2.代码高亮</h1>
-<hr>   
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+<div class="row" style="background-color:#1d1d1d;margin-left:0;margin-right:0;">
+    <div class="col-md-12" style="padding-left:0;padding-right:0;">
+      <ul class="ds-recent-visitors" data-num-items="30"></ul> 
+    </div>
+</div>
+<div class="content">
+  
 
-<br>
-{% highlight javascript linenos %}
-	var test= "hello world";
-	alert(test);
-{% endhighlight %}
-
-
-<h1>3.文章列表</h1>
-<hr>   
-<ul class="normal-list">
-{% for post in site.posts %}
-  <li class="post-{{ post.category }} clearfix">
-  {% if post.external_url == nil %}
-  	<span class="glyphicon glyphicon-fire pull-left"></span> <a href="{{ post.url }}" class="pull-left">{{ post.title }}</a><abbr class="pull-right">{{ post.date | date_to_string }}</abbr>
-  {% else %}
-    <a href="{{ post.external_url }}" class="pull-left">{{ post.title }}</a><abbr class="pull-right">{{ post.date | date_to_string }}</abbr>
-  {% endif %}
-  </li>
-{% endfor %}
-</ul>
-
-<div id="gtoc">
-  <p>
-    <a href="index.html" name="toc">Index</a> |
-    <a href="all.html">View on single page</a> |
-    <a href="index.json">View as JSON</a>
-  </p>
 </div>
       

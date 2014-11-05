@@ -154,11 +154,18 @@ h3 a {
 
 #nav {
   background: #303030;
-  padding-top: 22px;
   padding-bottom: 0;
   text-align: center;
   margin-right: 0px; 
   margin-left: 0px; 
+  z-index: 100000;
+}
+#mainLogo{
+  background: #303030;
+  padding-top: 22px;
+  margin-right: 0px; 
+  margin-left: 0px; 
+  z-index: -1;
 }
 
 #nav ul {
@@ -992,6 +999,26 @@ line-height: 30px;
  padding-right: 5px;
  color: #80bd01;
 }
+
+
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  /*code页面*/
+  #code{
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  /*code页面*/
+  #code{
+    /*padding: 5px 3px;*/
+    background-color: #fff;
+  }
+}
+
 
 
 /*评论样式*/

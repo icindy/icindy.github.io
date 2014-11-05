@@ -38,7 +38,7 @@
   <body>
     <div class="container" id="wrapper">
 
-    <header class="site-header">
+    	<header class="site-header">
 
 <!--   <div class="wrapper">
 
@@ -65,19 +65,20 @@
         
           
         
+          
+        
       </div>
     </nav>
 
   </div> -->
-  
+      <div class="row text-center" id="mainLogo">
+        <div class="col-md-12" ><img id="logo" src="http://icindy.github.io/images/logo.png" alt="node.js"></div>
+      </div>
       <div id="nav" class="row">
-        <div class="col-md-12">
-          <img id="logo" src="http://icindy.github.io/images/logo.png" alt="node.js">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0;">
+        <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0;" id="MainNav">
           <ul >
             <li class="active"><a href="/">全部</a></li>
-            <li><a href="#">技术</a></li>
+            <li id="codeLi"><a href="code.html">技术</a></li>
             <li><a href="#">项目</a></li>
             <li><a href="#">生活</a></li>
             <li><a href="#">娱乐</a></li>
@@ -88,47 +89,14 @@
       </div>
 </header>
 
-          <h1>1.字体样式</h1>
-<hr>
-<h1>h1样式</h1>
-<h2>h2样式</h2>
-<h3>h3样式</h3>
-<h4>h4样式</h4>
-<h5>h5样式</h5>
-<h6>h6样式</h6>
-<div class="normal-font">普通字体</div>
-<div class="big-font">大号字体</div>
-<div class="small-font">小号字体</div>
- 
-<h1>2.代码高亮</h1>
-<hr>   
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="lineno">1</span> <span class="k">def</span> <span class="nf">foo</span>
-<span class="lineno">2</span>   <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
-<span class="lineno">3</span> <span class="k">end</span></code></pre></div>
-
-<br>
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno">1</span> <span class="kd">var</span> <span class="nx">test</span><span class="o">=</span> <span class="s2">&quot;hello world&quot;</span><span class="p">;</span>
-<span class="lineno">2</span> 	<span class="nx">alert</span><span class="p">(</span><span class="nx">test</span><span class="p">);</span></code></pre></div>
-
-
-<h1>3.文章列表</h1>
-<hr>   
-<ul class="normal-list">
-
-  <li class="post- clearfix">
+         <div class="row" style="background-color:#1d1d1d;margin-left:0;margin-right:0;">
+    <div class="col-md-12" style="padding-left:0;padding-right:0;">
+      <ul class="ds-recent-visitors" data-num-items="30"></ul> 
+    </div>
+</div>
+<div class="content">
   
-  	<span class="glyphicon glyphicon-fire pull-left"></span> <a href="/jekyll/update/2014/10/28/welcome-to-jekyll.html" class="pull-left">markdown的语法研究</a><abbr class="pull-right">28 Oct 2014</abbr>
-  
-  </li>
 
-</ul>
-
-<div id="gtoc">
-  <p>
-    <a href="index.html" name="toc">Index</a> |
-    <a href="all.html">View on single page</a> |
-    <a href="index.json">View as JSON</a>
-  </p>
 </div>
       
     </div>
@@ -199,12 +167,20 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="three/jquery.pin/jquery.pin.min.js"></script>
     <script>
     if ($("body *").hasClass('aboutPage')) {
       $("#nav ul li").removeClass('active');
       $("#aboutLi").addClass('active');
     };
-      
+    if ($("body *").hasClass('codePage')) {
+      $("#nav ul li").removeClass('active');
+      $("#codeLi").addClass('active');
+    };
+
+    $("#mainLogo").pin();
+
+
     </script>
 
 
@@ -213,6 +189,8 @@
 
 </footer>
 
-  </body>
 
+
+  </body>
+	
 </html>

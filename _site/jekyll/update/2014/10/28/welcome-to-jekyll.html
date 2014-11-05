@@ -38,7 +38,7 @@
   <body>
     <div class="container" id="wrapper">
 
-    <header class="site-header">
+    	<header class="site-header">
 
 <!--   <div class="wrapper">
 
@@ -65,19 +65,20 @@
         
           
         
+          
+        
       </div>
     </nav>
 
   </div> -->
-  
+      <div class="row text-center" id="mainLogo">
+        <div class="col-md-12" ><img id="logo" src="http://icindy.github.io/images/logo.png" alt="node.js"></div>
+      </div>
       <div id="nav" class="row">
-        <div class="col-md-12">
-          <img id="logo" src="http://icindy.github.io/images/logo.png" alt="node.js">
-        </div>
-        <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0;">
+        <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0;" id="MainNav">
           <ul >
             <li class="active"><a href="/">全部</a></li>
-            <li><a href="#">技术</a></li>
+            <li id="codeLi"><a href="code.html">技术</a></li>
             <li><a href="#">项目</a></li>
             <li><a href="#">生活</a></li>
             <li><a href="#">娱乐</a></li>
@@ -88,7 +89,7 @@
       </div>
 </header>
 
-          <div class="content">
+         <div class="content">
   <div class="post">
 
     <header class="post-header">
@@ -328,7 +329,7 @@ also deserve thanks for their feedback.</p>
 
     </article>
     
-    	<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
+    	<!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
 <script type="text/javascript">
 	var disqus_shortname = 'cindyfn';
 	(function() {
@@ -338,16 +339,7 @@ also deserve thanks for their feedback.</p>
 	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
 	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 	})();
-</script>
-
-<ul class="ds-recent-visitors" data-num-items="30"></ul> 
-<!-- 多说评论框 start -->
-	<div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
-<!-- 多说评论框 end -->
-<!-- 多说热评文章 start -->
-	<div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
-<!-- 多说热评文章 end -->
-
+</script>-->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"itxiaodi"};
@@ -359,10 +351,15 @@ var duoshuoQuery = {short_name:"itxiaodi"};
 		(document.getElementsByTagName('head')[0] 
 		 || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
-	</script>
+</script>
 <!-- 多说公共JS代码 end -->
     
-
+        <!-- 多说评论框 start -->
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说热评文章 start -->
+      <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
+    <!-- 多说热评文章 end -->
   </div>
 </div>
 
@@ -434,12 +431,20 @@ var duoshuoQuery = {short_name:"itxiaodi"};
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="three/jquery.pin/jquery.pin.min.js"></script>
     <script>
     if ($("body *").hasClass('aboutPage')) {
       $("#nav ul li").removeClass('active');
       $("#aboutLi").addClass('active');
     };
-      
+    if ($("body *").hasClass('codePage')) {
+      $("#nav ul li").removeClass('active');
+      $("#codeLi").addClass('active');
+    };
+
+    $("#mainLogo").pin();
+
+
     </script>
 
 
@@ -448,6 +453,8 @@ var duoshuoQuery = {short_name:"itxiaodi"};
 
 </footer>
 
-  </body>
 
+
+  </body>
+	
 </html>
