@@ -13,3 +13,5 @@ disqus_shortname: cindyfn
 
 # Build settings
 markdown: kramdown
+# 开启分页
+paginate: 5

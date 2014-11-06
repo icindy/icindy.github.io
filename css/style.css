@@ -980,23 +980,22 @@ table.logos img {
 
 
 /*列表布局*/
-
 .normal-list li abbr{
 color: rgba(153,153,153,.9);
 font-size: 14px;
-line-height: 30px;
 
 }
 .normal-list li{
  display: block;
- height: 30px; 
- line-height: 30px;
 }
 .normal-list li .glyphicon{
- line-height: 30px;
  font-size: 12px;
  /*padding-right: 5px;*/
  color: #80bd01;
+}
+
+.top-title{
+  border-bottom: 1px dashed #eee;
 }
 
 
@@ -1015,6 +1014,16 @@ line-height: 30px;
   .normal-list li abbr{
     padding-right: 60px;
   }*/
+
+  .normal-list li{
+    padding-bottom:0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .normal-list li>p{
+    margin-bottom: 0;
+  }
   .normal-list li .glyphicon{
     padding-right: 10px;
   }
@@ -1028,6 +1037,29 @@ line-height: 30px;
   #code{
     /*padding: 5px 3px;*/
     background-color: #fff;
+  }
+  .normal-list li{
+    background-color: #eee;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .cus-sm-li-zheng{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 1px dashed #fff;
+  }
+  .cus-sm-li-fu{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .cus-sm-li-fu span{
+    float: left;
+    color: rgba(153,153,153,.9);
+    font-size: 14px;
+  }
+  .cus-sm-li-fu abbr{
+    float: right;
   }
 }
 
