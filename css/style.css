@@ -1031,6 +1031,12 @@ font-size: 14px;
     padding-right: 60px;
     padding-left: 60px;
   }
+
+  .tech-list li a{
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
 }
 @media (max-width: 768px) {
   /*code页面*/
@@ -1061,6 +1067,19 @@ font-size: 14px;
   .cus-sm-li-fu abbr{
     float: right;
   }
+  .tech-list li{
+     width: 25%;
+  }
+  .tech-list li a{
+    text-align: center;
+  }
+  .top-title{
+    border-bottom: 1px dashed #999;
+    box-shadow: 1px 
+  }
+  .top-title h2{
+    font-size: 20px;
+  }
 }
 
 
@@ -1077,6 +1096,35 @@ font-size: 14px;
   margin-top: 10px;
   text-align: center;
   /*border-top: 1px solid #eee;*/
+}
+
+
+/*tech*/
+.tech-list{
+  margin-top: 17px;
+
+}
+.tech-list li{
+  list-style: none;
+  
+}
+.tech-list li a{
+  display: block;
+  font-size: 16px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: .2s all ease-in-out;
+  -moz-transition: .2s all ease-in-out;
+  transition: .2s all ease-in-out;
+}
+
+.tech-list li a:hover{
+  color: #80bd01;
+}
+.tech-list li.active a{
+  background-color: #80bd01;
+  color: #fff;
 }
 
 

@@ -76,6 +76,12 @@
     };
 
     // $("#mainLogo").pin();
+    // 
+   $(".tech-list li a").on('click',function(){
+      $(".tech-list li").removeClass('active');
+      $(this).parent('li').addClass('active');
+      return false;
+    });
 
 
     </script>
