@@ -1,22 +1,30 @@
 ---
-layout: default
-
+layout: tech
+paginate_path: "page:num"
 ---
 <div class="row" style="background-color:#1d1d1d;margin-left:0;margin-right:0;border-bottom:1px dashed #303030;">
     <div class="col-md-12" style="padding-left:0;padding-right:0;">
       <ul class="ds-recent-visitors" data-num-items="18"></ul> 
     </div>
 </div>
-<div class="row"  style="margin:0;padding-top:0; background-color: #fff;">
-	<div id="intro" class="col-md-12 text-center">
-        <p>hello,我是cindy. 感谢经常来光顾我博客的朋友，上面是最近的访客。 <a href="about.html" target="_blank">点击这里认识我</a></p>
-    </div>
-
-    	<div class="col-md-12 top-title">
-			<h2>文章列表</h2> 
-		</div>
+<div class="row zhaiDiv">
+	<div class="col-md-4 top-title">
+		<h2>文章列表</h2> 
+	</div>
+	<div class="col-md-8">
+		<ul class="tech-list clearfix">
+			<li class="pull-left active"><a href="">全部</a></li>
+			<li class="pull-left"><a href="">前端</a></li>
+			<li class="pull-left"><a href="">IOS</a></li>
+			<li class="pull-left"><a href="">后台</a></li>
+		</ul>
+	</div>
+</div>
+<div id="code" class="codePage">
+	
+	<div class="row zhaiDiv">
 		<ul class="col-md-12 normal-list">
-		{% for post in site.tags.html %}
+		{% for post in site.posts %}
 			<li class="post-{{ post.category }}  row">
 			{% if post.external_url == nil %}
 			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}">{{ post.title }}</a></p>
@@ -27,9 +35,9 @@ layout: default
 			  {% endif %}
 			 </li>
 		{% endfor %}
-		</ul>
+		</ul>	
+	</div>
+	
 </div>
-<div class="content">
 
-</div>
-      
+{% include duoshuo.html %}
