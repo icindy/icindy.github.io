@@ -20,9 +20,9 @@ paginate_path: "page:num"
 		</ul>
 	</div>
 </div>
-<div id="code" class="codePage">
-	
-	<div class="row zhaiDiv">
+<div id="code">
+	<!-- allpages -->
+	<div class="row zhaiDiv allPosts postlist">
 		<ul class="col-md-12 normal-list">
 		{% for post in site.posts %}
 			<li class="post-{{ post.category }}  row">
@@ -37,6 +37,59 @@ paginate_path: "page:num"
 		{% endfor %}
 		</ul>	
 	</div>
+	
+	<!-- fontendPosts -->
+	<div class="row zhaiDiv fontendPosts postlist">
+		<ul class="col-md-12 normal-list">
+		{% for post in site.tags.fontend %}
+			<li class="post-{{ post.category }}  row">
+			{% if post.external_url == nil %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			 {% else %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}">{{ post.title }}</a></p>
+			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="文章在原站点中的id或其他唯一标识"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			  {% endif %}
+			 </li>
+		{% endfor %}
+		</ul>	
+	</div>
+
+	<!-- iosPosts -->
+	<div class="row zhaiDiv iosPosts postlist">
+		<ul class="col-md-12 normal-list">
+		{% for post in site.tags.ios %}
+			<li class="post-{{ post.category }}  row">
+			{% if post.external_url == nil %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			 {% else %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}">{{ post.title }}</a></p>
+			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="文章在原站点中的id或其他唯一标识"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			  {% endif %}
+			 </li>
+		{% endfor %}
+		</ul>	
+	</div>
+
+	<!-- backPosts -->
+	<div class="row zhaiDiv backPosts postlist">
+		<ul class="col-md-12 normal-list">
+		{% for post in site.tags.back %}
+			<li class="post-{{ post.category }}  row">
+			{% if post.external_url == nil %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			 {% else %}
+			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}">{{ post.title }}</a></p>
+			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="文章在原站点中的id或其他唯一标识"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
+			  {% endif %}
+			 </li>
+		{% endfor %}
+		</ul>	
+	</div>
+
+
 	
 </div>
 

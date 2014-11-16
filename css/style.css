@@ -55,6 +55,12 @@ color: #80bd01;
   color: #80bd01;
 }
 
+
+.hasBborder{
+  padding-bottom: 11px;
+  border-bottom: 1px solid #000000;
+}
+
 body {
   background: #f3f3f3;
   color: #333333;
@@ -364,7 +370,6 @@ h3 a {
 } */
 
 #content {
-  width: 775px;
   margin: 0 auto;
   overflow: visible;
   clear: both;
@@ -408,17 +413,14 @@ h3 a {
 }
 
 #installers {
-  width: 600px;
   display: table;
   margin-bottom: 1em;
 }
 
 #installers ul {
-  width: auto;
   text-align: center;
   margin: 0 auto;
   display: table-row;
-  width: 600px;
 }
 
 #installers ul img {
@@ -1037,6 +1039,14 @@ font-size: 14px;
     padding-left: 32px;
   }
 
+  #installers{
+    width: 600px;
+  }
+
+  #installers ul{
+    width: 600px;
+  }
+
 }
 @media (max-width: 768px) {
   /*code页面*/
@@ -1047,8 +1057,8 @@ font-size: 14px;
   .normal-list li{
     background-color: #eee;
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .cus-sm-li-zheng{
     padding-bottom: 0;
@@ -1080,6 +1090,25 @@ font-size: 14px;
   .top-title h2{
     font-size: 20px;
   }
+  #installers{
+    width: 100%;
+  }
+
+  #installers ul{
+    width: 100%;
+  }
+
+  .projectPage{
+    padding: 0;
+  }
+  .projectPage .row{
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
 }
 
 
@@ -1125,6 +1154,16 @@ font-size: 14px;
 .tech-list li.active a{
   background-color: #80bd01;
   color: #fff;
+}
+
+/*posts*/
+.fontendPosts,.iosPosts,.backPosts{
+  display: none;
+}
+
+/*projectCa*/
+.projectCa{
+  margin: 0 auto;
 }
 
 

@@ -37,71 +37,34 @@
 
   <body>
     <div class="container" id="wrapper">
-
     	<header class="site-header">
-
-<!--   <div class="wrapper">
-
-    <a class="site-title" href="/">Cindy's Blog</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
-  </div> -->
       <div class="row text-center" id="mainLogo">
         <div class="col-md-12" ><img id="logo" src="http://icindy.github.io/images/logo.png" alt="node.js"></div>
       </div>
       <div id="nav" class="row">
         <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0;" id="MainNav">
           <ul >
-            <li class="active"><a href="/">实验</a></li>
-            <li id="codeLi"><a href="code.html">技术</a></li>
-            <li><a href="#">项目</a></li>
-            <li><a href="#">生活</a></li>
-            <li><a href="play.html">娱乐</a></li>
+            <li class="active"><a href="index.html">文章</a></li>
+            <li id="testLi"><a href="test.html">实验</a></li>
+            <li id="projectLi"><a href="project.html">项目</a></li>
+            <li id="lifeLi"><a href="life.html">生活</a></li>
+            <li id="playLi"><a href="play.html">娱乐</a></li>
             <li id="aboutLi"><a href="about.html">关于</a></li>
-            
           </ul>
         </div>
       </div>
 </header>
 
-         <div class="row text-center">
-	<div class="col-md-12">
-		<div style="margin:0 auto;width:675px">
-			
+      <div class="content playPage">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<div style="margin:0 auto;width:675px">
+				
+			</div>
+			<embed src="http://www.xiami.com/widget/11166229_H_L_favcollect/wallPlayer.swf" type="application/x-shockwave-flash" width="675" height="235" wmode="transparent"></embed>
 		</div>
-		<embed src="http://www.xiami.com/widget/11166229_H_L_favcollect/wallPlayer.swf" type="application/x-shockwave-flash" width="675" height="235" wmode="transparent"></embed>
 	</div>
+
 </div>
     </div>
     
@@ -177,18 +140,34 @@
       $("#nav ul li").removeClass('active');
       $("#aboutLi").addClass('active');
     };
-    if ($("body *").hasClass('codePage')) {
+    if ($("body *").hasClass('testPage')) {
       $("#nav ul li").removeClass('active');
-      $("#codeLi").addClass('active');
+      $("#testLi").addClass('active');
+    };
+    if ($("body *").hasClass('projectPage')) {
+      $("#nav ul li").removeClass('active');
+      $("#projectLi").addClass('active');
+    };
+    if ($("body *").hasClass('lifePage')) {
+      $("#nav ul li").removeClass('active');
+      $("#lifeLi").addClass('active');
+    };
+    if ($("body *").hasClass('playPage')) {
+      $("#nav ul li").removeClass('active');
+      $("#playLi").addClass('active');
     };
 
     // $("#mainLogo").pin();
     // 
    $(".tech-list li a").on('click',function(){
+      var indexNum = $(".tech-list li a").index($(this));
       $(".tech-list li").removeClass('active');
       $(this).parent('li').addClass('active');
+      $(".postlist").hide();
+      $(".postlist").eq(indexNum).show();
       return false;
     });
+
 
 
     </script>
@@ -223,8 +202,6 @@ var duoshuoQuery = {short_name:"itxiaodi"};
 	})();
 </script>
 <!-- 多说公共JS代码 end -->
-
-
   </body>
 	
 </html>

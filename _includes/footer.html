@@ -70,18 +70,34 @@
       $("#nav ul li").removeClass('active');
       $("#aboutLi").addClass('active');
     };
-    if ($("body *").hasClass('codePage')) {
+    if ($("body *").hasClass('testPage')) {
       $("#nav ul li").removeClass('active');
-      $("#codeLi").addClass('active');
+      $("#testLi").addClass('active');
+    };
+    if ($("body *").hasClass('projectPage')) {
+      $("#nav ul li").removeClass('active');
+      $("#projectLi").addClass('active');
+    };
+    if ($("body *").hasClass('lifePage')) {
+      $("#nav ul li").removeClass('active');
+      $("#lifeLi").addClass('active');
+    };
+    if ($("body *").hasClass('playPage')) {
+      $("#nav ul li").removeClass('active');
+      $("#playLi").addClass('active');
     };
 
     // $("#mainLogo").pin();
     // 
    $(".tech-list li a").on('click',function(){
+      var indexNum = $(".tech-list li a").index($(this));
       $(".tech-list li").removeClass('active');
       $(this).parent('li').addClass('active');
+      $(".postlist").hide();
+      $(".postlist").eq(indexNum).show();
       return false;
     });
+
 
 
     </script>
