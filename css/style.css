@@ -995,6 +995,9 @@ font-size: 14px;
  /*padding-right: 5px;*/
  color: #80bd01;
 }
+.normal-list li a{
+  line-height: 20px;
+}
 
 .top-title{
   border-bottom: 1px dashed #eee;
