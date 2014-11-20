@@ -6,8 +6,8 @@
 </description>
     <link>http://icindy.github.io/</link>
     <atom:link href="http://icindy.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Nov 2014 15:43:50 +0800</pubDate>
-    <lastBuildDate>Thu, 20 Nov 2014 15:43:50 +0800</lastBuildDate>
+    <pubDate>Thu, 20 Nov 2014 15:58:41 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Nov 2014 15:58:41 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -256,65 +256,69 @@ also deserve thanks for their feedback.&lt;/p&gt;
     
       <item>
         <title>“钓鱼网站”5分钟速成和简单原理</title>
-        <description>&lt;div class=&quot;entry-content&quot;&gt;
-		&lt;p&gt;对于做安全的大神，请安静的做你的美男子，不要往下看了。&lt;br /&gt;
-&lt;strong&gt;适合本文的读者有以下特点：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1.曾经有qq号被盗，或者其他网站上登录的账号被盗经验，但是不知道怎么丢失账号的&lt;/li&gt;
-&lt;li&gt;2.想做一个钓鱼网站的（不过这个，你会受到道德的惩罚，如果滩上大的，你要受到法律的严惩）&lt;/li&gt;
-&lt;li&gt;3.网页小白，和想做工程学黑客的。&lt;/li&gt;
-&lt;li&gt;4.无聊的&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;ok，开始我们的5分钟，以做qq网站的“钓鱼网站”为例子&lt;/strong&gt;&lt;br /&gt;
-===&amp;gt;&lt;a href=&quot;http://cindyfn.com/qq/qq.html&quot; target=&quot;_blank&quot;&gt;点击这里进入我下面做好的“钓鱼网站”&lt;/a&gt;&lt;br /&gt;
+        <description>&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;对于做安全的大神，请安静的做你的美男子，不要往下看了。
+适合本文的读者有以下特点：
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;1.曾经有qq号被盗，或者其他网站上登录的账号被盗经验，但是不知道怎么丢失账号的
+2.想做一个钓鱼网站的（不过这个，你会受到道德的惩罚，如果滩上大的，你要受到法律的严惩）
+3.网页小白，和想做工程学黑客的。
+4.无聊的
+ok，开始我们的5分钟，以做qq网站的“钓鱼网站”为例子
+===&amp;gt;点击这里进入我下面做好的“钓鱼网站”
 ####请放心，我在里面没有加入任何传输你账号的信息，如果不放心，输入账号密码时&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cindyfn.com/wp-content/uploads/2014/10/最终效果.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-225&quot; src=&quot;http://cindyfn.com/wp-content/uploads/2014/10/最终效果.png&quot; alt=&quot;最终效果&quot; width=&quot;800&quot; height=&quot;434&quot; /&gt;&lt;/a&gt;可以输入假冒的&lt;/p&gt;
-&lt;p&gt;===&amp;gt;&lt;a href=&quot;https://github.com/icindy/diaoyu&quot; target=&quot;_blank&quot;&gt;代码放在了git上，点击访问&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span id=&quot;more-216&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;－－－－－－－－－－－－－&lt;br /&gt;
-******基础 伪造网站*****&lt;br /&gt;
-－－－－－－－－－－－－－&lt;br /&gt;
-你不需要UI，编码等等，你要做的就是copy。&lt;br /&gt;
-可以跟我一起做：&lt;br /&gt;
-1.打开qq的登录界面&lt;a href=&quot;http://i.qq.com&quot; target=&quot;_blank&quot;&gt;点击打开&lt;/a&gt;&lt;br /&gt;
+
+&lt;p&gt;最终效果可以输入假冒的&lt;/p&gt;
+
+&lt;p&gt;===&amp;gt;代码放在了git上，点击访问&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;基础 伪造网站*****&lt;/h2&gt;
+&lt;p&gt;你不需要UI，编码等等，你要做的就是copy。
+可以跟我一起做：
+1.打开qq的登录界面点击打开
 2.点击鼠标右键，选择审查元素，copy代码（chrome,firefox其他的浏览器如果没有审查元素，可以查看源代码）&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cindyfn.com/wp-content/uploads/2014/10/1.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-221&quot; src=&quot;http://cindyfn.com/wp-content/uploads/2014/10/1.png&quot; alt=&quot;1&quot; width=&quot;800&quot; height=&quot;569&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+
+&lt;p&gt;1
 3.使用文本编辑器或者代码编辑器，建立一个qq.html(注意更改你文件的后缀为html)，保存双击浏览，应该和上面的网站一样的&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cindyfn.com/wp-content/uploads/2014/10/2.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-222&quot; src=&quot;http://cindyfn.com/wp-content/uploads/2014/10/2.png&quot; alt=&quot;2&quot; width=&quot;800&quot; height=&quot;577&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;－－－－－－－－－－－－－&lt;br /&gt;
-******更改 获取数据*****&lt;br /&gt;
-－－－－－－－－－－－－－&lt;br /&gt;
-1.发现数据form在iframe中，那就再按照上面“基础部分仿造”，审查代码－》copy－》新建login.html&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://cindyfn.com/wp-content/uploads/2014/10/3.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-223&quot; src=&quot;http://cindyfn.com/wp-content/uploads/2014/10/3.png&quot; alt=&quot;3&quot; width=&quot;800&quot; height=&quot;479&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-2.将qq.html中的iframe的src改称-&amp;gt;login.html&lt;br /&gt;
-3.分析代码，看到点击按钮提交事件，只需要改造这一部分，&lt;br /&gt;
-看我代码：&lt;br /&gt;
-&lt;code&gt;&lt;br /&gt;
-function getUserInfo(){&lt;br /&gt;
-var qq_account = document.getElementById(&quot;u&quot;).value;&lt;br /&gt;
-var pass = document.getElementById(&quot;p&quot;).value;&lt;br /&gt;
-alert(&quot;如果你真的这样做了,那么你就上当了：你的qq号：&quot;+qq_account+&quot; &quot;+&quot;你的密码是：&quot; + pass);&lt;br /&gt;
-return false;&lt;br /&gt;
-}&lt;br /&gt;
-&lt;/code&gt;&lt;br /&gt;
-4.稍微修饰以下：去掉验证码，设置其对应的div display：none；去除id等基本的东西完成了。&lt;br /&gt;
-5.你如果懂得一些代码，可以继续修改里面的东西让他变得完善起来&lt;br /&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;更改 获取数据*****&lt;/h2&gt;
+&lt;p&gt;1.发现数据form在iframe中，那就再按照上面“基础部分仿造”，审查代码－》copy－》新建login.html&lt;/p&gt;
+
+&lt;p&gt;3
+2.将qq.html中的iframe的src改称-&amp;gt;login.html
+3.分析代码，看到点击按钮提交事件，只需要改造这一部分，
+看我代码：&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getUserInfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;qq_account&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;u&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;如果你真的这样做了,那么你就上当了：你的qq号：&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;qq_account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;你的密码是：&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;4.稍微修饰以下：去掉验证码，设置其对应的div display：none；去除id等基本的东西完成了。
+5.你如果懂得一些代码，可以继续修改里面的东西让他变得完善起来
 6.再表单中，让账号和密码存储到你的数据库里，那么你就可以看到全部了。&lt;/p&gt;
-&lt;p&gt;这样，你的网站以及基本上和qq的网站相似度再80%了，对于骗取一般小白的qq号，应该可以了&lt;br /&gt;
-－－－－－－－－－－－－－&lt;br /&gt;
-******高级 工程学*****&lt;br /&gt;
-－－－－－－－－－－－－－&lt;br /&gt;
-涉及到工程学的黑客，要把握住用户的心里，&lt;br /&gt;
-1.选择容易混淆的域名，如官方的域名为：qq.com，你如果永远qqxxx.com的域名。一般人就不会看出来了。&lt;br /&gt;
+
+&lt;p&gt;这样，你的网站以及基本上和qq的网站相似度再80%了，对于骗取一般小白的qq号，应该可以了
+－－－－－－－－－－－－－
+&lt;strong&gt;**&lt;/strong&gt;高级 工程学*****
+－－－－－－－－－－－－－
+涉及到工程学的黑客，要把握住用户的心里，
+1.选择容易混淆的域名，如官方的域名为：qq.com，你如果永远qqxxx.com的域名。一般人就不会看出来了。
 2.选择模拟第三方登录的方式，现在第三方登录很常见，大家很习惯，所以这种方式不会引起疑心。&lt;/p&gt;
+
 &lt;p&gt;还有其他的，你比我强，你应该会想到。&lt;/p&gt;
-&lt;p&gt;－－－－－－－－－－－－－&lt;br /&gt;
-******最后 不要被骗，不要骗人*****&lt;br /&gt;
-－－－－－－－－－－－－－&lt;br /&gt;
-写这个原因是很多朋友都有被钓鱼的经历，明白这些钓鱼网站的仿真程度和方法，你可以清楚的识别那些是钓鱼网站。&lt;br /&gt;
+
+&lt;p&gt;－－－－－－－－－－－－－
+&lt;strong&gt;**&lt;/strong&gt;最后 不要被骗，不要骗人*****
+－－－－－－－－－－－－－
+写这个原因是很多朋友都有被钓鱼的经历，明白这些钓鱼网站的仿真程度和方法，你可以清楚的识别那些是钓鱼网站。
 如果你是骗人的，我劝你，还是早日收手。&lt;/p&gt;
+
 &lt;p&gt;好了，有什么要交流的，光顾我的博客&lt;/p&gt;
-			&lt;/div&gt;
 </description>
         <pubDate>Wed, 15 Oct 2014 07:33:36 +0800</pubDate>
         <link>http://icindy.github.io/post/2014/10/15/how-to-make-Phishing-sites.html</link>

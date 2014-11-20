@@ -714,7 +714,7 @@ div.block:nth-of-type(4n) {
   font-weight: normal;
 }*/
 
-pre, tt, code {
+/*pre, tt, code {
   color: #d2d8ba;
   font-size: 14px;
   line-height: 22px;
@@ -725,7 +725,7 @@ pre, tt, code {
 #front pre, #front tt, #front code {
   font-size: 12px;
   line-height: 22px;
-}
+}*/
 
 pre {
   padding-left: 10px;
