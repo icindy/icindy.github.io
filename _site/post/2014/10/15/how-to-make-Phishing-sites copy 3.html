@@ -26,6 +26,8 @@
     <link href="/css/syntax.css" rel="stylesheet">
     
     <link href="/three/timesheet/timesheet.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,9 +62,8 @@
       <ul class="ds-recent-visitors" data-num-items="18"></ul> 
     </div>
 </div>
-<div class="content">
-  <div class="post">
-
+<div class="row content cus-post-content">
+  <div class="post col-md-12">
     <header class="post-header">
       <h1 class="post-title">测试文章3，这是一篇标签为前端的文章－back</h1>
       <p class="post-meta">Oct 15, 2014</p>
@@ -135,8 +136,39 @@
 
 
     </article>
+  </div>
+</div>
+
+<div class="row cus-post-ex">
+  <div class="cus-post-money col-md-6">
+      <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
+        <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
+        <input name="payAmount" type="hidden" value="2" />
+        <!--这一项可以不留-->
+        <input name="title" type="hidden" value="赞助一下:测试文章3，这是一篇标签为前端的文章－back" placeholder="付款说明" />
+        <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
+      </form>
+  </div>
+  <div class="post-notice col-md-6">
+    <div class="post-money-text"><a href="#" style="">点击按钮赞助本文章两元钱</a></div>
+  </div> 
+  <div class="col-md-12" style="border-top:1px dashed #ccc;text-align:center;">
+    <div class="out-d">转载请注明作者和相关链接。如果有什么建议或者问题请在下面留言区域留言。</div>
+  </div>
+</div>
+
+<script>
+  $(".post-money-text a").on('click',function(event) {
+    event.preventDefault();
+    /* Act on the event */
+    $(".cus-post-money form").submit();
+  });
+</script>
+
+<div class="row cus-post-commit">
+  
     
-    	<!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
+      <!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
 <script type="text/javascript">
 	var disqus_shortname = 'cindyfn';
 	(function() {
@@ -167,8 +199,9 @@ var duoshuoQuery = {short_name:"itxiaodi"};
     <!-- 多说热评文章 start -->
       <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
     <!-- 多说热评文章 end -->
-  </div>
+
 </div>
+
 
     </div>
     
@@ -234,8 +267,7 @@ var duoshuoQuery = {short_name:"itxiaodi"};
           <p style="clear:both"></p>
         </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
     <script src="/three/jquery.pin/jquery.pin.min.js"></script>
