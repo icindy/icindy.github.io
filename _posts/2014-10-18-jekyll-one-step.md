@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  jekyll搭建－模仿nodejs.org
+title:  jekyll搭建1－模仿nodejs.org
 date:   2014-10-18 23:33:36
 categories: jekyll
 tag: html
@@ -27,5 +27,5 @@ tag: html
 - 7.倒数第二个小时：分析下markdown的语法
 - 8.最后一个小时：总结下在这个过程中我们的经验和教训
 ———————————————————
-今天我们来完成第一步，部署一个jekyll的基础框架
+今天我们来完成第一步，部署一个jekyll的基础框架<br>
 ok，看不懂英文哇－来个[中文的网站jekyll中文网站](http://jekyllcn.com/)

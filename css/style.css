@@ -125,6 +125,33 @@ h3, h4 {
   font-weight: 400;
   text-transform: none;
 }
+article.post-content>ul{
+  margin-left: 20px;
+}
+
+article.post-content>ul>li{
+  font-weight: bold;
+}
+
+article.post-content img{
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+}
+
+article.post-content h1,article.post-content h2,article.post-content h3,article.post-content h4{
+  font-weight: bold;
+  padding-left: 0;
+  background-image: none;
+}
+
+article.post-content p{
+  line-height: 24px;
+}
+
+
 
 .blog h2 {margin-top: 10px;}
 

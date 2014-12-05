@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>jekyll搭建1－模仿nodejs.org</title>
+    <title>jekyll搭建2－分析指定的网站nodejs.org</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://icindy.github.io/jekyll/2014/10/19/jekyll-one-step.html">
+    <link rel="canonical" href="http://icindy.github.io/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html">
 </head> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jekyll搭建1－模仿nodejs.org</title>
+    <title>jekyll搭建2－分析指定的网站nodejs.org</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
@@ -65,39 +65,98 @@
 <div class="row content cus-post-content">
   <div class="post col-md-12">
     <header class="post-header">
-      <h1 class="post-title">jekyll搭建1－模仿nodejs.org</h1>
-      <p class="post-meta">Oct 19, 2014</p>
+      <h1 class="post-title">jekyll搭建2－分析指定的网站nodejs.org</h1>
+      <p class="post-meta">Oct 20, 2014</p>
     </header>
 
     <article class="post-content">
-      <h2 id="section">前言</h2>
-
-<blockquote>
-  <p>你如果不问我最近怎么没有更新文章？<br />
-说明你没有关心我的帖子，看不到程序员的熬夜加班嘛！<br />
-最近加班有点多，所以我没有更新，当然我也在思考下一步干什么？<br /></p>
+      <blockquote>
+  <p>如果你不知道这个是干什么的，请看[模仿:第一小时]</p>
 </blockquote>
 
 <blockquote>
-  <p>在正式开始今天的文章前，说下最近这N篇文章，我们要干什么？因为我还没有打算好几篇文章能写完，因为白天要认真干活，晚上才能写文章，生命下，现在的时间是晚上11:24分,所以按照计划，我每天安排一个小时的写作和编辑代码，应该能够在一周内完成我想要做的事情。</p>
+  <p>原本想使用jekyll的别人家的模版，但是总是找不到自己喜欢的，而且如果使用别人家的模版我就不能够根据自己的想法随意的扩充自己的功能，既然这样，回头想想，我擦，原来我是前端工程师啊，哈哈，那就自己写一个吧。</p>
 </blockquote>
 
-<p>我写这些文章的目的：以<a href="http://www.nodejs.org/">nodejs官方网站</a>为配色方案和格调，制作一个自己的 jekyll的博客，并挂载在github上发布
-那我们要干什么那？请看下面的清单。</p>
+<blockquote>
+  <p>鉴于自己本身的PS技术和审美观，那么，我不得不借鉴下其他网站的风格。浏览了一些网站后，最终决定拿nodejs官方网站下手。
+原因有如下几点</p>
+</blockquote>
 
 <ul>
-  <li>1.第一个小时：熟悉jekyll的框架，并构建一个基础框架</li>
-  <li>2.第二个小时：分析nodejs官方网站</li>
-  <li>3.第三个小时：配色和构架方案</li>
-  <li>4.第三个小时：构造自己网站的基础框架</li>
-  <li>5.第四－七个小时：完成网站的编码</li>
-  <li>6.最八个小时：部署到github上去，并上线</li>
-  <li>7.倒数第二个小时：分析下markdown的语法</li>
-  <li>8.最后一个小时：总结下在这个过程中我们的经验和教训
-———————————————————
-今天我们来完成第一步，部署一个jekyll的基础框架<br />
-ok，看不懂英文哇－来个<a href="http://jekyllcn.com/">中文的网站jekyll中文网站</a></li>
+  <li>1.风格简单，不臃肿</li>
+  <li>2.习惯网站的配色风格，带点coder风格</li>
+  <li>3.图片素材比较少，可以有效的加快访问速度</li>
+  <li>4.细节考虑周到（后面我会说到这一点）
+let’s go!不过下面的分析需要你有点想像力。
+注意这个地方我们只是使用风格，布局和构造试图我们会在下个小时一起分析</li>
 </ul>
+
+<h2 id="section">一：粗分析我们要参考的网站</h2>
+
+<p>这个过程中，我们针对每一个页面心里先有个预期，我们分析的每个页面对应我们将要产出的哪个网站。我很清楚我将要做的博客含有主页｜文章列表页｜关于｜项目等</p>
+
+<p>这个过程你可能会用到工具
+1.图片分析工具，我使用的是“markman”
+2.网页调试，我使用的chrome
+我使用markdown在图片上标示了所有的颜色和布局分类</p>
+
+<ul>
+  <li>1.主页面分析</li>
+</ul>
+
+<p>这个页面我想要转换成博客的主页，但是可能需要改造的部分比较多，先自行脑补，同时在图上吧该标记的颜色和布局标示出来
+<img src="/images/post/jekyll/nodejs-main.png" alt="main" /></p>
+
+<ul>
+  <li>2.文章列表页分析</li>
+</ul>
+
+<p>这个页面我想要转换成博客的列表页面，主要采用布局一级配色
+<img src="/images/post/jekyll/nodejs-post.png" alt="post" /></p>
+
+<ul>
+  <li>3.文章页面分析</li>
+</ul>
+
+<p>这个页面我想要转换成博客的文章页面，主要采用布局一级配色
+<img src="/images/post/jekyll/nodejs-page.png" alt="page" /></p>
+
+<ul>
+  <li>4.项目成品页面分析</li>
+</ul>
+
+<p>这个页面我想要转换成博客的项目页面，主要采用布局一级配色
+<img src="/images/post/jekyll/nodejs-project.png" alt="project" /></p>
+
+<ul>
+  <li>5.开源项目页面分析</li>
+</ul>
+
+<p>这个页面我想要转换成博客的开源项目页面，主要采用布局一级配色
+<img src="/images/post/jekyll/nodejs-open.png" alt="open" /></p>
+
+<h2 id="section-1">二：粗分析我们要参考的网站交互</h2>
+<p>如果你仔细看下这个网站内，有很多地方有细小的交互效果，因为不好表述，所以举个例子</p>
+
+<p>看到主页http://nodejs.org/那个大大的install按钮，看看当鼠标移动到上面的效果
+<img src="/images/post/jekyll/nodejs-button.png" alt="button" /></p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#intro</span> <span class="nc">.downloadbutton</span> <span class="p">{</span>
+    <span class="k">background-color</span><span class="o">:</span> <span class="m">#80bd01</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="m">220px</span><span class="p">;</span>
+    <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
+    <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">30px</span> <span class="k">auto</span> <span class="m">0px</span> <span class="k">auto</span><span class="p">;</span>
+    <span class="k">font-family</span><span class="o">:</span> <span class="s2">&quot;din-condensed-web&quot;</span><span class="o">,</span><span class="s2">&quot;Arial Narrow&quot;</span><span class="o">,</span><span class="n">Arial</span><span class="o">,</span><span class="k">sans-serif</span><span class="p">;</span>
+    <span class="k">font-style</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span>
+    <span class="k">font-weight</span><span class="o">:</span> <span class="m">400</span><span class="p">;</span>
+    <span class="k">text-transform</span><span class="o">:</span> <span class="k">uppercase</span><span class="p">;</span>
+    <span class="k">padding-top</span><span class="o">:</span> <span class="m">12px</span><span class="p">;</span>
+    <span class="k">padding-bottom</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="p">}</span></code></pre></div>
+
+<p>所以我们要注意细节，这样才能有干净的感觉</p>
 
     </article>
   </div>
@@ -109,7 +168,7 @@ ok，看不懂英文哇－来个<a href="http://jekyllcn.com/">中文的网站je
         <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
         <input name="payAmount" type="hidden" value="2" />
         <!--这一项可以不留-->
-        <input name="title" type="hidden" value="赞助一下:jekyll搭建1－模仿nodejs.org" placeholder="付款说明" />
+        <input name="title" type="hidden" value="赞助一下:jekyll搭建2－分析指定的网站nodejs.org" placeholder="付款说明" />
         <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
       </form>
   </div>
@@ -158,7 +217,7 @@ var duoshuoQuery = {short_name:"itxiaodi"};
 <!-- 多说公共JS代码 end -->
     
         <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="jekyll搭建1－模仿nodejs.org" data-url="/jekyll/2014/10/19/jekyll-one-step.html"></div>
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="jekyll搭建2－分析指定的网站nodejs.org" data-url="/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html"></div>
     <!-- 多说评论框 end -->
     <!-- 多说热评文章 start -->
       <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
