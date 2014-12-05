@@ -33,10 +33,10 @@ ok，看不懂英文哇－来个[中文的网站jekyll中文网站](http://jekyl
 
 jekyll安装步骤
 
-```base
+{% highlight base %}
 $ gem install jekyll
 ~ $ jekyll new my-awesome-site
 ~ $ cd my-awesome-site
 ~/my-awesome-site $ jekyll serve
 # => Now browse to http://localhost:4000
-```
+{% endhighlight %}
