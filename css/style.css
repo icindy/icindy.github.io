@@ -37,6 +37,10 @@ hr {
 a:hover {
 color: #80bd01;
 }
+blockquote {
+background-color: #f7f7f7;
+border-radius: 2px;
+}
 
 .din {
   font-family: "din-condensed-web","Arial Narrow",Arial,sans-serif;
