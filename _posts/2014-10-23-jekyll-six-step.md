@@ -29,11 +29,8 @@ tag: fontend
 A  || @	|| 默认 ||	192.30.252.154
 A  || @	|| 默认 ||	192.30.252.153
 
-<div class="row">
-	<div class="col-md-12">
-		<p class="bg-danger">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</p>
-	</div>
-</div>
+
+<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</span></div>
 
 -	2.建立CNAME指向：
 
@@ -41,7 +38,7 @@ CNAME || www || 默认	|| icindy.github.io.
 
 <div class="row">
 	<div class="col-md-12">
-		<p class="bg-danger">⚠指向的CNAME icindy.github.io后面要多加一个“.”</p>
+		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠指向的CNAME icindy.github.io后面要多加一个“.”</span></div>
 	</div>
 </div>
 
@@ -49,19 +46,24 @@ CNAME || www || 默认	|| icindy.github.io.
 ---
 <div class="row">
 	<div class="col-md-12">
-		<p class="bg-danger">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</p>
+		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</span></div>
 	</div>
 </div>
+
 <div class="row">
 	<div class="col-md-12">
-		<p class="bg-danger">⚠指向的CNAME icindy.github.io后面要多加一个“.”</p>
+		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠指向的CNAME icindy.github.io后面要多加一个“.”</span></div>
 	</div>
 </div>
+
+
 <div class="row">
 	<div class="col-md-12">
-		<p class="bg-danger">⚠:设置完成后，等待10分钟后才会生效，请耐心等待</p>
+		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:设置完成后，等待10分钟后才会生效，请耐心等待</span></div>
 	</div>
 </div>
+
+
 
 >如果有什么问题，请在下面留言说明，谢谢。
 

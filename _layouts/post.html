@@ -8,7 +8,7 @@ layout: default
 </div>
 <div class="row content cus-post-content">
   <div class="post col-md-12">
-    <header class="post-header">
+    <header class="post-header  text-center" style="border-bottom: 1px dashed #eee;">
       <h1 class="post-title">{{ page.title }}</h1>
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
@@ -50,7 +50,7 @@ layout: default
     
         <!-- 多说评论框 start -->
       <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{% if site.url %}{{ site.url }}{% endif %}{{ page.url }}"></div>
-      
+
     {% if page.comments != false %}
       {% include comments.html %}
     {% endif %}

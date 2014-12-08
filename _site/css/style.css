@@ -37,6 +37,12 @@ hr {
 a:hover {
 color: #80bd01;
 }
+
+.alert{
+  padding: 6px 8px;
+  margin-bottom: 5px;
+
+}
 blockquote {
   background-color: #f7f7f7;
   border-radius: 2px;
