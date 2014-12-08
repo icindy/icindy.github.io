@@ -6,8 +6,8 @@
 </description>
     <link>http://icindy.github.io/</link>
     <atom:link href="http://icindy.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Dec 2014 18:55:46 +0800</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2014 18:55:46 +0800</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2014 10:26:04 +0800</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2014 10:26:04 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -47,7 +47,7 @@
         <link>http://icindy.github.io/jekyll/2014/10/23/jekyll-five-step.html</link>
         <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/23/jekyll-five-step.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>jekyll</category>
@@ -80,7 +80,7 @@
         <link>http://icindy.github.io/jekyll/2014/10/22/jekyll-four-step.html</link>
         <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/22/jekyll-four-step.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>jekyll</category>
@@ -160,7 +160,7 @@
         <link>http://icindy.github.io/jekyll/2014/10/21/jekyll-three-step.html</link>
         <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/21/jekyll-three-step.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>jekyll</category>
@@ -261,7 +261,7 @@ let’s go!不过下面的分析需要你有点想像力。
         <link>http://icindy.github.io/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</link>
         <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>jekyll</category>
@@ -303,7 +303,7 @@ ok，看不懂英文哇－来个&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;�
         <link>http://icindy.github.io/jekyll/2014/10/19/jekyll-one-step.html</link>
         <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/19/jekyll-one-step.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>jekyll</category>
@@ -381,7 +381,7 @@ ok，看不懂英文哇－来个&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;�
         <link>http://icindy.github.io/post/2014/10/15/how-to-make-Phishing-sites.html</link>
         <guid isPermaLink="true">http://icindy.github.io/post/2014/10/15/how-to-make-Phishing-sites.html</guid>
         
-        <category>html</category>
+        <category>fontend</category>
         
         
         <category>post</category>
