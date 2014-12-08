@@ -3,7 +3,7 @@ layout: post
 title:  "“钓鱼网站”5分钟速成和简单原理"
 date:   2014-10-14 23:33:36
 categories: post
-tag: html
+tag: fontend
 ---
 
 >	对于做安全的大神，请安静的做你的美男子，不要往下看了。

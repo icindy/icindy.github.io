@@ -3,7 +3,7 @@ layout: post
 title:  jekyll搭建1－模仿nodejs.org
 date:   2014-10-18 23:33:36
 categories: jekyll
-tag: html
+tag: fontend
 ---
 
 前言

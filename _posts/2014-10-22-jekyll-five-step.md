@@ -3,7 +3,7 @@ layout: post
 title:  jekyll搭建5－手机兼容适配，完成基本
 date:   2014-10-22 23:33:36
 categories: jekyll
-tag: html
+tag: fontend
 ---
 前言
 ---

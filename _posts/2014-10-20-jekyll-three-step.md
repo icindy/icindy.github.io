@@ -3,7 +3,7 @@ layout: post
 title:  jekyll搭建3－配色与基础框架
 date:   2014-10-20 23:33:36
 categories: jekyll
-tag: html
+tag: fontend
 ---
 前言
 ---

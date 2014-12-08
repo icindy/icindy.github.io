@@ -3,7 +3,7 @@ layout: post
 title:  jekyll搭建2－分析指定的网站nodejs.org
 date:   2014-10-19 23:33:36
 categories: jekyll
-tag: html
+tag: fontend
 ---
 
 > 如果你不知道这个是干什么的，请看[模仿:第一小时]
