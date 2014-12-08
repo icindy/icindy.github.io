@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>jekyll搭建2－分析指定的网站nodejs.org</title>
+    <title>jekyll搭建3－配色与基础框架</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html">
+    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/11/21/jekyll-three-step.html">
 </head> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jekyll搭建2－分析指定的网站nodejs.org</title>
+    <title>jekyll搭建3－配色与基础框架</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
@@ -65,98 +65,77 @@
 <div class="row content cus-post-content">
   <div class="post col-md-12">
     <header class="post-header  text-center" style="border-bottom: 1px dashed #eee;">
-      <h1 class="post-title">jekyll搭建2－分析指定的网站nodejs.org</h1>
-      <p class="post-meta">Oct 20, 2014</p>
+      <h1 class="post-title">jekyll搭建3－配色与基础框架</h1>
+      <p class="post-meta">Nov 21, 2014</p>
     </header>
 
     <article class="post-content">
-      <blockquote>
-  <p>如果你不知道这个是干什么的，请看[模仿:第一小时]</p>
-</blockquote>
-
+      <h2 id="section">前言</h2>
 <blockquote>
-  <p>原本想使用jekyll的别人家的模版，但是总是找不到自己喜欢的，而且如果使用别人家的模版我就不能够根据自己的想法随意的扩充自己的功能，既然这样，回头想想，我擦，原来我是前端工程师啊，哈哈，那就自己写一个吧。</p>
+  <p>前面两个小时我们完成了我们任务分配和网站分析工作，今天我们要着手对我们想要做的网站进行基础性的配色和框架搭建工作</p>
 </blockquote>
 
-<blockquote>
-  <p>鉴于自己本身的PS技术和审美观，那么，我不得不借鉴下其他网站的风格。浏览了一些网站后，最终决定拿nodejs官方网站下手。
-原因有如下几点</p>
-</blockquote>
+<h2 id="section-1">一：配色及字体搭配</h2>
 
 <ul>
-  <li>1.风格简单，不臃肿</li>
-  <li>2.习惯网站的配色风格，带点coder风格</li>
-  <li>3.图片素材比较少，可以有效的加快访问速度</li>
-  <li>4.细节考虑周到（后面我会说到这一点）
-let’s go!不过下面的分析需要你有点想像力。
-注意这个地方我们只是使用风格，布局和构造试图我们会在下个小时一起分析</li>
+  <li>1.配色方案</li>
 </ul>
 
-<h2 id="section">一：粗分析我们要参考的网站</h2>
-
-<p>这个过程中，我们针对每一个页面心里先有个预期，我们分析的每个页面对应我们将要产出的哪个网站。我很清楚我将要做的博客含有主页｜文章列表页｜关于｜项目等</p>
-
-<p>这个过程你可能会用到工具
-1.图片分析工具，我使用的是“markman”
-2.网页调试，我使用的chrome
-我使用markdown在图片上标示了所有的颜色和布局分类</p>
+<p>强调色#80bd01
+简介色#ccc;
+小说明rgba(153,153,153,.9);
+正文#fff未选中导航色#ccc选中导航色#80bd01
+导航hove下划线超链接#80bd01</p>
 
 <ul>
-  <li>1.主页面分析</li>
+  <li>2.字体方案</li>
 </ul>
 
-<p>这个页面我想要转换成博客的主页，但是可能需要改造的部分比较多，先自行脑补，同时在图上吧该标记的颜色和布局标示出来
-<img src="/images/post/jekyll/nodejs-main.png" alt="main" /></p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">font-size</span><span class="nd">:16px</span><span class="o">;</span>
+<span class="nt">font-family</span><span class="o">:</span> <span class="nt">Georgia</span><span class="o">,</span><span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span><span class="nt">Times</span><span class="o">,</span><span class="s2">&quot;Hiragino Sans GB&quot;</span><span class="o">,</span><span class="s2">&quot;Helvetica Neue&quot;</span><span class="o">,</span><span class="nt">Helvetica</span><span class="o">,</span><span class="nt">Arial</span><span class="o">,</span><span class="nt">sans-serif</span><span class="o">;</span>
+<span class="err">大</span><span class="nd">:16px</span>
+<span class="err">中</span><span class="nd">:14px</span>
+<span class="err">小</span><span class="nd">:12px</span>
+<span class="nt">h1</span><span class="nd">:30px</span>
+<span class="nt">h2</span><span class="nd">:25px</span>
+<span class="nt">h3</span><span class="nd">:20px</span>
+<span class="nt">h4</span><span class="nd">:15px</span></code></pre></div>
+
+<p><img src="/images/post/jekyll/jekyll-font.png" alt="font" /></p>
 
 <ul>
-  <li>2.文章列表页分析</li>
+  <li>3.代码展示方案</li>
 </ul>
 
-<p>这个页面我想要转换成博客的列表页面，主要采用布局一级配色
-<img src="/images/post/jekyll/nodejs-post.png" alt="post" /></p>
+<p>具体方案详见:<a href="http://pygments.org/">pygments</a></p>
+
+<p>具体配色方案css：<a href="https://github.com/icindy/icindy.github.io/blob/master/css/syntax.css">具体css点击查看</a></p>
+
+<p>需要注意的是，如果想要代码高亮呈现效果，需要jekyll的运行环境
+<img src="/images/post/jekyll/jekyll-code.png" alt="jekyll-code" /></p>
 
 <ul>
-  <li>3.文章页面分析</li>
+  <li>4.评论效果</li>
 </ul>
 
-<p>这个页面我想要转换成博客的文章页面，主要采用布局一级配色
-<img src="/images/post/jekyll/nodejs-page.png" alt="page" /></p>
+<p>两种评论：</p>
+
+<h4 id="disqus">disqus</h4>
+
+<p><img src="/images/post/jekyll/jekyll-disqus.png" alt="jekyll-disqus" /></p>
+
+<h4 id="section-2">多说</h4>
+<p><img src="/images/post/jekyll/jekyll-duoshuo.png" alt="jekyll-duoshuo" /></p>
+
+<p>可能大家的需求不一样，所以选择不一样，我在最初效果上将两者都加在了上面，但是我最后回选择“多说”，毕竟我们经常使用的还是我们常见的社交软件</p>
 
 <ul>
-  <li>4.项目成品页面分析</li>
+  <li>5.具体效果</li>
 </ul>
 
-<p>这个页面我想要转换成博客的项目页面，主要采用布局一级配色
-<img src="/images/post/jekyll/nodejs-project.png" alt="project" /></p>
+<p>具体代码:<a href="https://github.com/icindy/icindy.github.io">git cindy</a></p>
 
-<ul>
-  <li>5.开源项目页面分析</li>
-</ul>
-
-<p>这个页面我想要转换成博客的开源项目页面，主要采用布局一级配色
-<img src="/images/post/jekyll/nodejs-open.png" alt="open" /></p>
-
-<h2 id="section-1">二：粗分析我们要参考的网站交互</h2>
-<p>如果你仔细看下这个网站内，有很多地方有细小的交互效果，因为不好表述，所以举个例子</p>
-
-<p>看到主页http://nodejs.org/那个大大的install按钮，看看当鼠标移动到上面的效果
-<img src="/images/post/jekyll/nodejs-button.png" alt="button" /></p>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#intro</span> <span class="nc">.downloadbutton</span> <span class="p">{</span>
-    <span class="k">background-color</span><span class="o">:</span> <span class="m">#80bd01</span><span class="p">;</span>
-    <span class="k">width</span><span class="o">:</span> <span class="m">220px</span><span class="p">;</span>
-    <span class="k">font-size</span><span class="o">:</span> <span class="m">30px</span><span class="p">;</span>
-    <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span>
-    <span class="k">margin</span><span class="o">:</span> <span class="m">30px</span> <span class="k">auto</span> <span class="m">0px</span> <span class="k">auto</span><span class="p">;</span>
-    <span class="k">font-family</span><span class="o">:</span> <span class="s2">&quot;din-condensed-web&quot;</span><span class="o">,</span><span class="s2">&quot;Arial Narrow&quot;</span><span class="o">,</span><span class="n">Arial</span><span class="o">,</span><span class="k">sans-serif</span><span class="p">;</span>
-    <span class="k">font-style</span><span class="o">:</span> <span class="k">normal</span><span class="p">;</span>
-    <span class="k">font-weight</span><span class="o">:</span> <span class="m">400</span><span class="p">;</span>
-    <span class="k">text-transform</span><span class="o">:</span> <span class="k">uppercase</span><span class="p">;</span>
-    <span class="k">padding-top</span><span class="o">:</span> <span class="m">12px</span><span class="p">;</span>
-    <span class="k">padding-bottom</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span>
-    <span class="p">}</span></code></pre></div>
-
-<p>所以我们要注意细节，这样才能有干净的感觉</p>
+<p>具体展示效果：<a href="http://icindy.github.io/">点击查看</a></p>
 
     </article>
   </div>
@@ -168,7 +147,7 @@ let’s go!不过下面的分析需要你有点想像力。
         <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
         <input name="payAmount" type="hidden" value="2" />
         <!--这一项可以不留-->
-        <input name="title" type="hidden" value="赞助一下:jekyll搭建2－分析指定的网站nodejs.org" placeholder="付款说明" />
+        <input name="title" type="hidden" value="赞助一下:jekyll搭建3－配色与基础框架" placeholder="付款说明" />
         <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
       </form>
   </div>
@@ -192,7 +171,7 @@ let’s go!不过下面的分析需要你有点想像力。
   
     
         <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html" data-title="jekyll搭建2－分析指定的网站nodejs.org" data-url="http://cindyfn.com/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html"></div>
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/11/21/jekyll-three-step.html" data-title="jekyll搭建3－配色与基础框架" data-url="http://cindyfn.com/jekyll/2014/11/21/jekyll-three-step.html"></div>
 
     
       <!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>

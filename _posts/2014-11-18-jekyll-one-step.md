@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  jekyll搭建1－模仿nodejs.org
-date:   2014-10-18 23:33:36
+date:   2014-11-18 23:33:36
 categories: jekyll
 tag: fontend
 ---

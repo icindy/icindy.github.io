@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  jekyll搭建6－绑定域名，启用。
-date:   2014-10-22 23:33:36
+date:   2014-11-22 23:33:36
 categories: jekyll
 tag: fontend
 ---

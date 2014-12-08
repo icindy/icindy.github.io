@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>jekyll搭建6－绑定域名，启用。</title>
+    <title>jekyll搭建1－模仿nodejs.org</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/10/23/jekyll-six-step.html">
+    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/11/19/jekyll-one-step.html">
 </head> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jekyll搭建6－绑定域名，启用。</title>
+    <title>jekyll搭建1－模仿nodejs.org</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
@@ -65,108 +65,39 @@
 <div class="row content cus-post-content">
   <div class="post col-md-12">
     <header class="post-header  text-center" style="border-bottom: 1px dashed #eee;">
-      <h1 class="post-title">jekyll搭建6－绑定域名，启用。</h1>
-      <p class="post-meta">Oct 23, 2014</p>
+      <h1 class="post-title">jekyll搭建1－模仿nodejs.org</h1>
+      <p class="post-meta">Nov 19, 2014</p>
     </header>
 
     <article class="post-content">
       <h2 id="section">前言</h2>
+
 <blockquote>
-  <p>经过了很长时间的拖延，最终还是将域名绑定了。整个过程，我用了六篇文章进行记录，希望能够给大家一定的帮助。这也是这个系列的最后的一篇文章。关于如何对github绑定自定义的域名。</p>
+  <p>你如果不问我最近怎么没有更新文章？<br />
+说明你没有关心我的帖子，看不到程序员的熬夜加班嘛！<br />
+最近加班有点多，所以我没有更新，当然我也在思考下一步干什么？<br /></p>
 </blockquote>
 
-<h2 id="cname">一、创建“CNAME”文件</h2>
 <blockquote>
-  <pre><code>这一个比较简单，进入你的repo，然后创建文件“CNAME”(注意，没有后缀)
-例如我的域名：cindyfn.com 你可以在文件中写入：
-</code></pre>
+  <p>在正式开始今天的文章前，说下最近这N篇文章，我们要干什么？因为我还没有打算好几篇文章能写完，因为白天要认真干活，晚上才能写文章，生命下，现在的时间是晚上11:24分,所以按照计划，我每天安排一个小时的写作和编辑代码，应该能够在一周内完成我想要做的事情。</p>
 </blockquote>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">cindyfn</span><span class="nc">.com</span></code></pre></div>
-
-<h2 id="section-1">二、解析域名</h2>
-<blockquote>
-  <pre><code>进入你的域名提供商管理页面，我的是万网。
-</code></pre>
-
-</blockquote>
+<p>我写这些文章的目的：以<a href="http://www.nodejs.org/">nodejs官方网站</a>为配色方案和格调，制作一个自己的 jekyll的博客，并挂载在github上发布
+那我们要干什么那？请看下面的清单。</p>
 
 <ul>
-  <li>1.建立A指向：</li>
+  <li>1.第一个小时：熟悉jekyll的框架，并构建一个基础框架</li>
+  <li>2.第二个小时：分析nodejs官方网站</li>
+  <li>3.第三个小时：配色和构架方案</li>
+  <li>4.第三个小时：构造自己网站的基础框架</li>
+  <li>5.第四－七个小时：完成网站的编码</li>
+  <li>6.最八个小时：部署到github上去，并上线</li>
+  <li>7.倒数第二个小时：分析下markdown的语法</li>
+  <li>8.最后一个小时：总结下在这个过程中我们的经验和教训
+———————————————————
+今天我们来完成第一步，部署一个jekyll的基础框架<br />
+ok，看不懂英文哇－来个<a href="http://jekyllcn.com/">中文的网站jekyll中文网站</a></li>
 </ul>
-
-<table>
-  <tbody>
-    <tr>
-      <td>A</td>
-      <td> </td>
-      <td>@</td>
-      <td> </td>
-      <td>默认</td>
-      <td> </td>
-      <td>192.30.252.154</td>
-    </tr>
-    <tr>
-      <td>A</td>
-      <td> </td>
-      <td>@</td>
-      <td> </td>
-      <td>默认</td>
-      <td> </td>
-      <td>192.30.252.153</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</span></div>
-
-<ul>
-  <li>2.建立CNAME指向：</li>
-</ul>
-
-<table>
-  <tbody>
-    <tr>
-      <td>CNAME</td>
-      <td> </td>
-      <td>www</td>
-      <td> </td>
-      <td>默认</td>
-      <td> </td>
-      <td>icindy.github.io.</td>
-    </tr>
-  </tbody>
-</table>
-
-<div class="row">
-	<div class="col-md-12">
-		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠指向的CNAME icindy.github.io后面要多加一个“.”</span></div>
-	</div>
-</div>
-
-<h2 id="section-2">三、注意事项</h2>
-<div class="row">
-	<div class="col-md-12">
-		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</span></div>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-md-12">
-		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠指向的CNAME icindy.github.io后面要多加一个“.”</span></div>
-	</div>
-</div>
-
-<div class="row">
-	<div class="col-md-12">
-		<div class="alert alert-danger" role="alert"><span class="glyphicon glyphicon-star">⚠:设置完成后，等待10分钟后才会生效，请耐心等待</span></div>
-	</div>
-</div>
-
-<blockquote>
-  <p>如果有什么问题，请在下面留言说明，谢谢。</p>
-</blockquote>
-
 
     </article>
   </div>
@@ -178,7 +109,7 @@
         <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
         <input name="payAmount" type="hidden" value="2" />
         <!--这一项可以不留-->
-        <input name="title" type="hidden" value="赞助一下:jekyll搭建6－绑定域名，启用。" placeholder="付款说明" />
+        <input name="title" type="hidden" value="赞助一下:jekyll搭建1－模仿nodejs.org" placeholder="付款说明" />
         <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
       </form>
   </div>
@@ -202,7 +133,7 @@
   
     
         <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/10/23/jekyll-six-step.html" data-title="jekyll搭建6－绑定域名，启用。" data-url="http://cindyfn.com/jekyll/2014/10/23/jekyll-six-step.html"></div>
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/11/19/jekyll-one-step.html" data-title="jekyll搭建1－模仿nodejs.org" data-url="http://cindyfn.com/jekyll/2014/11/19/jekyll-one-step.html"></div>
 
     
       <!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>

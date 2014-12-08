@@ -38,6 +38,14 @@ a:hover {
 color: #80bd01;
 }
 
+.upost-css{
+border-top: 1px solid #eee;
+border-bottom: 1px solid #eee;
+font-size: 14px;
+line-height: 18px;
+/*background-color: #eee;*/
+}
+
 .alert{
   padding: 6px 8px;
   margin-bottom: 5px;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  jekyll搭建4－完成个人页面
-date:   2014-10-21 23:33:36
+date:   2014-11-21 23:33:36
 categories: jekyll
 tag: fontend
 ---

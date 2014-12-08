@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  jekyll搭建3－配色与基础框架
-date:   2014-10-20 23:33:36
+date:   2014-11-20 23:33:36
 categories: jekyll
 tag: fontend
 ---

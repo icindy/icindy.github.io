@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>jekyll搭建3－配色与基础框架</title>
+    <title>jekyll搭建4－完成个人页面</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/10/21/jekyll-three-step.html">
+    <link rel="canonical" href="http://cindyfn.com/jekyll/2014/11/22/jekyll-four-step.html">
 </head> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jekyll搭建3－配色与基础框架</title>
+    <title>jekyll搭建4－完成个人页面</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
@@ -65,77 +65,30 @@
 <div class="row content cus-post-content">
   <div class="post col-md-12">
     <header class="post-header  text-center" style="border-bottom: 1px dashed #eee;">
-      <h1 class="post-title">jekyll搭建3－配色与基础框架</h1>
-      <p class="post-meta">Oct 21, 2014</p>
+      <h1 class="post-title">jekyll搭建4－完成个人页面</h1>
+      <p class="post-meta">Nov 22, 2014</p>
     </header>
 
     <article class="post-content">
       <h2 id="section">前言</h2>
 <blockquote>
-  <p>前面两个小时我们完成了我们任务分配和网站分析工作，今天我们要着手对我们想要做的网站进行基础性的配色和框架搭建工作</p>
+  <p>ok，前面三个小时的工作已经基本结束，这一个小时，这是从编码开始。
+首先预览下效果把。<a href="http://icindy.github.io/about.html">点击这里可以查看具体效果</a>
+代码位置：<a href="https://github.com/icindy/icindy.github.io/blob/master/about.html">点击这里查看具体代码</a>
+最后我也会贴出具体的图片。</p>
 </blockquote>
 
-<h2 id="section-1">一：配色及字体搭配</h2>
-
-<ul>
-  <li>1.配色方案</li>
-</ul>
-
-<p>强调色#80bd01
-简介色#ccc;
-小说明rgba(153,153,153,.9);
-正文#fff未选中导航色#ccc选中导航色#80bd01
-导航hove下划线超链接#80bd01</p>
-
-<ul>
-  <li>2.字体方案</li>
-</ul>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">font-size</span><span class="nd">:16px</span><span class="o">;</span>
-<span class="nt">font-family</span><span class="o">:</span> <span class="nt">Georgia</span><span class="o">,</span><span class="s2">&quot;Times New Roman&quot;</span><span class="o">,</span><span class="nt">Times</span><span class="o">,</span><span class="s2">&quot;Hiragino Sans GB&quot;</span><span class="o">,</span><span class="s2">&quot;Helvetica Neue&quot;</span><span class="o">,</span><span class="nt">Helvetica</span><span class="o">,</span><span class="nt">Arial</span><span class="o">,</span><span class="nt">sans-serif</span><span class="o">;</span>
-<span class="err">大</span><span class="nd">:16px</span>
-<span class="err">中</span><span class="nd">:14px</span>
-<span class="err">小</span><span class="nd">:12px</span>
-<span class="nt">h1</span><span class="nd">:30px</span>
-<span class="nt">h2</span><span class="nd">:25px</span>
-<span class="nt">h3</span><span class="nd">:20px</span>
-<span class="nt">h4</span><span class="nd">:15px</span></code></pre></div>
-
-<p><img src="/images/post/jekyll/jekyll-font.png" alt="font" /></p>
-
-<ul>
-  <li>3.代码展示方案</li>
-</ul>
-
-<p>具体方案详见:<a href="http://pygments.org/">pygments</a></p>
-
-<p>具体配色方案css：<a href="https://github.com/icindy/icindy.github.io/blob/master/css/syntax.css">具体css点击查看</a></p>
-
-<p>需要注意的是，如果想要代码高亮呈现效果，需要jekyll的运行环境
-<img src="/images/post/jekyll/jekyll-code.png" alt="jekyll-code" /></p>
-
-<ul>
-  <li>4.评论效果</li>
-</ul>
-
-<p>两种评论：</p>
-
-<h4 id="disqus">disqus</h4>
-
-<p><img src="/images/post/jekyll/jekyll-disqus.png" alt="jekyll-disqus" /></p>
-
-<h4 id="section-2">多说</h4>
-<p><img src="/images/post/jekyll/jekyll-duoshuo.png" alt="jekyll-duoshuo" /></p>
-
-<p>可能大家的需求不一样，所以选择不一样，我在最初效果上将两者都加在了上面，但是我最后回选择“多说”，毕竟我们经常使用的还是我们常见的社交软件</p>
-
-<ul>
-  <li>5.具体效果</li>
-</ul>
-
-<p>具体代码:<a href="https://github.com/icindy/icindy.github.io">git cindy</a></p>
-
-<p>具体展示效果：<a href="http://icindy.github.io/">点击查看</a></p>
+<p>在这个过程中，我考虑到的是以黑色的背景来呈现，原因：有种geek的效果。
+当然里面的内容不能少
+* 1.myInfo
+* 2.mySocail
+* 3.myRoad
+* 4.mySkill
+* 5.myConnect
+需要说明下这里，我使用的是QQ的推广业务，所以最下面的QQ联系按钮可以激活QQ客户端，这样就可以直接和我联系了。
+因为具体的代码是依靠boot框架，比较简单，所以大家自己看源码把。
+废话不多说了，上图：
+<img src="/images/post/jekyll/cindyblog.png" alt="cindyBlog" /></p>
 
     </article>
   </div>
@@ -147,7 +100,7 @@
         <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
         <input name="payAmount" type="hidden" value="2" />
         <!--这一项可以不留-->
-        <input name="title" type="hidden" value="赞助一下:jekyll搭建3－配色与基础框架" placeholder="付款说明" />
+        <input name="title" type="hidden" value="赞助一下:jekyll搭建4－完成个人页面" placeholder="付款说明" />
         <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
       </form>
   </div>
@@ -171,7 +124,7 @@
   
     
         <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/10/21/jekyll-three-step.html" data-title="jekyll搭建3－配色与基础框架" data-url="http://cindyfn.com/jekyll/2014/10/21/jekyll-three-step.html"></div>
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="/jekyll/2014/11/22/jekyll-four-step.html" data-title="jekyll搭建4－完成个人页面" data-url="http://cindyfn.com/jekyll/2014/11/22/jekyll-four-step.html"></div>
 
     
       <!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
