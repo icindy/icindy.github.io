@@ -47,14 +47,16 @@ layout: default
 
 <div class="row cus-post-commit">
   
+    
+        <!-- 多说评论框 start -->
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="{{ page.title }}" data-url="{% if site.url %}{{ site.url }}{% endif %}{{ page.url }}"></div>
+      
     {% if page.comments != false %}
       {% include comments.html %}
     {% endif %}
-        <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
     <!-- 多说评论框 end -->
     <!-- 多说热评文章 start -->
-      <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
+      <!-- <div class="ds-top-threads" data-range="daily" data-num-items="5"></div> -->
     <!-- 多说热评文章 end -->
 
 </div>

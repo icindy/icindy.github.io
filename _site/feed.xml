@@ -4,10 +4,10 @@
     <title>Cindy&#39;s Blog</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://icindy.github.io/</link>
-    <atom:link href="http://icindy.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Dec 2014 11:09:18 +0800</pubDate>
-    <lastBuildDate>Mon, 08 Dec 2014 11:09:18 +0800</lastBuildDate>
+    <link>http://cindyfn.com/</link>
+    <atom:link href="http://cindyfn.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 08 Dec 2014 11:31:36 +0800</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2014 11:31:36 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -113,8 +113,8 @@
 
 </description>
         <pubDate>Thu, 23 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/23/jekyll-six-step.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/23/jekyll-six-step.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/23/jekyll-six-step.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/23/jekyll-six-step.html</guid>
         
         <category>fontend</category>
         
@@ -157,8 +157,8 @@
 
 </description>
         <pubDate>Thu, 23 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/23/jekyll-five-step.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/23/jekyll-five-step.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/23/jekyll-five-step.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/23/jekyll-five-step.html</guid>
         
         <category>fontend</category>
         
@@ -190,8 +190,8 @@
 &lt;img src=&quot;/images/post/jekyll/cindyblog.png&quot; alt=&quot;cindyBlog&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 22 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/22/jekyll-four-step.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/22/jekyll-four-step.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/22/jekyll-four-step.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/22/jekyll-four-step.html</guid>
         
         <category>fontend</category>
         
@@ -270,8 +270,8 @@
 &lt;p&gt;具体展示效果：&lt;a href=&quot;http://icindy.github.io/&quot;&gt;点击查看&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 21 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/21/jekyll-three-step.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/21/jekyll-three-step.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/21/jekyll-three-step.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/21/jekyll-three-step.html</guid>
         
         <category>fontend</category>
         
@@ -371,8 +371,8 @@ let’s go!不过下面的分析需要你有点想像力。
 &lt;p&gt;所以我们要注意细节，这样才能有干净的感觉&lt;/p&gt;
 </description>
         <pubDate>Mon, 20 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html</guid>
         
         <category>fontend</category>
         
@@ -413,8 +413,8 @@ ok，看不懂英文哇－来个&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;�
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 19 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/jekyll/2014/10/19/jekyll-one-step.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/19/jekyll-one-step.html</guid>
+        <link>http://cindyfn.com/jekyll/2014/10/19/jekyll-one-step.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/10/19/jekyll-one-step.html</guid>
         
         <category>fontend</category>
         
@@ -491,8 +491,8 @@ ok，看不懂英文哇－来个&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;�
 
 </description>
         <pubDate>Wed, 15 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://icindy.github.io/post/2014/10/15/how-to-make-Phishing-sites.html</link>
-        <guid isPermaLink="true">http://icindy.github.io/post/2014/10/15/how-to-make-Phishing-sites.html</guid>
+        <link>http://cindyfn.com/post/2014/10/15/how-to-make-Phishing-sites.html</link>
+        <guid isPermaLink="true">http://cindyfn.com/post/2014/10/15/how-to-make-Phishing-sites.html</guid>
         
         <category>fontend</category>
         
