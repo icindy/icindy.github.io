@@ -49,7 +49,7 @@ layout: default
   
     
         <!-- 多说评论框 start -->
-      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="{{ page.title }}" data-url="{% if site.url %}{{ site.url }}{% endif %}{{ page.url }}"></div>
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{% if site.url %}{{ site.url }}{% endif %}{{ page.url }}"></div>
       
     {% if page.comments != false %}
       {% include comments.html %}
