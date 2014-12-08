@@ -6,9 +6,122 @@
 </description>
     <link>http://icindy.github.io/</link>
     <atom:link href="http://icindy.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Dec 2014 10:26:04 +0800</pubDate>
-    <lastBuildDate>Mon, 08 Dec 2014 10:26:04 +0800</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2014 11:09:18 +0800</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2014 11:09:18 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>jekyll搭建6－绑定域名，启用。</title>
+        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;经过了很长时间的拖延，最终还是将域名绑定了。整个过程，我用了六篇文章进行记录，希望能够给大家一定的帮助。这也是这个系列的最后的一篇文章。关于如何对github绑定自定义的域名。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;cname&quot;&gt;一、创建“CNAME”文件&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;这一个比较简单，进入你的repo，然后创建文件“CNAME”(注意，没有后缀)
+例如我的域名：cindyfn.com 你可以在文件中写入：
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;cindyfn&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;二、解析域名&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;pre&gt;&lt;code&gt;进入你的域名提供商管理页面，我的是万网。
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.建立A指向：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;@&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;默认&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;192.30.252.154&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;@&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;默认&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;192.30.252.153&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		&lt;p class=&quot;bg-danger&quot;&gt;⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2.建立CNAME指向：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;CNAME&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;www&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;默认&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;icindy.github.io.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		&lt;p class=&quot;bg-danger&quot;&gt;⚠指向的CNAME icindy.github.io后面要多加一个“.”&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;三、注意事项&lt;/h2&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		&lt;p class=&quot;bg-danger&quot;&gt;⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		&lt;p class=&quot;bg-danger&quot;&gt;⚠指向的CNAME icindy.github.io后面要多加一个“.”&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;col-md-12&quot;&gt;
+		&lt;p class=&quot;bg-danger&quot;&gt;⚠:设置完成后，等待10分钟后才会生效，请耐心等待&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;如果有什么问题，请在下面留言说明，谢谢。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 23 Oct 2014 07:33:36 +0800</pubDate>
+        <link>http://icindy.github.io/jekyll/2014/10/23/jekyll-six-step.html</link>
+        <guid isPermaLink="true">http://icindy.github.io/jekyll/2014/10/23/jekyll-six-step.html</guid>
+        
+        <category>fontend</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>jekyll搭建5－手机兼容适配，完成基本</title>

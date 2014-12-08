@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Cindy's Blog</title>
+    <title>jekyll搭建6－绑定域名，启用。</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://icindy.github.io/">
+    <link rel="canonical" href="http://icindy.github.io/jekyll/2014/10/23/jekyll-six-step.html">
 </head> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cindy's Blog</title>
+    <title>jekyll搭建6－绑定域名，启用。</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
     <!-- Bootstrap -->
@@ -62,148 +62,179 @@
       <ul class="ds-recent-visitors" data-num-items="18"></ul> 
     </div>
 </div>
-<div class="row zhaiDiv">
-	<div class="col-md-4 top-title">
-		<h2>文章列表</h2> 
-	</div>
-	<div class="col-md-8">
-		<ul class="tech-list clearfix">
-			<li class="pull-left active"><a href="">全部</a></li>
-			<li class="pull-left"><a href="">前端</a></li>
-			<li class="pull-left"><a href="">IOS</a></li>
-			<li class="pull-left"><a href="">后台</a></li>
-		</ul>
+<div class="row content cus-post-content">
+  <div class="post col-md-12">
+    <header class="post-header">
+      <h1 class="post-title">jekyll搭建6－绑定域名，启用。</h1>
+      <p class="post-meta">Oct 23, 2014</p>
+    </header>
+
+    <article class="post-content">
+      <h2 id="section">前言</h2>
+<blockquote>
+  <p>经过了很长时间的拖延，最终还是将域名绑定了。整个过程，我用了六篇文章进行记录，希望能够给大家一定的帮助。这也是这个系列的最后的一篇文章。关于如何对github绑定自定义的域名。</p>
+</blockquote>
+
+<h2 id="cname">一、创建“CNAME”文件</h2>
+<blockquote>
+  <pre><code>这一个比较简单，进入你的repo，然后创建文件“CNAME”(注意，没有后缀)
+例如我的域名：cindyfn.com 你可以在文件中写入：
+</code></pre>
+</blockquote>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">cindyfn</span><span class="nc">.com</span></code></pre></div>
+
+<h2 id="section-1">二、解析域名</h2>
+<blockquote>
+  <pre><code>进入你的域名提供商管理页面，我的是万网。
+</code></pre>
+
+</blockquote>
+
+<ul>
+  <li>1.建立A指向：</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td> </td>
+      <td>@</td>
+      <td> </td>
+      <td>默认</td>
+      <td> </td>
+      <td>192.30.252.154</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td> </td>
+      <td>@</td>
+      <td> </td>
+      <td>默认</td>
+      <td> </td>
+      <td>192.30.252.153</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row">
+	<div class="col-md-12">
+		<p class="bg-danger">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</p>
 	</div>
 </div>
-<div id="code">
-	<!-- allpages -->
-	<div class="row zhaiDiv allPosts postlist">
-		<ul class="col-md-12 normal-list">
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/23/jekyll-six-step.html">jekyll搭建6－绑定域名，启用。</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>23 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/23/jekyll-five-step.html">jekyll搭建5－手机兼容适配，完成基本</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>23 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/22/jekyll-four-step.html">jekyll搭建4－完成个人页面</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>22 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/21/jekyll-three-step.html">jekyll搭建3－配色与基础框架</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>21 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html">jekyll搭建2－分析指定的网站nodejs.org</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>20 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/19/jekyll-one-step.html">jekyll搭建1－模仿nodejs.org</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>19 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/post/2014/10/15/how-to-make-Phishing-sites.html">“钓鱼网站”5分钟速成和简单原理</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>15 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-		</ul>	
-	</div>
-	
-	<!-- fontendPosts -->
-	<div class="row zhaiDiv fontendPosts postlist">
-		<ul class="col-md-12 normal-list">
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/23/jekyll-six-step.html">jekyll搭建6－绑定域名，启用。</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>23 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/23/jekyll-five-step.html">jekyll搭建5－手机兼容适配，完成基本</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>23 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/22/jekyll-four-step.html">jekyll搭建4－完成个人页面</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>22 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/21/jekyll-three-step.html">jekyll搭建3－配色与基础框架</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>21 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/20/jekyll-two-step-im-nodejs-style.html">jekyll搭建2－分析指定的网站nodejs.org</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>20 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/jekyll/2014/10/19/jekyll-one-step.html">jekyll搭建1－模仿nodejs.org</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>19 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-			<li class="post-  row">
-			
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="/post/2014/10/15/how-to-make-Phishing-sites.html">“钓鱼网站”5分钟速成和简单原理</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="4ff160411318693231000006">0条评论</span>  <span class="hidden-xs">|</span> <abbr>15 Oct 2014</abbr></p>
-			 
-			 </li>
-		
-		</ul>	
-	</div>
 
-	<!-- iosPosts -->
-	<div class="row zhaiDiv iosPosts postlist">
-		<ul class="col-md-12 normal-list">
-		
-		</ul>	
-	</div>
+<ul>
+  <li>2.建立CNAME指向：</li>
+</ul>
 
-	<!-- backPosts -->
-	<div class="row zhaiDiv backPosts postlist">
-		<ul class="col-md-12 normal-list">
-		
-		</ul>	
+<table>
+  <tbody>
+    <tr>
+      <td>CNAME</td>
+      <td> </td>
+      <td>www</td>
+      <td> </td>
+      <td>默认</td>
+      <td> </td>
+      <td>icindy.github.io.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row">
+	<div class="col-md-12">
+		<p class="bg-danger">⚠指向的CNAME icindy.github.io后面要多加一个“.”</p>
 	</div>
+</div>
+
+<h2 id="section-2">三、注意事项</h2>
+<div class="row">
+	<div class="col-md-12">
+		<p class="bg-danger">⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<p class="bg-danger">⚠指向的CNAME icindy.github.io后面要多加一个“.”</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<p class="bg-danger">⚠:设置完成后，等待10分钟后才会生效，请耐心等待</p>
+	</div>
+</div>
+
+<blockquote>
+  <p>如果有什么问题，请在下面留言说明，谢谢。</p>
+</blockquote>
 
 
-	
+    </article>
+  </div>
+</div>
+
+<div class="row cus-post-ex">
+  <div class="cus-post-money col-md-6">
+      <form action="https://shenghuo.alipay.com/send/payment/fill.htm" method="post" target="_blank">
+        <input name="optEmail" type="hidden" value="uestczhangdi@163.com" />
+        <input name="payAmount" type="hidden" value="2" />
+        <!--这一项可以不留-->
+        <input name="title" type="hidden" value="赞助一下:jekyll搭建6－绑定域名，启用。" placeholder="付款说明" />
+        <input name="pay"  type="image" value="文章不错赞助两元" src="/images/zanzhu.png" />
+      </form>
+  </div>
+  <div class="post-notice col-md-6">
+    <div class="post-money-text"><a href="#" style="">点击按钮赞助本文章两元钱</a></div>
+  </div> 
+  <div class="col-md-12" style="border-top:1px dashed #ccc;text-align:center;">
+    <div class="out-d">转载请注明作者和相关链接。如果有什么建议或者问题请在下面留言区域留言。</div>
+  </div>
+</div>
+
+<script>
+  $(".post-money-text a").on('click',function(event) {
+    event.preventDefault();
+    /* Act on the event */
+    $(".cus-post-money form").submit();
+  });
+</script>
+
+<div class="row cus-post-commit">
+  
+    
+      <!--<div id="disqus_thread" style="background: #fff;padding: 10px;"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'cindyfn';
+	(function() {
+	var dsq = document.createElement('script');
+	dsq.type = 'text/javascript';
+	dsq.async = true;
+	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>-->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"itxiaodi"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+</script>
+<!-- 多说公共JS代码 end -->
+    
+        <!-- 多说评论框 start -->
+      <div class="ds-thread" style="background: #fff;padding: 10px;" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="jekyll搭建6－绑定域名，启用。" data-url="/jekyll/2014/10/23/jekyll-six-step.html"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说热评文章 start -->
+      <div class="ds-top-threads" data-range="daily" data-num-items="5"></div>
+    <!-- 多说热评文章 end -->
+
 </div>
 
 
