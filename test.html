@@ -14,34 +14,12 @@ layout: default
       
       <div class="row test-conten-con">
         <ul class="col-md-12 test-uls">
-          <p>
+            {% for post in site.categories.jekyll %}
             <li class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第一小时:</div>
-              <a href="http://cindyfn.com/%E6%9D%A5%EF%BC%8C%E6%88%91%E4%BB%AC%E4%B8%80%E8%B5%B7%E6%9D%A5%E6%A8%A1%E4%BB%BF%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E5%90%A7/" class="col-md-8 col-xs-8 test-ul-li-a">找到我要模仿的博客风格：nodejs官网</a>
+              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;">{{ post.date | date_to_string }}</div>
+              <a href="{{ post.url }}" class="col-md-8 col-xs-8 test-ul-li-a" target="_blank">{{ post.title }}</a>
             </li>
-            <li  class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第二小时:</div>
-              <a href="http://cindyfn.com/%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%BA%8C%E5%B0%8F%E6%97%B6%E5%88%86%E6%9E%90%E6%8C%87%E5%AE%9A%E7%9A%84%E7%BD%91%E7%AB%99nodejs-org/" class="col-md-8 col-xs-8 test-ul-li-a">分析指定的网站n</a>
-            </li>
-            <li class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第三小时:</div>
-              <a href="http://cindyfn.com/%E6%A8%A1%E4%BB%BF%E7%AC%AC%E4%B8%89%E5%B0%8F%E6%97%B6%E9%85%8D%E8%89%B2%E4%B8%8E%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/" class="col-md-8 col-xs-8 test-ul-li-a">配色与基础框架</a>
-            </li>
-            <li class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第四小时:</div>
-              <a href="http://cindyfn.com/%E6%A8%A1%E4%BB%BF%E7%AC%AC%E5%9B%9B%E5%B0%8F%E6%97%B6%E5%AE%8C%E6%88%90%E4%B8%AA%E4%BA%BA%E4%BB%8B%E7%BB%8D%E9%A1%B5%E9%9D%A2/" class="col-md-8 col-xs-8 test-ul-li-a">完成个人介绍页面</a>
-            </li>
-            <li class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第五小时:</div>
-              <a href="" class="col-md-8 col-xs-8 test-ul-li-a">完成个人项目页面</a>
-            </li>
-
-            <li class="row">
-              <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;"><span class="glyphicon glyphicon-eye-open"></span> 第六小时:</div>
-              <a href="" class="col-md-8 col-xs-8 test-ul-li-a">完成实验和生活页面</a>
-            </li>
-
-          </p>
+            {% endfor %}
         </ul>
       </div>
       <div class="row test-doing">
