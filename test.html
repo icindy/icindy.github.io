@@ -5,16 +5,16 @@ layout: default
   <div class="testlists">
     <div class="testlist">
       <div class="row test-title-con">
-        <div class="col-md-4 text-right hidden-xs test-time">2014/10-实验计划:</div>
-        <div class="col-md-8 hidden-xs test-title">探究jekyll，并将自己的博客转移到github</div>
+        <div class="col-md-4 text-right hidden-xs test-time">2014/12-实验计划:</div>
+        <div class="col-md-8 hidden-xs test-title">探究ios框架，ReactiveCocoa的使用和研究</div>
 
-        <div class="col-xs-4 text-right test-time visible-xs">2014/10<br>实验计划:</div>
-        <div class="col-xs-8 visible-xs test-title">探究jekyll，并将自己的博客转移到github</div>
+        <div class="col-xs-4 text-right test-time visible-xs">2014/12<br>实验计划:</div>
+        <div class="col-xs-8 visible-xs test-title">探究ios框架，ReactiveCocoa的使用和研究</div>
       </div>
       
       <div class="row test-conten-con">
         <ul class="col-md-12 test-uls">
-            {% for post in site.categories.jekyll %}
+            {% for post in site.categories.ReactiveCocoa %}
             <li class="row">
               <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;">{{ post.date | date_to_string }}</div>
               <a href="{{ post.url }}" class="col-md-8 col-xs-8 test-ul-li-a" target="_blank">{{ post.title }}</a>
@@ -25,8 +25,8 @@ layout: default
       <div class="row test-doing">
         <div class="col-md-offset-3 col-md-6">
           <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-              已经完成60%
+            <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+              已经完成10%
             </div>
           </div>
         </div>
@@ -40,15 +40,32 @@ layout: default
         <h4>以往实验</h4>
       </div>
       <div class="col-md-12">
-        <ul class="test-history-uls">
-          <li>
-            <div class="col-md-4 text-right hidden-xs test-time">2014/10-实验计划:</div>
-            <div class="col-md-8 hidden-xs test-title"><a href="">探究jekyll，并将自己的博客转移到github</a></div>
 
-            <div class="col-xs-4 text-right test-time visible-xs">2014/10<br>实验计划:</div>
-            <div class="col-xs-8 visible-xs test-title"><a href="">探究jekyll，并将自己的博客转移到github</a></div>
-          </li>
-        </ul>
+        <div class="testlists">
+          <div class="testlist">
+            <div class="row test-title-con">
+              <div class="col-md-4 text-right hidden-xs test-time">2014/10-实验计划:</div>
+              <div class="col-md-8 hidden-xs test-title">探究jekyll，并将自己的博客转移到github</div>
+
+              <div class="col-xs-4 text-right test-time visible-xs">2014/10<br>实验计划:</div>
+              <div class="col-xs-8 visible-xs test-title">探究jekyll，并将自己的博客转移到github</div>
+            </div>
+            
+            <div class="row test-conten-con">
+              <ul class="col-md-12 test-uls">
+                  {% for post in site.categories.jekyll %}
+                  <li class="row">
+                    <div class="col-md-4 col-xs-4 text-right test-ul-li-a" style="padding-right:0;">{{ post.date | date_to_string }}</div>
+                    <a href="{{ post.url }}" class="col-md-8 col-xs-8 test-ul-li-a" target="_blank">{{ post.title }}</a>
+                  </li>
+                  {% endfor %}
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
