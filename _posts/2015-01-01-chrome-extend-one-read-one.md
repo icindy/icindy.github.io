@@ -3,7 +3,7 @@ layout: post
 title:  chrome插件one-read开发:准备
 date:   2015-01-01 23:33:36
 categories: oneeRead
-tag: ios
+tag: fontend
 ---
 
 # 前言
