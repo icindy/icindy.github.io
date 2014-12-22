@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  chrome插件one-read开发:细节
-date:   2015-01-01 23:33:36
+date:   2015-01-08 23:33:36
 categories: oneeRead
 tag: fontend
 ---
@@ -58,14 +58,8 @@ tag: fontend
 
 >popup作为我们唯一加入的页面。这里是我们主要的面向用户的页面，这个页面会被渲染，同时展示在用户面前，因为有“一览”的界面，所以我只做了一点点的改动。关于pop页面，你可以[查看这里获取帮助](http://open.chrome.360.cn/extension_dev/browserAction.html#popups)
 
-<div class="row">
-	<div class="col-xs-6">
-		![原始](/images/post/one/yilanori.png)
-	</div>
-	<div class="col-xs-6">
-		![我的](/images/post/one/meyilan.png)
-	</div>
-</div>
+![原始](/images/post/one/yilanori.png)
+![我的](/images/post/one/meyilan.png)
 
 ## pop.js
 
