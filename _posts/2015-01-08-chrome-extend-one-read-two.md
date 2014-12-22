@@ -8,9 +8,10 @@ tag: fontend
 
 # 前言
 
->	点击这里你可以看到one-read "一览" chrome版的使用
 
-代码在这里：[github code for one-read](https://github.com/icindy/one-read)
+* 点击这里[你可以看到one-read "一览" chrome版的使用](http://cindyfn.com/one-read/)
+
+* 代码在这里：[github code for one-read](https://github.com/icindy/one-read)
 
 ## manifest文件
 > 这里有详细关于manifest的介绍文档，[点击访问](http://open.chrome.360.cn/extension_dev/manifest.html)
