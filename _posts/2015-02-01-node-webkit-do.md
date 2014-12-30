@@ -11,9 +11,9 @@ tag: fontend
  >node-webkit其实在很多地方用处很大，请自行发散。
 
 本文会根据以前的文章进行实践，同样会变更一些地方。主要从以下几个方法介绍：
- 1.获取node-webkit
- 1.以我的博客为例制作一个客户端。
- 1.windows下打包一个一键安装包
+ 1. 获取node-webkit
+ 1. 以我的博客为例制作一个客户端。
+ 1. windows下打包一个一键安装包
 
 ##引用
 
@@ -26,24 +26,82 @@ node-webkit: https://github.com/rogerwang/node-webkit
 因为先看到的是node-webkit所以就采用了这种方式
 作用：将web转化成原生桌面的应用（win，linux，mac）
 步骤：
- 1.制作web页面
- 1.打包文件，参考[如何打包你的app](https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps)
- 1.win下可以通过Inno等软件制作安装包
+ 1. 制作web页面
+ 1. 打包文件，参考[如何打包你的app](https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps)
+ 1. win下可以通过Inno等软件制作安装包
 问题：
- 1.64位运行：因为自己傻，一开始没看懂api，后来看懂了，直接把包放到目录下运行就好了
- 1.软件更新：这是我没有解决的地方，因为没办法直接去修改打包的内容，所以没办法去更新。我只好退而求其次，直接把我的地址放在了配置文件中。这样我就不用担心软件的更新了
+ 1. 64位运行：因为自己傻，一开始没看懂api，后来看懂了，直接把包放到目录下运行就好了
+ 1. 软件更新：这是我没有解决的地方，因为没办法直接去修改打包的内容，所以没办法去更新。我只好退而求其次，直接把
+
+ 我的地址放在了配置文件中。这样我就不用担心软件的更新了
 
 最终的windows版就直接可以打包成了安装包。由于属于公司产品，所以没有办法开放我的源码，请见谅。
 
 ##获取node-webkit
 
- 1.[git地址](https://github.com/rogerwang/node-webkit)
- 1.[很好的中文手册&教程](http://www.cnblogs.com/xuanhun/tag/node-webkit/)
+ 1. [git地址](https://github.com/rogerwang/node-webkit)
+ 1. [很好的中文手册&教程](http://www.cnblogs.com/xuanhun/tag/node-webkit/)
 
 
 ##实际例子
 
  >大家现在浏览的是我的博客，我们以这个博客为例子，分别进行封装。因为我的博客做过自适应，所以我们自己来把它变成一个小型的桌面应用。
+
+ * 下载node-webkit 32位
+[这里可以很好的下载各种版本的](https://github.com/rogerwang/node-webkit/#downloads)。我下载32位的。
+ * 解压配置
+解压你下载的文件包，在里面新建一个文件夹，我命名为我的博客名称“cindy”
+![软件包图片](/images/post/node-webkit/image1.png)
+ * 添加配置文件`package.json`
+ 我的配置文件很简单，因为我是远程加载的。
+
+ {% highlight json %}
+	{
+  "main": "http://cindyfn.com",
+
+  "name": "cindy-blog",
+
+  "description": "会写ios的前端",
+
+  "version": "0.1.0",
+
+  "keywords": [ "web","IOS","nodejs","javascript","js","object-c","前端开发","ios开发" ],
+
+  //定义windows表现
+  "window": {
+
+    "title": "cindy的博客",
+
+    "icon": "logo.png",
+
+    "toolbar": true,
+
+    "frame": false,
+
+    "width": 320,
+
+    "height": 500
+
+  }
+
+}
+ {% endhighlight %}
+
+ * 打包运行
+ >备：windows下运行可以将cindy文件夹拖拽到nw.exe中进行展示
+
+ 打包：在windows下打包cindy文件夹下文件为cindy.zip打包，并修改名字为cindy.nw
+ 打包exe: `copy /b nw.exe+cindy.nw cindy.exe`
+
+ 这样就会在文件夹下又一个cindy.exe，点击运行就会看到相应的效果。
+
+ 不过。你不要以为这样就大功告成了，你尝试把cindy.exe单独拿出来运行，貌似不能运行了。为什么？以为它的运行是依赖包内的chrome的，你单独拿出来当然不能运行了。不过别急，继续往下面看，教你如何打包安装包。
+
+ > 切换到windows电脑。有点不习惯。
+
+
+
+
 
 
 ##windows下打包
