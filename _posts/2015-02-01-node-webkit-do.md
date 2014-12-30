@@ -9,6 +9,7 @@ tag: fontend
 #前言
  >很久以前我简单的写过关于node-webkit的使用,但是我在更换博客的时候丢弃了，我在下面的文章把它引用一遍。
  >node-webkit其实在很多地方用处很大，请自行发散。
+ >本文的相关代码：[点击查看demo的代码](https://github.com/icindy/node-webkit-demo)
 
 本文会根据以前的文章进行实践，同样会变更一些地方。主要从以下几个方法介绍：
  1. 获取node-webkit
@@ -74,9 +75,9 @@ node-webkit: https://github.com/rogerwang/node-webkit
 
     "icon": "logo.png",
 
-    "toolbar": true,
+    "toolbar": false,
 
-    "frame": false,
+    "frame": true,
 
     "width": 320,
 
@@ -92,21 +93,28 @@ node-webkit: https://github.com/rogerwang/node-webkit
 
  打包：在windows下打包cindy文件夹下文件为cindy.zip打包，并修改名字为cindy.nw
  打包exe: `copy /b nw.exe+cindy.nw cindy.exe`
+ ![软件包图片2](/images/post/node-webkit/dos2.png)
 
  这样就会在文件夹下又一个cindy.exe，点击运行就会看到相应的效果。
+ ![软件包图片3](/images/post/node-webkit/xg1.png)
+
 
  不过。你不要以为这样就大功告成了，你尝试把cindy.exe单独拿出来运行，貌似不能运行了。为什么？以为它的运行是依赖包内的chrome的，你单独拿出来当然不能运行了。不过别急，继续往下面看，教你如何打包安装包。
 
  > 切换到windows电脑。有点不习惯。
 
-
-
-
-
-
-##windows下打包
+##windows下封装
 
  >趣：由于我目前用的是mac，没有win系统，所以把我尘封已久的电脑拿出来了，画质不好不要怪我。
+
+ node-webkit官方建议使用的封装软件是Inno
+ 具体的使用方式可以参考这里[如何封装EXE安装程序](http://jingyan.baidu.com/article/36d6ed1f50ecfc1bcf4883aa.html)
+
+ 我已经按照这个步骤封装了我的博客exe，[参见这里cindysetup.exe](https://github.com/icindy/node-webkit-demo)
+
+ ## 说在后面
+
+ 本文是针对windows进行封装，你也可以尝试使用mac，linux下的封装。希望你能够分享下。
 
 
 
