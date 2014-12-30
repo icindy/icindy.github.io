@@ -107,10 +107,10 @@ node-webkit: https://github.com/rogerwang/node-webkit
 
  >趣：由于我目前用的是mac，没有win系统，所以把我尘封已久的电脑拿出来了，画质不好不要怪我。
 
- node-webkit官方建议使用的封装软件是Inno
+ node-webkit官方建议使用的封装软件是Inno,[点击查看详情](https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps#setup-on-windows)
  具体的使用方式可以参考这里[如何封装EXE安装程序](http://jingyan.baidu.com/article/36d6ed1f50ecfc1bcf4883aa.html)
 
- 我已经按照这个步骤封装了我的博客exe，[参见这里cindysetup.exe](https://github.com/icindy/node-webkit-demo)
+ 我已经按照这个步骤封装了我的博客exe，[参见这里cindysetup.exe](https://github.com/icindy/node-webkit-demo/tree/master/exe%E6%96%87%E4%BB%B6)
 
  ## 说在后面
 
