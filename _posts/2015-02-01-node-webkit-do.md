@@ -12,9 +12,10 @@ tag: fontend
  >本文的相关代码：[点击查看demo的代码](https://github.com/icindy/node-webkit-demo)
 
 本文会根据以前的文章进行实践，同样会变更一些地方。主要从以下几个方法介绍：
- 1. 获取node-webkit
- 1. 以我的博客为例制作一个客户端。
- 1. windows下打包一个一键安装包
+
+	1.  获取node-webkit
+	1.  以我的博客为例制作一个客户端。
+	1.  windows下打包一个一键安装包
 
 ##引用
 
