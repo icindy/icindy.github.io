@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  征服ReactiveCocoa 1 - 核心思想(别看，正在编写)
-date:   2014-12-01 23:33:36
+date:   2014-12-04 23:33:36
 categories: ReactiveCocoa
 tag: ios
 ---
