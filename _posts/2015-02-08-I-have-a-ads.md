@@ -31,7 +31,7 @@ tag: fontend
 
  * bloggerads是什么？请点击审阅百度百科[bloggerads](http://baike.baidu.com/link?url=BlMstzjZ2N7I39wgvlaVYyNm86akTTV6N0xAJAI0zrCoRJPUQIt3qxjeol9gEHhkuRXfDxzvvcOCQcrS1-PtZK)
 
- * bloggerads公益性质在哪里？[请点击审阅bloggerads的说明]() [爱心公益](http://www.bloggerads.net/Portal/AdsLove)
+ * bloggerads公益性质在哪里？[请点击审阅bloggerads的说明](http://www.bloggerads.net/FAQ/?fid=159#) [爱心公益](http://www.bloggerads.net/Portal/AdsLove)
 
  * 广告设计得当，而且有萌萌的贴图(吼~)
 
