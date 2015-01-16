@@ -2,7 +2,7 @@
 layout: post
 title:  公益/广告－bloggerads广告是为了钱？
 date:   2015-02-08 23:33:36
-categories: node-webkit
+categories: ads
 tag: fontend
 ---
 
