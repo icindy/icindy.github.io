@@ -33,7 +33,7 @@ tag: fontend
 
 > 是的，是和性有关系的博客文章。当然，我从中也建立了了微博号，然后学着自己运营，这一块，可以单独写一篇，虽然没有很多粉丝，因为我发现水太深。
 
-- 捡漏[jianlou.naodoo.com](http://sex.naodoo.com)
+- 捡漏[jianlou.naodoo.com](http://jianlou.naodoo.com)
 
 > 这个也是建立不久，然后打算用于分享免费、限免、打折以及活动信息。
 
@@ -168,7 +168,7 @@ OK－以上的东西，大概的开发\修改＋部署的时间加起来没有�
 
 
 
-## 捡漏[jianlou.naodoo.com](http://sex.naodoo.com)
+## 捡漏[jianlou.naodoo.com](http://jianlou.naodoo.com)
 
 
 > 这个也是建立不久，然后打算用于分享免费、限免、打折以及活动信息。`希望大家一起能够维护一些内容`。
