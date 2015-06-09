@@ -26,7 +26,7 @@ tag: fontend
 - 脑洞[naodoo.com](http://naodoo.com/)
 
 	- 脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。
-	
+
 	- 脑洞第二版：以最新论坛方式来讨论要做什么，打开脑洞。
 
 - 全球性趣[sex.naodoo.com](http://sex.naodoo.com/)
@@ -47,7 +47,7 @@ OK－以上的东西，大概的开发\修改＋部署的时间加起来没有�
 
 
 
-# 说说
+## 说说
 
 > 从这里开始，我将从两个方面解释，如何在短时间内，做出简单或者试验性产品。
 
@@ -73,7 +73,7 @@ OK－以上的东西，大概的开发\修改＋部署的时间加起来没有�
 
 我们的顺序就是一个个的来，ok。
 
-# 脑洞[naodoo.com](http://naodoo.com/)
+## 脑洞[naodoo.com](http://naodoo.com/)
 
 ## 脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。
 
