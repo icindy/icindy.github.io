@@ -39,6 +39,8 @@ tag: fontend
 
 - 请关注我的微博: [ismoker的微博！](http://weibo.com/u/2210641970) (这是广告)
 
+
+
 OK－以上的东西，大概的开发\修改＋部署的时间加起来没有超过`7天（一周）`。
 
 当然，我没有炫耀哈，这个对于很那些大神们来说，估计是分钟的事情，我却花了那么长时间。
@@ -75,13 +77,30 @@ OK－以上的东西，大概的开发\修改＋部署的时间加起来没有�
 
 ## 脑洞[naodoo.com](http://naodoo.com/)
 
-## 脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。
+* 脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。
 
 > 小普及:  [producthunt](producthunt.com)知道是什么不,他是一种打分制的发现最新app等的平台,国内有模仿的[36ke NEXT](http://next.36kr.com/)、[mindstore](http://mindstore.io/)等
 
 - 技术成本
 
-> 既然明确了我想要做什么，“以producthunt的模式来猎奇文章、新闻、事件。”那么就需要找到类似producthunt的平台、开源项目
+> 既然明确了我想要做什么，“以producthunt的模式来猎奇文章、新闻、事件。”那么就需要找到类似producthunt的平台、开源项目.
+
+开始找吧，bing了下clone producthunt－发现[Telescope](https://github.com/TelescopeJS/Telescope)
+
+发现基本功能都有，总觉得next等可能也是使用开源的改的，为什么我们不那！
+
+> 找到了对应的开源，就按照官方给的指示来部署，发现是Meteor框架，看来普通的免费服务器不能够支撑，然后就去阿里云买一个月的服务器吧（`使用阿里云的前提是，你的域名已经备案`）
+
+**服务器选择**
+
+这里我选择了，按照包月流量计算的模式，这样我觉得比较省，你也可以自由搭配...
+
+![阿里云配置](/images/post/website/peizhi1.jpg)
+
+
+
+
+
 
 
 
