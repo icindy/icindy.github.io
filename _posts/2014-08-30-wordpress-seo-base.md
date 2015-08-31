@@ -54,9 +54,11 @@ tag: fontend
 * c.图片优化代码：
 
 ```
+
 //给文章图片自动添加alt和title信息
 
 add_filter('the_content', 'imagesalt');
+
 function imagesalt($content) {
        global $post;
        $pattern ="/<a(.*?)href=('|\")(.*?).(bmp|gif|jpeg|jpg|png)('|\")(.*?)>/i";
@@ -64,5 +66,6 @@ function imagesalt($content) {
        $content = preg_replace($pattern, $replacement, $content);
        return $content;
 }
+
 ```
 
