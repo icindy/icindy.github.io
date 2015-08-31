@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  wordpress seo最基础准备
-date:   2015-01-08 23:33:36
+date:   2015-08-30 23:33:36
 categories: seo
 tag: fontend
 ---
