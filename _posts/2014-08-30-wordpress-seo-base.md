@@ -53,7 +53,7 @@ tag: fontend
 * b.插件2:百度数据结构化插件http://zhanzhang.baidu.com/dataplug/index
 * c.图片优化代码：
 
-```
+```php
 
 //给文章图片自动添加alt和title信息
 
