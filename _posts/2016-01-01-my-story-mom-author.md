@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  -微信订阅号"少读",欢迎关注
+title:  90后儿子写60后老妈的故事-微信订阅号"少读",欢迎关注
 date:   2016-01-01 23:33:36
 categories: shaodu
 tag: fontend
