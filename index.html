@@ -1,111 +1,32 @@
 ---
-layout: tech
-paginate_path: "page:num"
+layout: default
+title: Di Daily-Blog
 ---
-<div class="row" style="background-color:#1d1d1d;margin-left:0;margin-right:0;border-bottom:1px dashed #303030;">
-    <div class="col-md-12" style="padding-left:0;padding-right:0;">
-      <ul class="ds-recent-visitors" data-num-items="18"></ul> 
-    </div>
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Highlighted Media</h1>
+  <ul class="posts">
+    <!-- <li><span>02 Sep 2013</span> &raquo; <a href="https://www.wired.com/2013/09/github-for-anything/">Article: WIRED - GitHub Is Going Mainstream</a></li>
+    <li><span>09 Nov 2011</span> &raquo; <a href="http://vimeo.com/39016099">Video: RubyConf Argentina - Optimizing For Happiness</a></li>
+    <li><span>01 Oct 2011</span> &raquo; <a href="http://confreaks.com/videos/712-rubyconf2011-github-flavored-ruby">Video: RubyConf - GitHub Flavored Ruby</a></li>
+    <li><span>23 Nov 2010</span> &raquo; <a href="http://vimeo.com/17118008">Video: Erlang Factory - Mastering Git Basics</a></li> -->
+  </ul>
+
+  <h1>Other Interviews, Talks, Etc</h1>
+  <ul class="posts">
+    <!-- <li><span>12 Sep 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=k2vJNNAQZlg">Video: Fox Business News interview</a></li>-->
+  </ul>
+
+  <h1>Noteworthy Open Source Projects and Specifications</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/icindy/wxParse">wxParse:</a> 微信小程序富文本解析自定义组件，支持HTML及markdown解析</li>
+    <li><a href="https://github.com/icindy/one-read">one-read:</a> 一览的chrome插件版，“one” for chrome extend</li>
+  </ul>
 </div>
-<div class="row zhaiDiv">
-	<div class="col-md-4 top-title">
-		<h2>文章列表</h2> 
-	</div>
-	<div class="col-md-8">
-		<ul class="tech-list clearfix">
-			<li class="pull-left active"><a href="">全部</a></li>
-			<li class="pull-left"><a href="">前端</a></li>
-			<li class="pull-left"><a href="">IOS</a></li>
-			<li class="pull-left"><a href="">后台</a></li>
-		</ul>
-	</div>
-</div>
-<div id="code">
-	<!-- allpages -->
-	<div class="row zhaiDiv allPosts postlist">
-		<ul class="col-md-12 normal-list">
-		{% for post in site.posts %}
-			<li class="post-{{ post.category }}  row upost-li">
-			{% if post.external_url == nil %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}" target="_blank">{{ post.title }}</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.url }}">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			 {% else %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a></p>
-			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.external_url }}"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			  {% endif %}
-			 </li>
-		{% endfor %}
-		</ul>	
-	</div>
-	
-	<!-- fontendPosts -->
-	<div class="row zhaiDiv fontendPosts postlist">
-		<ul class="col-md-12 normal-list">
-		{% for post in site.tags.fontend %}
-			<li class="post-{{ post.category }}  row">
-			{% if post.external_url == nil %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}" target="_blank">{{ post.title }}</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.url }}">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			 {% else %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a></p>
-			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.external_url }}"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			  {% endif %}
-			 </li>
-		{% endfor %}
-		</ul>	
-	</div>
-
-	<!-- iosPosts -->
-	<div class="row zhaiDiv iosPosts postlist">
-		<ul class="col-md-12 normal-list">
-		{% for post in site.tags.ios %}
-			<li class="post-{{ post.category }}  row">
-			{% if post.external_url == nil %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}" target="_blank">{{ post.title }}</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.url }}">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			 {% else %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a></p>
-			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.external_url }}"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			  {% endif %}
-			 </li>
-		{% endfor %}
-		</ul>	
-	</div>
-
-	<!-- backPosts -->
-	<div class="row zhaiDiv backPosts postlist">
-		<ul class="col-md-12 normal-list">
-		{% for post in site.tags.back %}
-			<li class="post-{{ post.category }}  row">
-			{% if post.external_url == nil %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span> <a href="{{ post.url }}" target="_blank">{{ post.title }}</a></p>
-			  <p class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.url }}">0条评论</span>  <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			 {% else %}
-			  <p class="col-md-8 cus-sm-li-zheng"><span class="glyphicon glyphicon-fire"></span><a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a></p>
-			  <p  class="col-md-4 cus-sm-li-fu clearfix"><span class="ds-thread-count" data-thread-key="{{ post.external_url }}"></span> <span class="hidden-xs">|</span> <abbr>{{ post.date | date_to_string }}</abbr></p>
-			  {% endif %}
-			 </li>
-		{% endfor %}
-		</ul>	
-	</div>
-	
-</div>
-
-<script>
-	var uu = [];
-	$.each($(".upost-li"), function(index, val) {
-		 var uuRe = $(this).find("abbr").text().split(" ");
-		 if (uu.length == 0){
-		 	uu = uuRe;
-		 	$(this).before('<p class="text-center upost-css">'+uuRe[1]+" "+uuRe[2]+'</p>');
-		 }else if(uuRe[1] != uu[1] || uuRe[2] != uu[2]){
-		 	uu = uuRe;
-		 	$(this).before('<p class="text-center upost-css">'+uuRe[1]+" "+uuRe[2]+'</p>');
-		 	
-		 }
-	});
-
-
-</script>
-
-{% include duoshuo.html %}

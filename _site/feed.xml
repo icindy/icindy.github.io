@@ -1,1091 +1,880 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cindy&#39;s Blog</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://cindyfn.com/</link>
-    <atom:link href="http://cindyfn.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Dec 2014 14:08:08 +0800</pubDate>
-    <lastBuildDate>Wed, 10 Dec 2014 14:08:08 +0800</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>ReactiveCocoa 1-官方readme文档翻译</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-15T12:11:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">如何看待系统的稳定性</title><link href="http://localhost:4000/2019/04/15/begin.html" rel="alternate" type="text/html" title="如何看待系统的稳定性" /><published>2019-04-15T00:00:00+08:00</published><updated>2019-04-15T00:00:00+08:00</updated><id>http://localhost:4000/2019/04/15/begin</id><content type="html" xml:base="http://localhost:4000/2019/04/15/begin.html">&lt;h1 id=&quot;如何看待系统的稳定性&quot;&gt;如何看待系统的稳定性&lt;/h1&gt;
+
+&lt;p class=&quot;meta&quot;&gt;15 April 2019&lt;/p&gt;
+
+&lt;p&gt;当我开始选择我们的方向的时候&lt;/p&gt;</content><author><name></name></author><summary type="html">如何看待系统的稳定性</summary></entry><entry><title type="html">90后儿子写60后老妈的故事-微信订阅号”少读”</title><link href="http://localhost:4000/shaodu/2016/01/02/my-story-mom-author.html" rel="alternate" type="text/html" title="90后儿子写60后老妈的故事-微信订阅号&quot;少读&quot;" /><published>2016-01-02T07:33:36+08:00</published><updated>2016-01-02T07:33:36+08:00</updated><id>http://localhost:4000/shaodu/2016/01/02/my-story-mom-author</id><content type="html" xml:base="http://localhost:4000/shaodu/2016/01/02/my-story-mom-author.html">&lt;h2 id=&quot;欢迎关注&quot;&gt;欢迎关注&lt;/h2&gt;
+
+&lt;p&gt;微信号： shaoduu 微信公众号名: 少读&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/shaodu/bottomqr.jpg&quot; alt=&quot;少读-shaoduu&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;关于少读-简单写下听到的&quot;&gt;关于”少读”-简单写下听到的&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;一位90后儿子写60后老妈的故事。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;大家好，我是”怪柴”，是个90后。
+我有一个老妈，是个60后。
+家有一老,如有一宝。&lt;/p&gt;
+
+&lt;p&gt;我是个典型的无叛逆期青年，从小就很听我老妈的话。当然，偶尔也会犯浑。&lt;/p&gt;
+
+&lt;p&gt;现在我也快要结婚,渐渐的越来越想去挖掘老妈的内心和老妈曾经的故事。
+都说，最想妈的时候：饿了、穷了和伤了。&lt;/p&gt;
+
+&lt;p&gt;“少读”的所有故事或者介绍，都是我在日常中和老妈聊到的。
+有些老妈讲到的一些故事，有些是老妈说到的词我通过延伸整理得来。&lt;/p&gt;
+
+&lt;p&gt;“少读”,没有特别多的意思，我希望能够让现在甚至以后的人能够了解到以前的老人生活的状态和故事。&lt;/p&gt;
+
+&lt;p&gt;因为本人并非文科和专业写作者，所以文章的整理基本都是口语化，想到什么写什么，本着流水账的写作方式来写。&lt;/p&gt;
+
+&lt;p&gt;通过“少读”我还希望挖掘一下周边朋友身边的故事，如果您有好的故事或者一些老人留下来的故事，欢迎投稿。&lt;/p&gt;
+
+&lt;p&gt;希望通过“少读”您能够获得您想要的。 谢谢。&lt;/p&gt;
+
+&lt;p&gt;同时，由于本订阅号刚建立，无法开启留言功能。如果您有任何见解或者意见，可以直接通过微信端直接发送文本信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/shaodu/bottomqr.jpg&quot; alt=&quot;少读-shaoduu&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">欢迎关注</summary></entry><entry><title type="html">个人技术辅助工具及产品经理工具集合(持续完善)</title><link href="http://localhost:4000/pm/2015/09/19/my-tech-pm-review.html" rel="alternate" type="text/html" title="个人技术辅助工具及产品经理工具集合(持续完善)" /><published>2015-09-19T07:33:36+08:00</published><updated>2015-09-19T07:33:36+08:00</updated><id>http://localhost:4000/pm/2015/09/19/my-tech-pm-review</id><content type="html" xml:base="http://localhost:4000/pm/2015/09/19/my-tech-pm-review.html">&lt;p&gt;##针对技术人员：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;a.开源管理github(世界程序员基佬平台):https://github.com/&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;github不仅仅是可以存储您的代码(相关代码存储分支等概念自行了解svn及git相关概念)，同时也是非常好的代码搜索工具。
+ 例如： 你在写一个瀑布流的网页代码，需要使用插件，你可以直接在github上搜索“Masonry”，可以得到相关列表，选择自己的语言，可以根据排名看到适合自己的相关开源代码。
+ 具体的github的使用方式详见：http://blog.csdn.net/showhilllee/article/details/27706679&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;我在github上star过很多项目，大家可以查看https://github.com/icindy&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;b.代码管理及程序员社交平台(国产－推荐):https://coding.net/&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;coding作为国产的git管理和项目管理，更加本土化的管理本身的项目，简单容易上手。
+ 相比github来说，coding提供了私人代码的管理是免费的，但是gihub是收费的，所以你可以把公司项目直接私有化在coding上。
+ 同时coding也提供了简单的任务分配，在线ide，码币，码市的有趣的实用功能，可以深入探索一下。&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;我的https://coding.net/u/ismoker&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;c.问答管理社区segmentfault(国产):http://segmentfault.com/&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;这个平台上的分数，对您将来的程序之路会比较好一些&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;我的http://segmentfault.com/u/ismoker&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*d.世界程序问答社区(stackoverflow 推荐):http://stackoverflow.com/&lt;/p&gt;
+
 &lt;blockquote&gt;
-  &lt;pre&gt;&lt;code&gt;说起ReactiveCocoa，必须要先了解mvvm模式，与常规的mvc模式的区别
-但是说的很简单，看了两天后，感觉大概懂了。但是还是不会用。
-所以开始前，我先尝试翻译下github上ReactiveCocoa的readme。
-英语能力不好，请大家多包涵。
-&lt;/code&gt;&lt;/pre&gt;
+  &lt;p&gt;相对于segmentfault，stackoverflow更加全面，但是是全英文的，你基本上可以在stackoverflow上找到您任何程序上的问题&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;原文地址&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa#reactivecocoa&quot;&gt;ReactiveCocoa readme原文地址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;##针对产品方向：&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;开始翻译&lt;/h2&gt;
+&lt;p&gt;*a.必需关注的网站&lt;/p&gt;
 
-&lt;h1 id=&quot;reactivecocoa&quot;&gt;ReactiveCocoa&lt;/h1&gt;
+&lt;p&gt;人人都是产品经理
+http://www.woshipm.com/&lt;/p&gt;
 
-&lt;p&gt;ReactiveCocoa (RAC)是由 &lt;a href=&quot;http://en.wikipedia.org/wiki/Functional_reactive_programming&quot;&gt;函数式响应编程&lt;/a&gt; 灵感而来的ob-c框架. 框架为&lt;strong&gt;合成和转化价值流&lt;/strong&gt;提供API接口。&lt;/p&gt;
+&lt;p&gt;人人都是产品经理上介绍了很多相关网站和技巧，可以多看，多分析&lt;/p&gt;
 
-&lt;p&gt;如果你已经熟悉了函数式响应编程或者了解了基本的ReactiveCocoa理论，请下载 &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/Documentation&quot;&gt;文档&lt;/a&gt; 文件夹下的预览和了解更多实际应用中的深入解析。 &lt;/p&gt;
+&lt;p&gt;*b.需要学会使用的工具&lt;/p&gt;
 
-&lt;h2 id=&quot;reactivecocoa-1&quot;&gt;发现新的ReactiveCocoa?&lt;/h2&gt;
+&lt;p&gt;墨刀https://modao.io
+快速原型制作
+axturehttp://www.axure.com/
+详细原型设计
+photoshop
+高保原型设计&lt;/p&gt;
 
-&lt;p&gt;ReactiveCocoa被疯狂的记录，并且这里有丰富的介绍材料来解释你RAC是什么以及你如何使用它。&lt;/p&gt;
+&lt;p&gt;脑图工具(http://www.cnblogs.com/lhb25/p/15-best-mind-mapping-tools-designers.html)
+类似的软件很多，自己找一款自己喜欢的即可&lt;/p&gt;
 
-&lt;p&gt;如果你想了解更多，我们建议阅读下面几条：&lt;/p&gt;
+&lt;p&gt;*c.项目管理工具teambition：https://www.teambition.com/&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#简介&quot;&gt;简介&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#使用场景&quot;&gt;使用场景&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/Documentation/FrameworkOverview.md&quot;&gt;框架预览&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/Documentation/BasicOperators.md&quot;&gt;基本操作&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoaFramework/ReactiveCocoa&quot;&gt;头文件&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;以前的回答 &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/wiki&quot;&gt;Stack Overflow&lt;/a&gt;
-问题 和 &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/issues?labels=question&amp;amp;state=closed&quot;&gt;GitHub issues&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;最近 &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/tree/master/Documentation&quot;&gt;文档&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://leanpub.com/iosfrp/&quot;&gt;ios函数式响应编程&lt;/a&gt; 
-(eBook)&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;懂得安排团队和整体进度，合理安排时间，是一个产品经理很重要的一点&lt;/p&gt;
 
-&lt;p&gt;如果你有任何问题欢迎提问：&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/issues/new&quot;&gt;file an issue&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;*d.品质&lt;/p&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;最重要是“问”，不要认为不行，谁是用户就问谁，这样才是真正的答案。
+  其次的是”玩”,通过玩更多的互联网产品，深度思考产品的概念。
+  最后是“实践”，做出相关的最小化产品，立即发送给目标用户，得到反馈及时的调整&lt;/p&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">##针对技术人员：</summary></entry><entry><title type="html">wordpress seo最基础准备</title><link href="http://localhost:4000/seo/2015/08/31/wordpress-seo-base.html" rel="alternate" type="text/html" title="wordpress seo最基础准备" /><published>2015-08-31T07:33:36+08:00</published><updated>2015-08-31T07:33:36+08:00</updated><id>http://localhost:4000/seo/2015/08/31/wordpress-seo-base</id><content type="html" xml:base="http://localhost:4000/seo/2015/08/31/wordpress-seo-base.html">&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
-&lt;p&gt;ReactiveCocoa是由&lt;a href=&quot;http://blog.maybeapps.com/post/42894317939/input-and-output&quot;&gt;函数式响应编程&lt;/a&gt;灵感而来.
-RAC提供了信号量的概念用于捕捉当前和未来变量值的变化，而不是使用手动替换或者修改变量时再对应修改对应的变量值。&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;搭建了一些网站，一个也没有起来，所以就简单seo一下，通过站点的访问数据，目前有1/2的流量来自移动搜索，所以简单记录一下是应该很有必要。本文专特别针对wordpress站点&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;RAC不需要通过代码去持续的观察和更新变量值，而是通过一系列的链接(chaining)，结合(combining)，和响应信号(sigles)去重写和声明变量。&lt;/p&gt;
+&lt;p&gt;##网站基础&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;以下内容可以通过通过系统设置或者添加部分代码进行优化，详细可以具体搜索。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;pre&gt;&lt;code&gt;例如：一个UITextField被声明后，一旦它发生改变，RAC不会通过传统的每时每刻检测和更新UITextField，而是通过类似KVO的方式，使用blocks的方式取代传统的`-observeValueForKeyPath:ofObject:change:context:`方式。
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+  &lt;li&gt;a.站点标题&lt;/li&gt;
+  &lt;li&gt;b.站点关键词&lt;/li&gt;
+  &lt;li&gt;c.站点描述&lt;/li&gt;
+  &lt;li&gt;d.文章长尾词&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;信号也可以表示异步操作，就像&lt;a href=&quot;http://en.wikipedia.org/wiki/Futures_and_promises&quot;&gt;futures and promises&lt;/a&gt;。这大大简化了异步软件，包括网络代码。
-一个RAC的主要优点是它提供了一个单一的，统一的方法来处理异步行为，包括委托的回调方法，块，目标的行动机制，通知，并保持程序通畅。&lt;/p&gt;
+&lt;p&gt;##各大搜索引擎的提交入口&lt;/p&gt;
 
-&lt;p&gt;下面时一个例子:&lt;/p&gt;
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;搜索引擎&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;入口链接 (low)&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;百度搜索网站登录口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.baidu.com/search/url_submit.html&quot;&gt;http://www.baidu.com/search/url_submit.html&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;百度单个网页提交入口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://zhanzhang.baidu.com/sitesubmit&quot;&gt;http://zhanzhang.baidu.com/sitesubmit&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Google网站登录口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.google.com/webmasters/tools/submit-url&quot;&gt;https://www.google.com/webmasters/tools/submit-url&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;360搜索引擎登录入口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://info.so.360.cn/site_submit.html&quot;&gt;http://info.so.360.cn/site_submit.html&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;搜搜网站收录提交入口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.soso.com/help/usb/urlsubmit.shtml&quot;&gt;http://www.soso.com/help/usb/urlsubmit.shtml&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;搜狗网站收录提交入口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.sogou.com/feedback/urlfeedback.php&quot;&gt;http://www.sogou.com/feedback/urlfeedback.php&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;必应网站提交登录入口&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.bing.com/toolbox/submit-site-url&quot;&gt;http://www.bing.com/toolbox/submit-site-url&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// 当self.username发生变化, 打印变化信息到控制台.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// RACObserve(self, username)建立一个信号，不论self.username任何时候发生变化时，都会传递回来.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// 每当信号发送一个值 -subscribeNext: 将执行block解析这个值.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;subscribeNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;%@&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;模版选择&quot;&gt;模版选择&lt;/h2&gt;
 
-&lt;p&gt;但是不像KVO notifications，信号可以串联在一块执行：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;模版的选择决定搜索引擎的索引&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// 只有开头有&amp;quot;j&amp;quot;是才打印&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -filter returns a new RACSignal that only sends a new value when its block&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// returns YES.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;hasPrefix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;subscribeNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;%@&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;a.模版的代码是否规范化，如标题h1 等明确表明标签内的内容含义&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;信号也可以是用来推导出状态。不需要不断的观察和另外验证信息，RAC可以用于输出信号和对信号进行验证操作：&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;简单测试方法： 安装模版后，去除所有的css，观察是否能够明确表明标题，内容等的层次&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//创建一个单向针对self.createEnabled的绑定，如果两次密码一致时，返回true&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// RAC() 很擅长让绑定结合看起来更好&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// &lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// +combineLatest:reduce: 可以针对不定时变更的信号量数组进行处理，并返回一个block处理过的新的信号量&lt;/span&gt;
+&lt;ul&gt;
+  &lt;li&gt;b.响应式布局模版优先，分析cnzz的来源，会发现有将近1/3的流量来自移动端。&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;span class=&quot;n&quot;&gt;RAC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;createEnabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;combineLatest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@[&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;passwordConfirmation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;l&quot;&gt;]&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordConfirm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;l&quot;&gt;@(&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordConfirm&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;isEqualToString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;目前搜索引擎更倾向与检索响应式布局的网站。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;信号量可以建立随时间变化的变量值，不仅仅针对KVO,例如：&lt;/p&gt;
+&lt;h2 id=&quot;插件优化&quot;&gt;插件优化&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Logs a message whenever the button is pressed.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// RACCommand creates signals to represent UI actions. Each signal can&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// represent a button press, for example, and have additional work associated&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// with it.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -rac_command is an addition to NSButton. The button will send itself on that&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// command whenever it&amp;#39;s pressed.&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rac_command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACCommand&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;initWithSignalBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;button was pressed!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;empty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;wordpress本身含有很多优化seo的插件&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;或者是针对异步的网络请求：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a.插件1: All in One SEO Pack（wp插件中心）&lt;/li&gt;
+  &lt;li&gt;b.插件2:百度数据结构化插件http://zhanzhang.baidu.com/dataplug/index&lt;/li&gt;
+  &lt;li&gt;c.图片优化代码：&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Hooks up a &amp;quot;Log in&amp;quot; button to log in over the network.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// This block will be run whenever the login command is executed, starting&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// the login process.&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginCommand&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACCommand&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;initWithSignalBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// The hypothetical -logIn method returns a signal that sends a value when&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// the network request finishes.&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;c1&quot;&gt;//给文章图片自动添加alt和title信息
+&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;add_filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'the_content'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'imagesalt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// -executionSignals returns a signal that includes the signals returned from&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// the above block, one for each time the command is executed.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginCommand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;executionSignals&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;subscribeNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginSignal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Log a message whenever we log in successfully.&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginSignal&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;subscribeCompleted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Logged in successfully!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// Executes the login command when the button is pressed.&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rac_command&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginCommand&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;信号也可以代表其他用户界面事件，定时器，或随时间改变的任何事情。&lt;/p&gt;
-
-&lt;p&gt;使用异步的信号操作可以通过链式和转换信号建立更加灵活的行为。可以让一系列操作完成后更加容易出发后续操作：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Performs 2 network operations and logs a message to the console when they are&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// both completed.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// +merge: takes an array of signals and returns a new RACSignal that passes&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// through the values of all of the signals and completes when all of the&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// signals complete.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -subscribeCompleted: will execute the block when the signal completes.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;merge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@[&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fetchUserRepos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fetchOrgRepos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;l&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;subscribeCompleted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;They&amp;#39;re both done!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;信号可以被顺序执行异步操作，而不是嵌套使用块.这类似于&lt;a href=&quot;http://en.wikipedia.org/wiki/Futures_and_promises&quot;&gt;futures and promises&lt;/a&gt;工作机制：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Logs in the user, then loads any cached messages, then fetches the remaining&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// messages from the server. After that&amp;#39;s all done, logs a message to the&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// console.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// The hypothetical -logInUser methods returns a signal that completes after&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// logging in.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -flattenMap: will execute its block whenever the signal sends a value, and&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// returns a new RACSignal that merges all of the signals returned from the block&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// into a single signal.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[[[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; 
-	&lt;span class=&quot;n&quot;&gt;logInUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;flattenMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;c1&quot;&gt;// Return a signal that loads cached messages for the user.&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;loadCachedMessagesForUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;flattenMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;c1&quot;&gt;// Return a signal that fetches any remaining messages.&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fetchMessagesAfterMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;subscribeNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;New messages: %@&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;newMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Fetched all messages.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;RAC甚至可以使异步操作的结果更容易被绑定：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Creates a one-way binding so that self.imageView.image will be set the user&amp;#39;s&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// avatar as soon as it&amp;#39;s downloaded.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// The hypothetical -fetchUserWithUsername: method returns a signal which sends&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// the user.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -deliverOn: creates new signals that will do their work on other queues. In&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// this example, it&amp;#39;s used to move work to a background queue and then back to the main thread.&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// -map: calls its block with each user that&amp;#39;s fetched and returns a new&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// RACSignal that sends values returned from the block.&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;RAC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imageView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; 
-	&lt;span class=&quot;nl&quot;&gt;fetchUserWithUsername&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;joshaber&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;deliverOn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACScheduler&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;c1&quot;&gt;// Download the avatar (this is done on a background queue).&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSImage&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;initWithContentsOfURL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;avatarURL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;c1&quot;&gt;// Now the assignment will be done on the main thread.&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;deliverOn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACScheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mainThreadScheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;That demonstrates some of what RAC can do, but it doesn’t demonstrate why RAC is
-so powerful. It’s hard to appreciate RAC from README-sized examples, but it
-makes it possible to write code with less state, less boilerplate, better code
-locality, and better expression of intent.&lt;/p&gt;
-
-&lt;p&gt;这表明，RAC可以做些什么，但这并不说明为什么RAC如此强大。欣赏RAC自述文件大小的例子，是很难的，但它可以用较少的状态，写更少的代码模板，更好的代码的地方，和更好的表达意图。&lt;/p&gt;
-
-&lt;p&gt;寻找更多的实际代码，可以查看 &lt;a href=&quot;https://github.com/AshFurrow/C-41&quot;&gt;C-41&lt;/a&gt; 或者 &lt;a href=&quot;https://github.com/jspahrsummers/GroceryList&quot;&gt;GroceryList&lt;/a&gt;,他们都是使用ReactiveCocoa编写的ios app。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-4&quot;&gt;使用场景&lt;/h2&gt;
-
-&lt;p&gt;乍一看，reactivecocoa是很抽象的，它可能很难了解如何将它应用到具体的问题。&lt;/p&gt;
-
-&lt;p&gt;下面使可以使用RAC的场景展示：&lt;/p&gt;
-
-&lt;h3 id=&quot;section-5&quot;&gt;处理异步或事件驱动的数据源&lt;/h3&gt;
-
-&lt;p&gt;Cocoa编程的重点是用户的事件或变化的反应应用程序状态。这样的事件处理代码就会变得很复杂的并且代码很冗长，用回调和状态变量的大量处理排序问题。&lt;/p&gt;
-
-&lt;p&gt;看起来不同的模式，如UI回调，网络响应，而KVO通知，实际上有很多共同之处。&lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa/blob/master/ReactiveCocoaFramework/ReactiveCocoa/RACSignal.h&quot;&gt;racsignal&lt;/a&gt;结合所有这些不同的API，这样他们可以组合在一起，相同的方式操纵。&lt;/p&gt;
-
-&lt;p&gt;例如下面的代码&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ObservationContext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ObservationContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObserver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forKeyPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;loggingIn&amp;quot;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NSKeyValueObservingOptionInitial&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ObservationContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSNotificationCenter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultCenter&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObserver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;loggedOut&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UserDidLogOutNotification&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usernameTextField&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updateLogInButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forControlEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIControlEventEditingChanged&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordTextField&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;updateLogInButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forControlEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIControlEventEditingChanged&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logInButton&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;logInPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:)&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forControlEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIControlEventTouchUpInside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;imagesalt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;nv&quot;&gt;$pattern&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/&amp;lt;a(.*?)href=('|&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;)(.*?).(bmp|gif|jpeg|jpg|png)('|&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;)(.*?)&amp;gt;/i&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;nv&quot;&gt;$replacement&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;a$1href=$2$3.$4$5 alt=&quot;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;post_title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot; title=&quot;'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;post_title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&quot;$6&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;nv&quot;&gt;$content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;preg_replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$pattern&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$replacement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dealloc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;removeObserver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;forKeyPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;loggingIn&amp;quot;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ObservationContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSNotificationCenter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultCenter&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;removeObserver&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">前言</summary></entry><entry><title type="html">做一个普通网站到底有多难-100元＋7天＝3个站点</title><link href="http://localhost:4000/website/2015/06/10/how-hard-to-make-a-website.html" rel="alternate" type="text/html" title="做一个普通网站到底有多难-100元＋7天＝3个站点" /><published>2015-06-10T07:33:36+08:00</published><updated>2015-06-10T07:33:36+08:00</updated><id>http://localhost:4000/website/2015/06/10/how-hard-to-make-a-website</id><content type="html" xml:base="http://localhost:4000/website/2015/06/10/how-hard-to-make-a-website.html">&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
 
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;updateLogInButton&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;textFieldsNonEmpty&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usernameTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readyToLogIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;isLoggingIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logInButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;textFieldsNonEmpty&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readyToLogIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;oh 首先提醒你，这是一篇软文。什么－我不会写软文，也对，这是一篇你可以了解我做一个网站的简单省钱的过程，最起码这个一篇有用的软文。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;IBAction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;logInPressed:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIButton&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sender&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;logInWithUsername&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usernameTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;YES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;p&gt;曾经写过一篇文章：&lt;a href=&quot;http://cindyfn.com/post/2014/10/14/make-a-company-websit.html&quot;&gt;你也可以用半天时间做一个公司网站.&lt;/a&gt; 很多人都给了赞，后来博客搬迁，没有同步。
+今天我想要告诉大家的是，如果你是一个菜鸟程序员大学生(这个是个语句，请自行分词)。那么你需要看下面的文章，让自己也做点什么吧。&lt;/p&gt;
 
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;loggedOut:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSNotification&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;notification&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;h2 id=&quot;软文潜入现在相信是软文了吧&quot;&gt;软文潜入(现在相信是软文了吧)&lt;/h2&gt;
 
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;observeValueForKeyPath:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;keyPath&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ofObject:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;change:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSDictionary&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;context:&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;context&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ObservationContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updateLogInButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;observeValueForKeyPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keyPath&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;ofObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;change&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;草，这个软文貌似有点生硬了。&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;… 转换成RAC写法：&lt;/p&gt;
+&lt;p&gt;对于一致闲不住的我来说，最近很恼火的又折腾起了网站和开源项目。
+估计论坛上有一部分人，真的看到我的ID就要心里默念“又来 ***”&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;viewDidLoad&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;viewDidLoad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;p&gt;来看下我做了什么！&lt;/p&gt;
 
-	&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weakify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;脑洞&lt;a href=&quot;http://naodoo.com/&quot;&gt;naodoo.com&lt;/a&gt;&lt;/p&gt;
 
-	&lt;span class=&quot;n&quot;&gt;RAC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logInButton&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;combineLatest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@[&lt;/span&gt;
-			&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usernameTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rac_textSignal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-			&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rac_textSignal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loggingIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;RACObserve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-		&lt;span class=&quot;l&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggingIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSNumber&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;l&quot;&gt;@(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggingIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boolValue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;boolValue&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-
-	&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;logInButton&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;rac_signalForControlEvents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIControlEventTouchUpInside&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;subscribeNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;UIButton&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sender&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strongify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-		&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LoginManager&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sharedManager&lt;/span&gt;
-			&lt;span class=&quot;nl&quot;&gt;logInWithUsername&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;usernameTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;
-			&lt;span class=&quot;nl&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwordTextField&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-
-			&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loginSignal&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;subscribeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-				&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strongify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-				&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-			&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-				&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strongify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-				&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;YES&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-			&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-
-	&lt;span class=&quot;n&quot;&gt;RAC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loggedIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSNotificationCenter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;defaultCenter&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;rac_addObserverForName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UserDidLogOutNotification&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-		&lt;span class=&quot;nl&quot;&gt;mapReplace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;@NO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;section-6&quot;&gt;链接依赖操作&lt;/h3&gt;
-
-&lt;p&gt;相关依赖往往是在网络请求时体现，当下一步网络请求执行时，需要上一步的结构才可以，这样的例子还有很多：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;logInWithSuccess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;loadCachedMessagesWithSuccess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fetchMessagesAfterMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastObject&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nextMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Fetched all messages.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-			&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;failure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;ReactiveCocoa让这种模式变得简单:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;p&quot;&gt;[[[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loadCachedMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;flattenMap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fetchMessagesAfterMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;messages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lastObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;subscribeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;presentError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;completed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Fetched all messages.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;section-7&quot;&gt;并行独立工作&lt;/h3&gt;
-
-&lt;p&gt;与独立的数据集的并行工作，然后把它们合并成一个最终的结果，往往涉及到很多的同步：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;k&quot;&gt;__block&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseObjects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;__block&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- 
-&lt;span class=&quot;bp&quot;&gt;NSOperationQueue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroundQueue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSOperationQueue&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;alloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;blockOperationWithBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;databaseObjects&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseClient&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fetchObjectsMatchingPredicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-
-&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;blockOperationWithBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSData&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;dataWithContentsOfFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-	&lt;span class=&quot;n&quot;&gt;fileContents&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
- 
-&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;finishOperation&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSBlockOperation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;blockOperationWithBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;finishProcessingDatabaseObjects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseObjects&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Done processing&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
- 
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;finishOperation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addDependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;finishOperation&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addDependency&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroundQueue&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroundQueue&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;backgroundQueue&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;finishOperation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;上面的代码可以清理和通过简单的构成信号优化：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseClient&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;fetchObjectsMatchingPredicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predicate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;subscribeOn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACScheduler&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileSignal&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;startEagerlyWithScheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACScheduler&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scheduler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSubscriber&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subscriber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSData&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;dataWithContentsOfFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subscriber&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;sendNext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filesInProgress&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subscriber&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sendCompleted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RACSignal&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;combineLatest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;l&quot;&gt;@[&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;databaseSignal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fileSignal&lt;/span&gt; &lt;span class=&quot;l&quot;&gt;]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseObjects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;NSArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;finishProcessingDatabaseObjects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;databaseObjects&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fileContents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;subscribeCompleted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;n&quot;&gt;NSLog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;Done processing&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;section-8&quot;&gt;简化采集转换&lt;/h3&gt;
-
-&lt;p&gt;Higher-order functions like &lt;code&gt;map&lt;/code&gt;, &lt;code&gt;filter&lt;/code&gt;, &lt;code&gt;fold&lt;/code&gt;/&lt;code&gt;reduce&lt;/code&gt; are sorely missing
-from Foundation, leading to loop-focused code like this:&lt;/p&gt;
-
-&lt;p&gt;高阶函数像&lt;code&gt;地图&lt;/code&gt;，&lt;code&gt;滤波器&lt;/code&gt;，&lt;code&gt;褶皱&lt;/code&gt; / &lt;code&gt;减少&lt;/code&gt;非常缺少基础，导致环聚焦这样的代码：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSMutableArray&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-	&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;stringByAppendingString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;foobar&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;addObject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;newString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;ReactiveCocoaFramework/ReactiveCocoa/RACSequence.h&quot;&gt;RACSequence&lt;/a&gt; 允许任何Cocoa collection在一个统一的声明的方式操纵：&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objc&quot; data-lang=&quot;objc&quot;&gt;&lt;span class=&quot;n&quot;&gt;RACSequence&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rac_sequence&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;BOOL&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
-	&lt;span class=&quot;nl&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;NSString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;stringByAppendingString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;@&amp;quot;foobar&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-	&lt;span class=&quot;p&quot;&gt;}];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;system-requirements&quot;&gt;System Requirements(不翻译)&lt;/h2&gt;
-
-&lt;p&gt;ReactiveCocoa supports OS X 10.7+ and iOS 5.0+.&lt;/p&gt;
-
-&lt;h2 id=&quot;importing-reactivecocoa&quot;&gt;Importing ReactiveCocoa(不翻译)&lt;/h2&gt;
-
-&lt;p&gt;To add RAC to your application:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Add the ReactiveCocoa repository as a submodule of your application’s
-repository.&lt;/li&gt;
-  &lt;li&gt;Run &lt;code&gt;script/bootstrap&lt;/code&gt; from within the ReactiveCocoa folder.&lt;/li&gt;
-  &lt;li&gt;Drag and drop &lt;code&gt;ReactiveCocoaFramework/ReactiveCocoa.xcodeproj&lt;/code&gt; into your
-application’s Xcode project or workspace.&lt;/li&gt;
-  &lt;li&gt;On the “Build Phases” tab of your application target, add RAC to the “Link
-Binary With Libraries” phase.
     &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;On iOS&lt;/strong&gt;, add &lt;code&gt;libReactiveCocoa-iOS.a&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;On OS X&lt;/strong&gt;, add &lt;code&gt;ReactiveCocoa.framework&lt;/code&gt;. RAC must also be added to any
-“Copy Frameworks” build phase. If you don’t already have one, simply add
-a “Copy Files” build phase and target the “Frameworks” destination.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;脑洞第二版：以最新论坛方式来讨论要做什么，打开脑洞。&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Add &lt;code&gt;&quot;$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include&quot;
-$(inherited)&lt;/code&gt; to the “Header Search Paths” build setting (this is only
-necessary for archive builds, but it has no negative effect otherwise).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;For iOS targets&lt;/strong&gt;, add &lt;code&gt;-ObjC&lt;/code&gt; to the “Other Linker Flags” build setting.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;If you added RAC to a project (not a workspace)&lt;/strong&gt;, you will also need to
-add the appropriate RAC target to the “Target Dependencies” of your
-application.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;全球性趣&lt;a href=&quot;http://sex.naodoo.com/&quot;&gt;sex.naodoo.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;是的，是和性有关系的博客文章。当然，我从中也建立了了微博号，然后学着自己运营，这一块，可以单独写一篇，虽然没有很多粉丝，因为我发现水太深。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;捡漏&lt;a href=&quot;http://jianlou.naodoo.com&quot;&gt;jianlou.naodoo.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;这个也是建立不久，然后打算用于分享免费、限免、打折以及活动信息。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;请关注我的微博: &lt;a href=&quot;http://weibo.com/u/2210641970&quot;&gt;ismoker的微博！&lt;/a&gt; (这是广告)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OK－以上的东西，大概的开发\修改＋部署的时间加起来没有超过&lt;code class=&quot;highlighter-rouge&quot;&gt;7天（一周）&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;当然，我没有炫耀哈，这个对于很那些大神们来说，估计是分钟的事情，我却花了那么长时间。&lt;/p&gt;
+
+&lt;p&gt;那么大神请轻喷，这片文章是写个感觉这些事情很难的同学的。所以 …&lt;/p&gt;
+
+&lt;h2 id=&quot;说说&quot;&gt;说说&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;从这里开始，我将从两个方面解释，如何在短时间内，做出简单或者试验性产品。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当然这里是有前提的&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;您需要了解基本的不可避免的花销&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;如果你想要独立域名，那么年费用大概在50元左右&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;如果您想要超强性能，那么你需要考虑服务器的话，那么请绕道离开，去阿里云等（因为您已经有10000+用户，基础支出必须要考虑）。&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;您需要了解基本的俄时间成本&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;如果您需要您的域名备案使用阿里云服务器的话，那么需要的备案时间在20-30天&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;您需要了解您想要做什么，并且能找到符合您的开源或者最小实验代码&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;osChina&lt;/li&gt;
+      &lt;li&gt;github&lt;/li&gt;
+      &lt;li&gt;wordpress、discourse..&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果您了解了以上的信息，咱们就可以继续聊，如果您压根就不想了解，请关机！&lt;/p&gt;
+
+&lt;p&gt;我们的顺序就是一个个的来，ok。&lt;/p&gt;
+
+&lt;h2 id=&quot;脑洞naodoocom&quot;&gt;脑洞&lt;a href=&quot;http://naodoo.com/&quot;&gt;naodoo.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;脑洞第一版：以producthunt的模式来猎奇文章、新闻、事件。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;小普及:  &lt;a href=&quot;producthunt.com&quot;&gt;producthunt&lt;/a&gt;知道是什么不,他是一种打分制的发现最新app等的平台,国内有模仿的&lt;a href=&quot;http://next.36kr.com/&quot;&gt;36ke NEXT&lt;/a&gt;、&lt;a href=&quot;http://mindstore.io/&quot;&gt;mindstore&lt;/a&gt;等&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;技术成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;既然明确了我想要做什么，“以producthunt的模式来猎奇文章、新闻、事件。”那么就需要找到类似producthunt的平台、开源项目.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;开始找吧，bing了下clone producthunt－发现&lt;a href=&quot;https://github.com/TelescopeJS/Telescope&quot;&gt;Telescope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;发现基本功能都有，总觉得next等可能也是使用开源的改的，为什么我们不那！&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;找到了对应的开源，就按照官方给的指示来部署，发现是Meteor框架，看来普通的免费服务器不能够支撑，然后就去阿里云买一个月的服务器吧（&lt;code class=&quot;highlighter-rouge&quot;&gt;使用阿里云的前提是，你的域名已经备案&lt;/code&gt;）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;服务器选择&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;这里我选择了，按照包月流量计算的模式，这样我觉得比较省，你也可以自由搭配…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/website/peizhi1.jpg&quot; alt=&quot;阿里云配置&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;算下来，开发没有收费，那么只是服务器消耗了50元&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Telescope的配置比较简单，看官方的指导，1个小时内就可以搞定了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那么加上搜索，确定到最终和网民见面的时间应该是 1天时间就搞定了。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;总结&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;1天＋50元 ＝ 一个月的网站展示。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;脑洞第二版：以最新论坛方式来讨论要做什么，打开脑洞。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;很类似论坛，但是我没有采用discuz或者PHPWind, 因为我觉得不太适合简单和有效的讨论。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;技术成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;既然不想使用传统的论坛，那就找一个不传统的，搜啊搜，确实花了不少时间，但是最终还是发现了&lt;a href=&quot;http://www.discourse.org/&quot;&gt;discourse&lt;/a&gt;,&lt;a href=&quot;http://www.discoursecn.org/&quot;&gt;discourse中文社区&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Discourse 是 Stack Overflow 的联合创始人 Jeff Atwood 推出的一个新的开源论坛项目，其目的是为了改变十年未变的论坛软件。它摒弃了传统论坛的话题讨论形式、拥有自学习系统、全Web应用同时适用于桌面和移动终端。基于 Ruby on Rails 和 Ember.js 开发，数据库使用 PostgreSQL 和 Redis。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;找到了对应的开源，就按照官方给的指示来部署。因为上面的第一版被毙掉了，所以用上面的服务器部署吧&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;算下来，开发没有收费，那么只是服务器消耗了50元&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Discourse的配置比较也简单，看官方的指导，1个小时内就可以搞定了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;那么加上搜索，确定到最终和网民见面的时间应该是 2天时间就搞定了。包括找相关的插件&lt;/p&gt;
+
+&lt;p&gt;最终就是展现在大家面前的&lt;a href=&quot;http://naodoo.com/&quot;&gt;脑洞naodoo.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;总结&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;2天＋50元 ＝ 一个月的网站展示。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;全球性趣sexnaodoocom&quot;&gt;全球性趣&lt;a href=&quot;http://sex.naodoo.com/&quot;&gt;sex.naodoo.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;全球性趣意思应该挺明确的，当然我目前在转载别人的，罪过，罪过，请保护版权。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;技术成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;采用的框架大家一看就知道-wordpress，模版的话找一个也很方便！&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;整个过程我比较熟悉，可以查看&lt;a href=&quot;http://cindyfn.com/post/2014/10/14/make-a-company-websit.html&quot;&gt;你也可以用半天时间做一个公司网站.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;所以，对于任何人来说，都是很容易的。&lt;/p&gt;
+
+&lt;p&gt;到了服务器环节！！重点来了，&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;免费&lt;/code&gt;&lt;/strong&gt;的哦&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://jianlou.naodoo.com/index.php/4&quot;&gt;点击这里来引导你拥有一台免费的阿里云虚拟机以及企业阿里云邮箱(可以自定义域名的那种)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;配置啥的都不说了，重点是阿里云的速度，并且是两年免费使用，两年！！！！，当然你也可以拥有多台&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;不多说 最多1天。！！&lt;/p&gt;
+
+&lt;p&gt;－ 总结&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wordpress最省钱方案 0元 ＋ 1天 ＝ 两年网站展示&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;捡漏jianlounaodoocom&quot;&gt;捡漏&lt;a href=&quot;http://jianlou.naodoo.com&quot;&gt;jianlou.naodoo.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;这个也是建立不久，然后打算用于分享免费、限免、打折以及活动信息。&lt;code class=&quot;highlighter-rouge&quot;&gt;希望大家一起能够维护一些内容&lt;/code&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;技术成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;和上面一样，我仅仅是花了时间寻找，找到了&lt;a href=&quot;https://github.com/esotalk/esoTalk&quot;&gt;esoTalk&lt;/a&gt;。而且是php的，你懂了吗&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;部署很简单，然后服务器用上面申请到的免费虚拟机，吼！！ 完美跑起来！！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;时间成本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;基本没用时间，0成本！&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;总结&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;0元 ＝ 2年的社区展示&lt;/p&gt;
+
+&lt;h2 id=&quot;写在最后&quot;&gt;写在最后&lt;/h2&gt;
+
+&lt;p&gt;算一下，1+1+2 ＝ 4天&lt;/p&gt;
+
+&lt;p&gt;再算一下 50+0 ＝ 50元(服务器)&lt;/p&gt;
+
+&lt;p&gt;再算一下 1+1+1 ＝ 3个站点！&lt;/p&gt;
+
+&lt;p&gt;保守估计，你花100元，可以拥有以上三个站点，心动不如行动，赶快做起来吧！！！&lt;/p&gt;
+
+&lt;p&gt;(这是广告)请关注我的微博: &lt;a href=&quot;http://weibo.com/u/2210641970&quot;&gt;ismoker的微博！&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;温馨提醒&quot;&gt;温馨提醒&lt;/h2&gt;
+
+&lt;p&gt;一个站点的建立，仅仅完成了5%， 重要的是你怎么推广，这个我做的不好，相信你一定能成功！&lt;/p&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">前言</summary></entry><entry><title type="html">Plan1(ios完整项目part1)-准备搭建项目</title><link href="http://localhost:4000/2014plan1/2015/02/17/plan-one-part-one-ready-for-ios-app.html" rel="alternate" type="text/html" title="Plan1(ios完整项目part1)-准备搭建项目" /><published>2015-02-17T07:33:36+08:00</published><updated>2015-02-17T07:33:36+08:00</updated><id>http://localhost:4000/2014plan1/2015/02/17/plan-one-part-one-ready-for-ios-app</id><content type="html" xml:base="http://localhost:4000/2014plan1/2015/02/17/plan-one-part-one-ready-for-ios-app.html">&lt;p&gt;##前言&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;尽管这几篇文章是针对于技术角度，但是文章中会贯穿一系列的产品设计和编码安排的说明，这样可以让整个过程看起来尽可能的完整。如果你只关心技术角度或者学习技术，可以忽略产品相关设计，直接看关于技术部分的编码和实践，在写作过程中会出现错误和理解偏差，欢迎指正批评，谢谢。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##产品准备&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;产品名称&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;If you would prefer to use &lt;a href=&quot;http://cocoapods.org&quot;&gt;CocoaPods&lt;/a&gt;, there are some
-&lt;a href=&quot;https://github.com/CocoaPods/Specs/tree/master/Specs/ReactiveCocoa&quot;&gt;ReactiveCocoa
-podspecs&lt;/a&gt; that
-have been generously contributed by third parties.&lt;/p&gt;
-
-&lt;p&gt;To see a project already set up with RAC, check out &lt;a href=&quot;https://github.com/AshFurrow/C-41&quot;&gt;C-41&lt;/a&gt; or &lt;a href=&quot;https://github.com/jspahrsummers/GroceryList&quot;&gt;GroceryList&lt;/a&gt;,
-which are real iOS apps written using ReactiveCocoa.&lt;/p&gt;
-
-&lt;h2 id=&quot;standalone-development&quot;&gt;Standalone Development&lt;/h2&gt;
-
-&lt;p&gt;If you’re working on RAC in isolation instead of integrating it into another project, you’ll want to open &lt;code&gt;ReactiveCocoaFramework/ReactiveCocoa.xcworkspace&lt;/code&gt; and not the &lt;code&gt;.xcodeproj&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-9&quot;&gt;参考文献&lt;/h2&gt;
-
-&lt;p&gt;ReactiveCocoa is based on .NET’s &lt;a href=&quot;http://msdn.microsoft.com/en-us/data/gg577609&quot;&gt;Reactive
-Extensions&lt;/a&gt; (Rx). Most of the
-principles of Rx apply to RAC as well. There are some really good Rx resources
-out there:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/hh242985.aspx&quot;&gt;Reactive Extensions MSDN entry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://leecampbell.blogspot.com/2010/08/reactive-extensions-for-net.html&quot;&gt;Reactive Extensions for .NET Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://channel9.msdn.com/tags/Rx/&quot;&gt;Rx - Channel 9 videos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rxwiki.wikidot.com/&quot;&gt;Reactive Extensions wiki&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rxwiki.wikidot.com/101samples&quot;&gt;101 Rx Samples&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.com/Programming-Reactive-Extensions-Jesse-Liberty/dp/1430237473&quot;&gt;Programming Reactive Extensions and LINQ&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;RAC and Rx are both frameworks inspired by functional reactive programming. Here 
-are some resources related to FRP:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://elm-lang.org/learn/What-is-FRP.elm&quot;&gt;What is FRP? - Elm Language&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/1028250/what-is-functional-reactive-programming/1030631#1030631&quot;&gt;What is Functional Reactive Programming - Stack Overflow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/5875929/specification-for-a-functional-reactive-programming-language#5878525&quot;&gt;Specification for a Functional Reactive Language - Stack Overflow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://elm-lang.org/learn/Escape-from-Callback-Hell.elm&quot;&gt;Escape from Callback Hell&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/reactive&quot;&gt;Principles of Reactive Programming on Coursera&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 02 Dec 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/reactivecocoa/2014/12/02/ios-frame-use-ReactiveCocoa.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/reactivecocoa/2014/12/02/ios-frame-use-ReactiveCocoa.html</guid>
-        
-        <category>ios</category>
-        
-        
-        <category>reactivecocoa</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建6－绑定域名，启用。</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;经过了很长时间的拖延，最终还是将域名绑定了。整个过程，我用了六篇文章进行记录，希望能够给大家一定的帮助。这也是这个系列的最后的一篇文章。关于如何对github绑定自定义的域名。&lt;/p&gt;
+  &lt;p&gt;多啪/(Duopa)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;cname&quot;&gt;一、创建“CNAME”文件&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;pre&gt;&lt;code&gt;这一个比较简单，进入你的repo，然后创建文件“CNAME”(注意，没有后缀)
-例如我的域名：cindyfn.com 你可以在文件中写入：
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;cindyfn&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;二、解析域名&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;pre&gt;&lt;code&gt;进入你的域名提供商管理页面，我的是万网。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1.建立A指向：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;@&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;默认&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;192.30.252.154&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;A&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;@&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;默认&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;192.30.252.153&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-star&quot;&gt;⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。&lt;/span&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.建立CNAME指向：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CNAME&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;www&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;默认&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt;icindy.github.io.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-star&quot;&gt;⚠指向的CNAME icindy.github.io后面要多加一个“.”&lt;/span&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;三、注意事项&lt;/h2&gt;
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-star&quot;&gt;⚠:两个ip(192.30.252.154/192.30.252.153)是固定的。&lt;/span&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-star&quot;&gt;⚠指向的CNAME icindy.github.io后面要多加一个“.”&lt;/span&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-star&quot;&gt;⚠:设置完成后，等待10分钟后才会生效，请耐心等待&lt;/span&gt;&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;产品概念&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;如果有什么问题，请在下面留言说明，谢谢。&lt;/p&gt;
+  &lt;p&gt;基于相机的正反拍摄功能的相册分享功能的IOS APP&lt;/p&gt;
 &lt;/blockquote&gt;
 
-</description>
-        <pubDate>Sun, 23 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/23/jekyll-six-step.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/23/jekyll-six-step.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建5－手机兼容适配，完成基本</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;ok－－我承认这片文章恨水！
-根据上面的几个小时，基本上完成了，还没有完成自定义的功能，不过，应该很快就会到了。
-这次没什么写的了。大家直接去看一下吧，欢迎吐槽。
-已经完成&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;已经完成&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;1.偷懒了，生活部分我直接使用了我的微博页面。&lt;/li&gt;
-  &lt;li&gt;2.实验界面，主要是后面会以各种形式探究一些好玩的东西&lt;/li&gt;
-  &lt;li&gt;3.响应事手机兼容&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;还需要完成：&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;1.对应jekyll的接口哦！&lt;/li&gt;
-  &lt;li&gt;2.seo&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;实际图&lt;/h2&gt;
-&lt;p&gt;访问地址：&lt;a href=&quot;http://icindy.github.io/&quot;&gt;http://icindy.github.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一张手机版：
-&lt;img src=&quot;/images/post/jekyll/cindyph.png&quot; alt=&quot;cindyph&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;上一张PC图吧
-&lt;img src=&quot;/images/post/jekyll/cindyff.png&quot; alt=&quot;cindyff&quot; /&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 23 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/23/jekyll-five-step.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/23/jekyll-five-step.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建4－完成个人页面</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;ok，前面三个小时的工作已经基本结束，这一个小时，这是从编码开始。
-首先预览下效果把。&lt;a href=&quot;http://icindy.github.io/about.html&quot;&gt;点击这里可以查看具体效果&lt;/a&gt;
-代码位置：&lt;a href=&quot;https://github.com/icindy/icindy.github.io/blob/master/about.html&quot;&gt;点击这里查看具体代码&lt;/a&gt;
-最后我也会贴出具体的图片。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;在这个过程中，我考虑到的是以黑色的背景来呈现，原因：有种geek的效果。
-当然里面的内容不能少
-* 1.myInfo
-* 2.mySocail
-* 3.myRoad
-* 4.mySkill
-* 5.myConnect
-需要说明下这里，我使用的是QQ的推广业务，所以最下面的QQ联系按钮可以激活QQ客户端，这样就可以直接和我联系了。
-因为具体的代码是依靠boot框架，比较简单，所以大家自己看源码把。
-废话不多说了，上图：
-&lt;img src=&quot;/images/post/jekyll/cindyblog.png&quot; alt=&quot;cindyBlog&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 22 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/22/jekyll-four-step.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/22/jekyll-four-step.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建3－配色与基础框架</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;前面两个小时我们完成了我们任务分配和网站分析工作，今天我们要着手对我们想要做的网站进行基础性的配色和框架搭建工作&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;一：配色及字体搭配&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1.配色方案&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;强调色#80bd01
-简介色#ccc;
-小说明rgba(153,153,153,.9);
-正文#fff未选中导航色#ccc选中导航色#80bd01
-导航hove下划线超链接#80bd01&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.字体方案&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:16px&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Times New Roman&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Times&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Hiragino Sans GB&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Helvetica Neue&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Helvetica&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;大&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:16px&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;中&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:14px&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;小&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:12px&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:30px&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:25px&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:20px&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;h4&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:15px&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/jekyll/jekyll-font.png&quot; alt=&quot;font&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3.代码展示方案&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;具体方案详见:&lt;a href=&quot;http://pygments.org/&quot;&gt;pygments&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;具体配色方案css：&lt;a href=&quot;https://github.com/icindy/icindy.github.io/blob/master/css/syntax.css&quot;&gt;具体css点击查看&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;需要注意的是，如果想要代码高亮呈现效果，需要jekyll的运行环境
-&lt;img src=&quot;/images/post/jekyll/jekyll-code.png&quot; alt=&quot;jekyll-code&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;4.评论效果&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;两种评论：&lt;/p&gt;
-
-&lt;h4 id=&quot;disqus&quot;&gt;disqus&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/post/jekyll/jekyll-disqus.png&quot; alt=&quot;jekyll-disqus&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;section-2&quot;&gt;多说&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/images/post/jekyll/jekyll-duoshuo.png&quot; alt=&quot;jekyll-duoshuo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;可能大家的需求不一样，所以选择不一样，我在最初效果上将两者都加在了上面，但是我最后回选择“多说”，毕竟我们经常使用的还是我们常见的社交软件&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5.具体效果&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;具体代码:&lt;a href=&quot;https://github.com/icindy/icindy.github.io&quot;&gt;git cindy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;具体展示效果：&lt;a href=&quot;http://icindy.github.io/&quot;&gt;点击查看&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 21 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/21/jekyll-three-step.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/21/jekyll-three-step.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建2－分析指定的网站nodejs.org</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;如果你不知道这个是干什么的，请看[模仿:第一小时]&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ol&gt;
+  &lt;li&gt;产品目标人群&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;原本想使用jekyll的别人家的模版，但是总是找不到自己喜欢的，而且如果使用别人家的模版我就不能够根据自己的想法随意的扩充自己的功能，既然这样，回头想想，我擦，原来我是前端工程师啊，哈哈，那就自己写一个吧。&lt;/p&gt;
+  &lt;p&gt;18-35岁IOS手机拍照使用者&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;产品思维导图&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;多啪整体思维导图&lt;/li&gt;
+  &lt;li&gt;多啪首页&lt;/li&gt;
+  &lt;li&gt;多啪照片查看&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;产品原型图&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;##技术准备&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IOS框架准备&lt;/li&gt;
+&lt;/ol&gt;
+
+ 	&amp;gt; 在过去的项目中，由于使用XIB布局没能全部理解，所以这个项目我将采用手写代码的方式来进行编码，习惯xib的同学，不好意思了，你也可以抽空教教我如何使用xib自动布局。
+
+ 	* 核心技术框架:MVVM
+
+ 	* 核心技术类库:
+
+ 	* 辅助技术类库:
+
+ 	* 核心布局类库:
+
+ 	* 核心提示类库:
+
+ 	* 核心存储类库:
+
+ 	* 核心
+
+&lt;ol&gt;
+  &lt;li&gt;RASS后台框架准备&lt;/li&gt;
+  &lt;li&gt;UI准备&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;##运行结果&lt;/p&gt;
+
+&lt;p&gt;##总结&lt;/p&gt;</content><author><name></name></author><category term="ios" /><summary type="html">##前言</summary></entry><entry><title type="html">Plan1:ReactiveCocoa/MVVM-制作IOS拍照应用</title><link href="http://localhost:4000/2014plan1/2015/02/16/holiday-plan-first-make-a-ios-camera-app.html" rel="alternate" type="text/html" title="Plan1:ReactiveCocoa/MVVM-制作IOS拍照应用" /><published>2015-02-16T07:33:36+08:00</published><updated>2015-02-16T07:33:36+08:00</updated><id>http://localhost:4000/2014plan1/2015/02/16/holiday-plan-first-make-a-ios-camera-app</id><content type="html" xml:base="http://localhost:4000/2014plan1/2015/02/16/holiday-plan-first-make-a-ios-camera-app.html">&lt;p&gt;##前言&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;鉴于自己本身的PS技术和审美观，那么，我不得不借鉴下其他网站的风格。浏览了一些网站后，最终决定拿nodejs官方网站下手。
-原因有如下几点&lt;/p&gt;
+  &lt;p&gt;快过年了，但是还是忙成了狗，原本计划的15天也变成了10天的样子，明天去北京过年了，今天晚上还是先把第一个计划的详细情况简单的记录下，这样可以督促自己快速的完成自己的计划。ok，闲话不多说，继续写计划吧。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;1.风格简单，不臃肿&lt;/li&gt;
-  &lt;li&gt;2.习惯网站的配色风格，带点coder风格&lt;/li&gt;
-  &lt;li&gt;3.图片素材比较少，可以有效的加快访问速度&lt;/li&gt;
-  &lt;li&gt;4.细节考虑周到（后面我会说到这一点）
-let’s go!不过下面的分析需要你有点想像力。
-注意这个地方我们只是使用风格，布局和构造试图我们会在下个小时一起分析&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;作为本文的阅读者，应该有两种，&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;一：粗分析我们要参考的网站&lt;/h2&gt;
-
-&lt;p&gt;这个过程中，我们针对每一个页面心里先有个预期，我们分析的每个页面对应我们将要产出的哪个网站。我很清楚我将要做的博客含有主页｜文章列表页｜关于｜项目等&lt;/p&gt;
-
-&lt;p&gt;这个过程你可能会用到工具
-1.图片分析工具，我使用的是“markman”
-2.网页调试，我使用的chrome
-我使用markdown在图片上标示了所有的颜色和布局分类&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1.主页面分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个页面我想要转换成博客的主页，但是可能需要改造的部分比较多，先自行脑补，同时在图上吧该标记的颜色和布局标示出来
-&lt;img src=&quot;/images/post/jekyll/nodejs-main.png&quot; alt=&quot;main&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2.文章列表页分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个页面我想要转换成博客的列表页面，主要采用布局一级配色
-&lt;img src=&quot;/images/post/jekyll/nodejs-post.png&quot; alt=&quot;post&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3.文章页面分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个页面我想要转换成博客的文章页面，主要采用布局一级配色
-&lt;img src=&quot;/images/post/jekyll/nodejs-page.png&quot; alt=&quot;page&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;4.项目成品页面分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个页面我想要转换成博客的项目页面，主要采用布局一级配色
-&lt;img src=&quot;/images/post/jekyll/nodejs-project.png&quot; alt=&quot;project&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5.开源项目页面分析&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这个页面我想要转换成博客的开源项目页面，主要采用布局一级配色
-&lt;img src=&quot;/images/post/jekyll/nodejs-open.png&quot; alt=&quot;open&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;二：粗分析我们要参考的网站交互&lt;/h2&gt;
-&lt;p&gt;如果你仔细看下这个网站内，有很多地方有细小的交互效果，因为不好表述，所以举个例子&lt;/p&gt;
-
-&lt;p&gt;看到主页http://nodejs.org/那个大大的install按钮，看看当鼠标移动到上面的效果
-&lt;img src=&quot;/images/post/jekyll/nodejs-button.png&quot; alt=&quot;button&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#intro&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.downloadbutton&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#80bd01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;220px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;30px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0px&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;din-condensed-web&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Arial Narrow&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sans-serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;font-style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;text-transform&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;uppercase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;padding-bottom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;所以我们要注意细节，这样才能有干净的感觉&lt;/p&gt;
-</description>
-        <pubDate>Thu, 20 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/20/jekyll-two-step-im-nodejs-style.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/20/jekyll-two-step-im-nodejs-style.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>jekyll搭建1－模仿nodejs.org</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;IOS初学者(交流学习)&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;你如果不问我最近怎么没有更新文章？&lt;br /&gt;
-说明你没有关心我的帖子，看不到程序员的熬夜加班嘛！&lt;br /&gt;
-最近加班有点多，所以我没有更新，当然我也在思考下一步干什么？&lt;br /&gt;&lt;/p&gt;
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;咱们一样，我也是新手，目前写了3个可以上架IOS公司项目，所以应该也是新手，这次产出的文章和代码我会尽量的详细叙述，一方面增加自己的基础知识，另外大家也可以互相学习，所以，你可以关注接下去的文章，因为文章中应该会设计到很多基础知识，在下面的*计划详情-计划内容*中介绍,欢迎IOS/前段等等的交流。
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 &lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;IOS大神(指点指教)&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;在正式开始今天的文章前，说下最近这N篇文章，我们要干什么？因为我还没有打算好几篇文章能写完，因为白天要认真干活，晚上才能写文章，生命下，现在的时间是晚上11:24分,所以按照计划，我每天安排一个小时的写作和编辑代码，应该能够在一周内完成我想要做的事情。&lt;/p&gt;
+  &lt;p&gt;对于比我有经验的IOSer们，你们都是我眼中的大神，我是刚入门，很多东西都不会，而且原本编写前端的思想对于IOS的开发还是会有问题，所以，我也希望您能够通过查看我的文章，给我指正错误，然后给予批评和指教。谢谢。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;我写这些文章的目的：以&lt;a href=&quot;http://www.nodejs.org/&quot;&gt;nodejs官方网站&lt;/a&gt;为配色方案和格调，制作一个自己的 jekyll的博客，并挂载在github上发布
-那我们要干什么那？请看下面的清单。&lt;/p&gt;
+&lt;p&gt;##计划详情&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;1.第一个小时：熟悉jekyll的框架，并构建一个基础框架&lt;/li&gt;
-  &lt;li&gt;2.第二个小时：分析nodejs官方网站&lt;/li&gt;
-  &lt;li&gt;3.第三个小时：配色和构架方案&lt;/li&gt;
-  &lt;li&gt;4.第三个小时：构造自己网站的基础框架&lt;/li&gt;
-  &lt;li&gt;5.第四－七个小时：完成网站的编码&lt;/li&gt;
-  &lt;li&gt;6.最八个小时：部署到github上去，并上线&lt;/li&gt;
-  &lt;li&gt;7.倒数第二个小时：分析下markdown的语法&lt;/li&gt;
-  &lt;li&gt;8.最后一个小时：总结下在这个过程中我们的经验和教训
-———————————————————
-今天我们来完成第一步，部署一个jekyll的基础框架&lt;br /&gt;
-ok，看不懂英文哇－来个&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;中文的网站jekyll中文网站&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;计划周期&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-        <pubDate>Wed, 19 Nov 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/jekyll/2014/11/19/jekyll-one-step.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/jekyll/2014/11/19/jekyll-one-step.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>你也可以用半天时间做一个公司网站.</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;前言&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;pre&gt;&lt;code&gt;迟了很久才做公司的网站，就是本身自己懒惰，所以没有好好整一下，原来试图让公司的其他人做，最后还是没有成功，所以刚好10月1，稍微空闲了一些，就做了一个公司的网站。
-网站地址： [http://plusub.com](http://plusub.com)
-网站目前完成程度不能说是100%，应该只完成了60%
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
+
+&lt;p&gt;2015/2/16-2015/2/22 共七天&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;原因1.时间紧，没有优化图片&lt;/li&gt;
-  &lt;li&gt;原因2.素材没有准备好&lt;/li&gt;
-  &lt;li&gt;原因3.有些多余链接&lt;/li&gt;
-  &lt;li&gt;原因4.自定义功能还没有加入很多&lt;/li&gt;
+  &lt;li&gt;计划内容&lt;/li&gt;
+&lt;/ul&gt;
+
+ 	1. 核心思想
+
+ 	1. ios技术涉及
+
+ 	1. 
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;写作文章&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;预计效果&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##计划附加管理&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;代码管理&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目时间管理&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目文档管理&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;项目后续提交&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="ios" /><summary type="html">##前言</summary></entry><entry><title type="html">2014记+2015年寒假14天计划</title><link href="http://localhost:4000/plan/2015/02/09/holiday-plan-for-two-weeks.html" rel="alternate" type="text/html" title="2014记+2015年寒假14天计划" /><published>2015-02-09T07:33:36+08:00</published><updated>2015-02-09T07:33:36+08:00</updated><id>http://localhost:4000/plan/2015/02/09/holiday-plan-for-two-weeks</id><content type="html" xml:base="http://localhost:4000/plan/2015/02/09/holiday-plan-for-two-weeks.html">&lt;p&gt;##前言&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;时间过的好快。马上又要过年过生日了，“孩子的生日，娘的苦日”，所以感谢老妈哦～。Ok，在过去的一年里收获了很多，好事坏事都有，过了一年了，哈哈。写这篇文章的目的是什么啊。—给自己的寒假来个计划把。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;去年我干了些什么？&lt;/p&gt;
+
+&lt;p&gt;生活上:老妈来成都了～ ; &lt;a href=&quot;http://weibo.com/u/2314863121?from=feed&amp;amp;loc=nickname&quot;&gt;@一张杨小琴&lt;/a&gt; 又陪了我一年了,希望一直下去，哈哈; 老哥不断的给我打钱; 房子买了，房贷背了。&lt;/p&gt;
+
+&lt;p&gt;工作上:我放弃了offer，跟这毅哥，昊哥和豪哥。当然还有工作室的其他好友一块走上了创业这条道路。在这个过程中，我们无数日子有过希望，但是马上又低落了。但是纵观一年，我们过的很好。&lt;/p&gt;
+
+&lt;p&gt;技术上:哪里不会补哪里。前段丢了，IOS开始，兼职美工，认识git,jekyll,python,nodejs,oc,coding,写了插件等等&lt;/p&gt;
+
+&lt;p&gt;想法上:脾气暴躁了，能静下来编码了。知道TODO，知道了计划.&lt;/p&gt;
+
+&lt;p&gt;成果上:亲情，友情，爱情，事业－github，coding，Blog(10+),IOS项目&lt;/p&gt;
+
+&lt;p&gt;朋友:(fangmi全体),(blackBox全体),(xuanlun全体),(捐助我的校友和网友)等等～～&lt;/p&gt;
+
+&lt;p&gt;感谢: 3qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq~~&lt;/p&gt;
+
+&lt;p&gt;##计划概要&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;计划时间: 2015-2-15 到 2015－3-1 (两周的时间)&lt;/li&gt;
+  &lt;li&gt;目的地：成都－北京－成都&lt;/li&gt;
+  &lt;li&gt;玩耍＋代码＋乖&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##具体计划&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;计划是啥，计划就是变化，现在做好的计划要下定决心完成，还是一件不容易的事情的，只有时间可以验证成果了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;ok－－－－计划下内容&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1.针对公司制定下一步的(商业)计划书&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;如果你想试图在半天内自己完全做一个带有后台管理的网站，我劝你还是放弃，除非你很牛X，但是如果使用开源的系统，估计用不了半天，你就可以拥有一个比较完美的网站。&lt;/p&gt;
+  &lt;p&gt;主要是变更公司发展的路线，调研和尝试不同的模式，形成书面化的文档，然后添加必要的数据。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;第一步：认清自己要做那类的网站？&lt;/h2&gt;
-&lt;p&gt;在做网站之前，首先你需要了解你自己的需求，下面我列觉几个不同分类下的开源网站&lt;/p&gt;
-
 &lt;ul&gt;
-  &lt;li&gt;1.个人主页/公司管理：wordpress，就像我的主页/或者公司主页&lt;a href=&quot;http://plusub.com&quot;&gt;http://plusub.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2.bbs：phpwind/discuz 例如我搭建的一个还没有使用的论坛：&lt;a href=&quot;http://disuba.com&quot;&gt;http://disuba.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;3.CMS:织梦&lt;/li&gt;
-  &lt;li&gt;4.问答：WeCenter 例如我搭建的geeksbus的问圈：&lt;a href=&quot;http://qa.geeksbus.com&quot;&gt;http://qa.geeksbus.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2.针对one－read插件进行后台编码，形成规范化RSS阅读器&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;还有很多可以自己百度下，这些都属于php开源，还有很多其他语言开源系统，都比较方便实用
-因为我需要的是我们公司的官方网站，所以我选择的是wordpress。也是很强大的功能管理博客，想了解更多，可以自己进行搜索。&lt;/p&gt;
+  &lt;p&gt;使用python或者nodejs进行后台话抓取，如果可能输出不同设备下的微产品&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;第二步：挑选符合你需求的模版&lt;/h2&gt;
-&lt;p&gt;对于wordpress的强大，很多人应该都知道了，对于wordpress更加强大的是模版，worpress拥有超级多的模版，而且已经形成了产业链条，有很多独立开发者都通过开发相应的wordpress模版或者插件而生活的比较滋润。
-对于模版，官方也给出了很多模版，但是你也可以在百度上搜索，进行下载安装，具体安装的过程可以自己搜索。
-模版的搜索直接在百度中搜索“worpress模版”就有很多了，我这里不做广告，所以就不列觉网站了。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;第三步：本地搭建环境，熟悉你的模版&lt;/h2&gt;
-&lt;p&gt;对于刚开始实用wordpress的同学来说，有时候是很头大的，所以在你的电脑上部署一个php的环境，先在本地上实验下，对于下一步是很有帮助的。也不会很麻烦。
-- windows下快捷部署：搜索WAMP
-- linux下快捷部署：搜索Lamp
-- MAC下快速部署：搜索MAMP&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;3.完成一个ios拍照应用(当然已经有过了)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;部署后放在www文件夹下运行访问就可以了，具体部署的方式可以自己搜索下把。&lt;/p&gt;
+  &lt;p&gt;写这个项目主要目的是将半年来积累的IOS知识系统化。需要输出app store应用一个，RAC文章几篇，让朋友安装使用一下～～～～&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-4&quot;&gt;第四步：部署到你的服务器上把&lt;/h2&gt;
-&lt;p&gt;选择一个符合的服务器，不管是虚拟机还是FTP都可以。也可以搜索下免费的服务器哈。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-5&quot;&gt;第五步：根据自己的需求修改代码&lt;/h2&gt;
-
-&lt;p&gt;剩下的就是根据自己的需求定制你的功能。哈哈
-这样你的网站就可以上线了。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;4.研发一个基于html5的东西(难度应该不小，试一下)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;此外，由于wordpress的中引用了google字体，所以需要特殊处理下
-可以参考下&lt;a href=&quot;http://devework.com/replace-open-sans.html&quot;&gt;这里&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;这个的话，还要看时间。这个还要看自己的功底了。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;当然wordpress需要研究的东西还有很多，希望大家多多交流。&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/post/2014/10/15/make-a-company-websit.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/post/2014/10/15/make-a-company-websit.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>“钓鱼网站”5分钟速成和简单原理</title>
-        <description>&lt;blockquote&gt;
-  &lt;pre&gt;&lt;code&gt;对于做安全的大神，请安静的做你的美男子，不要往下看了。
-适合本文的读者有以下特点：
-1.曾经有qq号被盗，或者其他网站上登录的账号被盗经验，但是不知道怎么丢失账号的
-2.想做一个钓鱼网站的（不过这个，你会受到道德的惩罚，如果滩上大的，你要受到法律的严惩）
-3.网页小白，和想做工程学黑客的。
-4.无聊的
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;##标准&lt;/p&gt;
 
-&lt;h2 id=&quot;ok5qq&quot;&gt;ok，开始我们的5分钟，以做qq网站的“钓鱼网站”为例子&lt;/h2&gt;
+&lt;p&gt;当然，制定计划，就必须要有指标验收了。
+在上面的清单中，1+2是必须要完成了，3的必须输出文章，4的话可以酌情放弃。&lt;/p&gt;
+
+&lt;p&gt;##感谢&lt;/p&gt;
+
+&lt;p&gt;计划制定好了，感谢一年来的家人，朋友和合作伙伴的帮助和照顾，明年我们一定会更好。&lt;/p&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">##前言</summary></entry><entry><title type="html">公益/广告－bloggerads广告是为了钱？</title><link href="http://localhost:4000/ads/2015/02/09/I-have-a-ads.html" rel="alternate" type="text/html" title="公益/广告－bloggerads广告是为了钱？" /><published>2015-02-09T07:33:36+08:00</published><updated>2015-02-09T07:33:36+08:00</updated><id>http://localhost:4000/ads/2015/02/09/I-have-a-ads</id><content type="html" xml:base="http://localhost:4000/ads/2015/02/09/I-have-a-ads.html">&lt;p&gt;##前言&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;点击这里进入我下面做好的 &lt;a href=&quot;http://cindyfn.com/qq/qq.html&quot;&gt;“钓鱼网站”&lt;/a&gt;&lt;br /&gt;
-请放心，我在里面没有加入任何传输你账号的信息，如果不放心，输入账号密码时&lt;/p&gt;
+  &lt;p&gt;很久没有更新了，貌似，今天我“放广告了！”，确实是广告，为啥？ 其实我特别不喜欢再自己的博客上放广告，但是，我感觉这个广告萌萌的，而且有公益种子哦，来看看吧！&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;pre&gt;&lt;code&gt;最终效果可以输入假冒的
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;对，你看到了导航栏的娱乐没有了，换成了广告，哈哈，就是这样，点击访问&lt;a href=&quot;http://cindyfn.com/play.html&quot; target=&quot;_blank&quot;&gt;点我,我是广告的展示页面&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;===&amp;gt;代码放在了git上，点击访问&lt;/p&gt;
+&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-send&quot;&gt;&lt;/span&gt; 提示大家，我是刚接触这个平台，我不知道是否真的可以收到钱，我就觉得这个很萌@&lt;/div&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;基础 伪造网站*****&lt;/h2&gt;
-&lt;p&gt;你不需要UI，编码等等，你要做的就是copy。
-可以跟我一起做：
-1.打开qq的登录界面点击打开
-2.点击鼠标右键，选择审查元素，copy代码（chrome,firefox其他的浏览器如果没有审查元素，可以查看源代码）&lt;/p&gt;
+&lt;p&gt;##首先萌萌的推荐贴纸&lt;/p&gt;
 
-&lt;p&gt;1
-3.使用文本编辑器或者代码编辑器，建立一个qq.html(注意更改你文件的后缀为html)，保存双击浏览，应该和上面的网站一样的&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;注意，点击贴纸以后会是通过我的推荐码&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20413&amp;amp;id=20150116000007&quot;&gt;20150116000007&lt;/a&gt;推荐出去,我当然会有好处，不过好处是建立在你也有blog的基础上的哦？&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;更改 获取数据*****&lt;/h2&gt;
-&lt;p&gt;1.发现数据form在iframe中，那就再按照上面“基础部分仿造”，审查代码－》copy－》新建login.html&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;短的(点击下面的图片带你去官网)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;3
-2.将qq.html中的iframe的src改称-&amp;gt;login.html
-3.分析代码，看到点击按钮提交事件，只需要改造这一部分，
-看我代码：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20413&amp;amp;id=20150116000007&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://author.bloggerads.net/referrals/dante-120x60_ps.jpg&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20338&amp;amp;id=20150116000007&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://author.bloggerads.net/referrals/shigai_180x60.gif&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20335&amp;amp;id=20150116000007&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://author.bloggerads.net/referrals/shigai_120x60_ps.gif&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20295&amp;amp;id=20150116000007&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://author.bloggerads.net/referrals/ChaoGanDong_125x125.jpg&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getUserInfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;qq_account&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;u&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;p&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;如果你真的这样做了,那么你就上当了：你的qq号：&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;qq_account&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;你的密码是：&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;长的(点击下面的图片带你去官网)&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;4.稍微修饰以下：去掉验证码，设置其对应的div display：none；去除id等基本的东西完成了。
-5.你如果懂得一些代码，可以继续修改里面的东西让他变得完善起来
-6.再表单中，让账号和密码存储到你的数据库里，那么你就可以看到全部了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://author.bloggerads.net/01_join_read.aspx?refid=20297&amp;amp;id=20150116000007&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://author.bloggerads.net/referrals/ChaoGanDong_480x60.jpg&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;这样，你的网站以及基本上和qq的网站相似度再80%了，对于骗取一般小白的qq号，应该可以了&lt;/p&gt;
+&lt;p&gt;##bloggerads是什么？&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;高级 工程学*****&lt;/h2&gt;
-&lt;p&gt;涉及到工程学的黑客，要把握住用户的心里，
-1.选择容易混淆的域名，如官方的域名为：qq.com，你如果永远qqxxx.com的域名。一般人就不会看出来了。
-2.选择模拟第三方登录的方式，现在第三方登录很常见，大家很习惯，所以这种方式不会引起疑心。&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;bloggerads是什么？请点击审阅百度百科&lt;a href=&quot;http://baike.baidu.com/link?url=BlMstzjZ2N7I39wgvlaVYyNm86akTTV6N0xAJAI0zrCoRJPUQIt3qxjeol9gEHhkuRXfDxzvvcOCQcrS1-PtZK&quot;&gt;bloggerads&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;bloggerads公益性质在哪里？&lt;a href=&quot;http://www.bloggerads.net/FAQ/?fid=159#&quot;&gt;请点击审阅bloggerads的说明&lt;/a&gt; &lt;a href=&quot;http://www.bloggerads.net/Portal/AdsLove&quot;&gt;爱心公益&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;广告设计得当，而且有萌萌的贴图(吼~)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;还有其他的，你比我强，你应该会想到。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/post/ads/ads.png&quot; alt=&quot;ad页面&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;&lt;strong&gt;**&lt;/strong&gt;最后 不要被骗，不要骗人*****&lt;/h2&gt;
-&lt;p&gt;写这个原因是很多朋友都有被钓鱼的经历，明白这些钓鱼网站的仿真程度和方法，你可以清楚的识别那些是钓鱼网站。
-如果你是骗人的，我劝你，还是早日收手。&lt;/p&gt;
+&lt;p&gt;##看过感觉&lt;/p&gt;
 
-&lt;p&gt;好了，有什么要交流的，光顾我的博客&lt;/p&gt;
+&lt;p&gt;看了这么人性化的广告吼，我觉得google联盟和百度联盟的广告弱爆了，太差了，这么号的广告，我都不忍心不点一下下！&lt;/p&gt;
 
-</description>
-        <pubDate>Wed, 15 Oct 2014 07:33:36 +0800</pubDate>
-        <link>http://cindyfn.com/post/2014/10/15/how-to-make-Phishing-sites.html</link>
-        <guid isPermaLink="true">http://cindyfn.com/post/2014/10/15/how-to-make-Phishing-sites.html</guid>
-        
-        <category>fontend</category>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;ul&gt;
+  &lt;li&gt;广告实例&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://js1.bloggerads.net/showbanner.aspx?blogid=20150116000019&amp;amp;charset=utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;##节语&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我觉得不管怎样，赚到钱也好，转不到钱也好，大家开心就好。&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="fontend" /><summary type="html">##前言 很久没有更新了，貌似，今天我“放广告了！”，确实是广告，为啥？ 其实我特别不喜欢再自己的博客上放广告，但是，我感觉这个广告萌萌的，而且有公益种子哦，来看看吧！</summary></entry><entry><title type="html">极路由root并8021x校园网拨号经验分享</title><link href="http://localhost:4000/jiluyou/2015/02/05/ji-lu-you-8021.html" rel="alternate" type="text/html" title="极路由root并8021x校园网拨号经验分享" /><published>2015-02-05T07:33:36+08:00</published><updated>2015-02-05T07:33:36+08:00</updated><id>http://localhost:4000/jiluyou/2015/02/05/ji-lu-you-8021</id><content type="html" xml:base="http://localhost:4000/jiluyou/2015/02/05/ji-lu-you-8021.html">&lt;blockquote&gt;
+  &lt;p&gt;整整搞了一天半，残废了才招到好办法，其实按照下面的方法，半天应该可以搞定。看到极路由官方论坛上还是有很多我们学校的，所以分享下。我的版本是极路由2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##第一步&lt;/p&gt;
+
+&lt;p&gt;按照下面的帖子步骤久可以完整root，不得不感叹人家的思路，通过修改第三方插件的思想进行root权限。
+原生root方法：9008－9006 &lt;a href=&quot;http://www.koolshare.cn/thread-1857-1-1.html&quot;&gt;点击查看root帖子&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;##第二步
+针对咱们学校的网络的话，就要wpa_suppcliant了。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1.ssh进入系统，这一步上面的帖子有。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2.更改opkg的源。&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;极路由也是openwrt的，所以和ubuntu的apt-get管理包一样，openwrt采用opkg管理。
+因为极路由本身的系统源没有wpa包，所以你需要更新包。网上有方法，但是不好用了。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这个帖子中的方法作为参考，但是进行opkg update无效，但是可以参照他的步骤（&lt;a href=&quot;http://bbs.hiwifi.com/forum.php?mod=viewthread&amp;amp;tid=44876&amp;amp;highlight=%E6%BA%90&quot;&gt;点击查看&lt;/a&gt;）
+为了让源生效，你还要再上面的帖子基础上进一步修改源配置文件
+＊进入到opkg.d目录下&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd /etc/opkg.d/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;＊修改目录下的五个文件为上面帖子提供的源：[如何添加见上面的帖子:]&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;源地址：http://downloads.openwrt.org.cn/PandoraBox/ralink/mt7620/packages&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3.更新源，并配置wpa_suppcliant
+按照下面命令一步一步执行即可。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;opkg update
+
+opkg install wpad
+opkg install wpa-cli&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4.配置8021x文件，并拨号
+    &lt;blockquote&gt;
+      &lt;p&gt;在etc下建立8021x.conf文件，并编写配置&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;vim /etc/8021x.conf&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;相关配置信息&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;ctrl_interface&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/var/run/wpa_supplicant
+&lt;span class=&quot;nv&quot;&gt;ap_scan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0
+&lt;span class=&quot;nv&quot;&gt;network&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;={&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;key_mgmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;IEEE8021X
+    &lt;span class=&quot;nv&quot;&gt;eap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;MD5
+    &lt;span class=&quot;nv&quot;&gt;identity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;用户名&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;密码&quot;&lt;/span&gt;
+    &lt;span class=&quot;nv&quot;&gt;eapol_flags&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;保存后开始拨号（靠，我在最后一步傻了，有两个号，我拿一个挂载服务器的账号登，一直不行，后来真纯）
+拨号的时候注意选择网络链接的“网线链接”，在后台web管理页面设置。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wpa_supplicant -i eth2.2 -B -D wired -c /etc/8021x.conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;ok，成功了，可以上网了。&lt;/p&gt;
+
+&lt;p&gt;##如果你看到这里，我就告诉你坑！&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;第二天来了，一看，尼玛，怎么没有wpa了，原来系统默认给你自动升级了，我擦泥煤的极路由，但是按照root帖子，是永久root了，还好有root权限。
+所以，配置好了，一定记住要关闭极路由的自动更新&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;##图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/post/jiluyou/jiluyou.png&quot; alt=&quot;极路由截图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ok，就写到这里吧&lt;/p&gt;</content><author><name></name></author><category term="back" /><summary type="html">整整搞了一天半，残废了才招到好办法，其实按照下面的方法，半天应该可以搞定。看到极路由官方论坛上还是有很多我们学校的，所以分享下。我的版本是极路由2</summary></entry></feed>
